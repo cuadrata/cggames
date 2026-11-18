@@ -1,0 +1,63 @@
+cggames 1.4.0
+=============
+
+cggames is seven games for CGTK, numbered to match CGTK 1.4.0. This
+is the first release. Three are ported from the GNOME 1 games
+(gnome-games 1.4.0.4) as plain CGTK programs, with nothing of GNOME
+left in them, and four are new, written the same way. They share their
+cards, dialogs, scores and settings, which live in
+$XDG_CONFIG_HOME/cggames and $XDG_DATA_HOME/cggames.
+
+The games
+* cgchess: chess against GNU Chess or Stockfish, or any UCI engine,
+  chosen in Options. New.
+  - The Merida and Burnett pieces, on five boards, drawn to fit the
+    window, with files and ranks round the edge and a list of moves.
+  - The computer searches to a depth or for a time a move, at a skill
+    from 0 to 100 for an engine that can play weaker.
+  - Clocks of 5, 10, 15 or 30 minutes a side, told to the engine as in
+    any timed game; Undo takes back the clock with the move.
+  - Games opened and saved as PGN; hints from the engine.
+* cgfreecell: FreeCell as Windows plays it, from GNOME Freecell:
+  Microsoft's deals numbered 1 to 1,000,000 and its hidden games -1
+  and -2, runs moved through the free cells, and statistics with
+  streaks.
+* cghanafuda: the flower card games Koi-Koi, by Nintendo's rules, and
+  Oicho-Kabu. New.
+  - Help for a player learning: matching cards lit, every card named
+    under the pointer, hints from the computer's own play, and charts
+    of the yaku and of the cards by month.
+  - Cards drawn for it, in two colourings: traditional, with black
+    leaves, and light, with green leaves and brown wood; either with a
+    red or a black border and back.
+  - A green felt table, or a tatami mat edged in blue.
+* cghearts: Hearts against three computer players, by Windows' rules,
+  passing left, right and across. New.
+* cgmahjong: the tile matching game, from GNOME Mahjongg, with new
+  public domain tiles, every deal one that can be won, and a number to
+  play a deal again.
+* cgminesweep: the minefield game, from GNOME Mines, with Windows'
+  Beginner, Intermediate and Expert fields, a safe first click and
+  "?" marks.
+* cgsolitaire: Klondike as Windows plays it: draw one or three,
+  standard or Vegas scoring, a timed game, and play from the keyboard.
+
+Cards and drawing
+* One public domain deck from Wikimedia Commons, and twelve card backs
+  drawn for these games.
+* The card games scale with their windows and with the display.
+* Each game has an icon drawn for it, one SVG with PNGs of it from 16 to
+  256 pixels in the hicolor theme and an XPM in pixmaps. Its windows
+  have it, in colour and in the size the window manager wants on X11,
+  and its About dialog shows it.
+
+Translations
+* The games share one text domain, cggames, with Chinese
+  (simplified), French, German, Japanese, Portuguese (Brazil), Russian
+  and Spanish; the desktop files carry the same languages. The
+  translations were machine translated and have not been reviewed by
+  native speakers.
+
+Building
+* Needs CGTK 1.4, and autoconf, automake and gettext 0.19.6 or later
+  to build from git.

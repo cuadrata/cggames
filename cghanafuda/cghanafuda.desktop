@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=Hanafuda
+Name[de]=Hanafuda
+Name[es]=Hanafuda
+Name[fr]=Hanafuda
+Name[ja]=花札
+Name[pt_BR]=Hanafuda
+Name[ru]=Ханафуда
+Name[zh_CN]=花札
+Comment=Play flower card games against the computer
+Comment[de]=Blumenkartenspiele gegen den Computer
+Comment[es]=Jugar a juegos de cartas de flores contra el ordenador
+Comment[fr]=Jouer aux cartes à fleurs contre l’ordinateur
+Comment[ja]=コンピューターと花札で遊ぶ
+Comment[pt_BR]=Jogar jogos de cartas de flores contra o computador
+Comment[ru]=Игры в цветочные карты против компьютера
+Comment[zh_CN]=与电脑玩花札
+Exec=cghanafuda
+Icon=cghanafuda
+Terminal=false
+Categories=Game;CardGame;
+StartupWMClass=Cghanafuda

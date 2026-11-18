@@ -1,0 +1,70 @@
+.TH CGMAHJONG 6 "November 2026" "cggames 1.4.0"
+.SH NAME
+cgmahjong \- the tile matching game
+.SH SYNOPSIS
+.B cgmahjong
+.RI [ "toolkit options" ]
+.SH DESCRIPTION
+.B cgmahjong
+is a solitaire game played with mahjong tiles stacked in layers.
+Take the tiles off the board in pairs: two tiles match when they show
+the same face, and a tile can be taken when no tile lies on top of it
+and it is free on its left or its right side.
+The game is won when every tile has been taken, and every game dealt
+can be won.
+.PP
+Click a free tile to select it, then click its match.
+A tile that doesn't match is selected in place of the first, and
+clicking the selected tile again lets it go.
+.PP
+.B Hint
+makes a pair that can be taken blink, at a cost of 30 seconds: the
+selected tile's match, if it has one free.
+When no pair can be taken, the game offers to shuffle the tiles left
+into new places, at a cost of 60 seconds and forgetting the moves made
+before, to start a new game, or to take the last move back.
+.B Pause
+hides the faces and stops the clock.
+.PP
+Each game has a number, which
+.B New Game with Seed
+shows and takes, so a game can be played again, here or on another
+computer.
+.PP
+There are nine maps to lay the tiles out in, chosen in the
+preferences: Easy, The Ziggurat, Four Bridges, Cloud, Tic-Tac-Toe,
+Red Dragon, Pyramid's Walls, Confounding Cross and Difficult.
+The ten best times on each map are kept.
+.PP
+The tiles are drawn to fill the window, as large as it is made, and the
+board's size is kept for next time.
+.SH FILES
+.TP
+.I $XDG_CONFIG_HOME/cggames/cgmahjong.conf
+The preferences.
+.TP
+.I $XDG_DATA_HOME/cggames/cgmahjong.scores
+The best times.
+.PP
+Without the variables,
+.I ~/.config
+and
+.I ~/.local/share
+are used.
+.TP
+.I PREFIX/share/cggames/cgmahjong/layouts.map
+The maps after Easy, which is built in.
+.TP
+.I PREFIX/share/cggames/cgmahjong/tiles
+The pictures on the tiles' faces, all in one SVG,
+.IR tiles.svg ;
+the tiles themselves are drawn by the game, at the size the window
+calls for and as sharp as the screen allows.
+.SH AUTHORS
+cgmahjong is GNOME Mahjongg from gnome-games 1.4, ported to CGTK.
+Francisco Bustamante, Max Watson, Heinz Hempe, Michael Meeks and
+Philippe Chavin wrote GNOME Mahjongg.
+The maps after Easy and Difficult come from GNOME Mahjongg 2.32, which
+credits its maps to Rexford Newbould and Krzysztof Foltman.
+The faces are now public domain riichi tiles, with flowers and seasons
+drawn for them.

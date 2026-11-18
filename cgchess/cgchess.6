@@ -1,0 +1,149 @@
+.TH CGCHESS 6 "November 2026" "cggames 1.4.0"
+.SH NAME
+cgchess \- chess against GNU Chess or Stockfish
+.SH SYNOPSIS
+.B cgchess
+.RI [ "toolkit options" ]
+.SH DESCRIPTION
+.B cgchess
+plays chess against the computer: a board drawn to fit the window, with
+GNU Chess, the
+.B gnuchess
+program, or Stockfish, the
+.B stockfish
+program, choosing the computer's moves.
+.PP
+Click a piece of yours: its square lights up, with a dot on each square
+it can go to.
+Click one of those to move there, or drag the piece to it.
+A pawn reaching the last rank asks which piece it becomes.
+The last move is shown lit, and a king in check is marked red.
+.PP
+The rules are kept by
+.B cgchess
+itself, not by the engine: castling, en passant and promotion, and the
+end of the game at checkmate or stalemate, or a draw by the fifty-move
+rule, by three repetitions of a position, or when neither side can
+mate.
+.PP
+The board's edge is marked with the files, a to h, and the ranks, 1 to
+8.
+The moves played are listed beside the board, in algebraic notation,
+a line to each move of White's and Black's.
+.PP
+With a clock, each side has the same time for the whole game.
+Each player's time left is shown at the foot of the window, the one
+waiting shown grey; the clock starts at the first move.
+A player whose time runs out loses.
+The computer spends its time to suit what is left.
+.SH MENUS
+.TP
+.B New Game
+Starts again, with you playing the side Options says.
+.TP
+.B Open Game...
+Reads a game saved in Portable Game Notation, PGN, and goes on from
+its last position.
+Comments and variations are skipped, and a game in a file of several
+is the first.
+.TP
+.B Save Game...
+Writes the game so far as PGN, which other chess programs can read.
+.TP
+.B Undo Move
+Takes back your last move, and the computer's after it.
+With a clock, the clocks go back to what they showed then, so even a
+game lost on time can be taken back.
+.TP
+.B Hint
+Asks the engine for a move for you; it is shown lit in blue.
+.TP
+.B Options...
+The options below.
+.TP
+.B Coordinates
+In the View menu: whether the board's edge is marked with files and
+ranks.
+.TP
+.B Move List
+In the View menu: whether the list of moves is shown.
+.TP
+.B Flip Board
+In the View menu: turns the board round.
+.SH OPTIONS
+.TP
+.B You play
+White or Black; a game under way keeps the side it began with.
+.TP
+.B Pieces
+The Merida pieces, the first choice, or Burnett, Colin Burnett's.
+.TP
+.B Board
+The colours of the board: Wood, the first choice, Green, Blue, Grey,
+or XBoard's own yellow and green.
+.TP
+.B The computer thinks
+To a depth, of 1 to 40 half-moves, 2 at first, or for 1 to 120
+seconds a move; and at a skill of 0 to 100, 15 at first, for an engine
+that can play weaker.
+The skill is greyed for GNU Chess, which can't play weaker; another
+engine of your own choosing uses it if it can.
+Each engine makes its own of a depth: Stockfish looking 2 half-moves
+ahead plays far better than GNU Chess does.
+With a clock, the engine is told both sides' time left, as in any
+timed game, and spends its own as it judges; a depth still bounds its
+search, but the seconds a move are for games without a clock.
+.TP
+.B Clock
+None, the first choice, or 5, 10, 15 or 30 minutes a side.
+It is used from the next game, or at once if no move has been made.
+.TP
+.B Engine
+GNU Chess or Stockfish, each shown grey if it isn't installed, or
+another UCI engine, by the command that starts it; the engine is
+started again when it is changed.
+.SH THE ENGINE
+The engine is a separate program, spoken to in the Universal Chess
+Interface, UCI, the whole game being sent with each question.
+It is
+.B gnuchess --uci
+by default, or
+.B stockfish
+when GNU Chess isn't installed, from the path or from
+.IR /usr/games ;
+Stockfish, or any UCI engine with its arguments, can be chosen in
+Options instead, or named as
+.B engine
+in the options file below.
+.PP
+The depth or time is sent as UCI asks it, so any engine keeps to it.
+Playing weaker is left to each engine by UCI: the skill is set where
+the engine offers a way, Stockfish's Skill Level, or the UCI_LimitStrength
+and UCI_Elo options that UCI names but doesn't require.
+GNU Chess offers neither, and plays as well as it can, as Options
+says.
+Hints are asked for a second's thought at full skill.
+The About dialog names the engine playing.
+It is run in the temporary directory.
+Without an engine, you play both sides.
+.SH FILES
+.TP
+.I $XDG_CONFIG_HOME/cggames/cgchess.conf
+The options, the engine, and the window's size, or
+.I ~/.config/cggames/cgchess.conf
+without the variable.
+.TP
+.I PREFIX/share/cggames/cgchess/pieces
+The pieces' pictures, a set to each SVG:
+.I merida.svg
+and
+.IR cburnett.svg .
+.SH AUTHORS
+cgchess was written for CGTK.
+The pieces are Colin M. L. Burnett's, and Armando Hernandez
+Marroquin's Merida pieces, both under the GNU General Public License,
+version 2 or later, as lichess.org has them.
+.SH SEE ALSO
+.BR gnuchess (6),
+.BR stockfish (6),
+.BR xboard (6)

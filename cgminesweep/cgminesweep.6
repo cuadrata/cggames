@@ -1,0 +1,63 @@
+.TH CGMINESWEEP 6 "November 2026" "cggames 1.4.0"
+.SH NAME
+cgminesweep \- clear the minefield
+.SH SYNOPSIS
+.B cgminesweep
+.RI [ "toolkit options" ]
+.SH DESCRIPTION
+.B cgminesweep
+hides mines under the squares of a field.
+Uncover every square that holds no mine to win; uncovering a mine loses
+the game.
+A square's number tells how many of the eight squares round it hold
+mines.
+.PP
+The left button uncovers a square.
+The first square uncovered never holds a mine: one there moves to the
+first free square from the top left, as in Windows' Minesweeper.
+The right button puts a flag on a square; pressed again, it puts a
+question mark there instead, and then takes it away.
+.B Settings \(-> Marks (?)
+turns the question marks off, so that the right button only puts on
+and takes off flags.
+A question mark doesn't count as a flag, and the square can still be
+uncovered.
+The middle button, both left and right together, or Shift with the left
+button, on a number whose mines are all flagged, uncovers the squares
+round it.
+The face starts a new game.
+.PP
+The figures at the top left count the mines not yet flagged, and those
+at the top right the seconds, from the first click.
+While a game runs, the field is hidden when the window loses the focus,
+until
+.B Press to resume
+is pressed.
+.PP
+The field is Beginner (8 by 8, 10 mines), Intermediate (16 by 16, 40
+mines), Expert (30 by 16, 99 mines) or Custom, set in the preferences
+with the size of the squares.
+The ten best times are kept for each fixed size.
+A custom field's score is the share of its squares that are mines, in
+per cent, for each second the game took, times 100; the ten highest
+are kept.
+.SH FILES
+.TP
+.I $XDG_CONFIG_HOME/cggames/cgminesweep.conf
+The preferences.
+.TP
+.I $XDG_DATA_HOME/cggames/cgminesweep.scores
+The best scores.
+.PP
+Without the variables,
+.I ~/.config
+and
+.I ~/.local/share
+are used.
+.SH AUTHORS
+cgminesweep is GNOME Mines (gnomine) from gnome-games 1.4, ported to
+CGTK.
+Szekeres Istvan (Pista) wrote GNOME Mines, HoraPe added the scores, and
+Donnie Barnes made the squares resizable.
+Its faces were Tuomas Kuosmanen's (tigert); the face, the figures and
+the squares are now drawn by the program, after Windows' Minesweeper.

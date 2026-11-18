@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=Solitaire
+Name[de]=Solitär
+Name[es]=Solitario
+Name[fr]=Solitaire
+Name[ja]=ソリティア
+Name[pt_BR]=Paciência
+Name[ru]=Косынка
+Name[zh_CN]=纸牌
+Comment=Build the four suits up from the aces
+Comment[de]=Die vier Farben von den Assen aufwärts ablegen
+Comment[es]=Construir los cuatro palos a partir de los ases
+Comment[fr]=Monter les quatre couleurs à partir des as
+Comment[ja]=4 つのスートをエースから積み上げる
+Comment[pt_BR]=Montar os quatro naipes a partir dos ases
+Comment[ru]=Соберите четыре масти, начиная с тузов
+Comment[zh_CN]=从 A 开始把四种花色依次叠起来
+Exec=cgsolitaire
+Icon=cgsolitaire
+Terminal=false
+Categories=Game;CardGame;
+StartupWMClass=Cgsolitaire

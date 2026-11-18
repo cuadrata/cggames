@@ -1,0 +1,202 @@
+.TH CGHANAFUDA 6 "November 2026" "cggames 1.4.0"
+.SH NAME
+cghanafuda \- flower card games: Koi-Koi and Oicho-Kabu
+.SH SYNOPSIS
+.B cghanafuda
+.RI [ "toolkit options" ]
+.SH DESCRIPTION
+.B cghanafuda
+plays games against the computer with hanafuda, the Japanese flower
+cards: twelve months of four cards each, the month's flower on every
+one.
+The games are Koi-Koi and Oicho-Kabu; the Game menu chooses which, and
+the title bar names it.
+Choosing the other game in the middle of one asks whether to play it
+now, or next.
+.B Rules...
+in the Help menu tells the rules of the game being played.
+The cards are drawn to fit the window, at whatever size it is.
+.SH KOI-KOI
+The rules are Nintendo's, as it gives them for its own cards; the
+options below add some common house rules.
+Some cards are worth more than others: the five brights, the animals,
+the ribbons, and the plain cards.
+.PP
+For the first round, each player turns a card, and the one with the
+earlier month deals, or in the same month the one with the card worth
+more.
+Eight cards are laid face up on the field, and each player is dealt
+eight; the rest are the stock.
+The dealer plays first.
+In turn, a player plays a card from the hand onto the field: if a field
+card is of the same month, the player takes both; if none is, the card
+stays on the field.
+Then the top card of the stock is turned and played the same way.
+With two field cards of the month, the player takes one of them; with
+three, all of them.
+.PP
+Click a card in your hand: the field cards of its month light up.
+Click it again to play it, or click the field card it is to take.
+When a card turned from the stock could take either of two, click the
+one it takes.
+The table is laid out as a real one: the computer's hand across it,
+face down, the stock at the left of the field with a card turned from
+it below, and the cards each of you has taken in front of you, small,
+by kind.
+.SS Yaku
+Cards taken score in sets, yaku:
+.TP
+.B Goko
+the five brights: 10 points;
+.B Shiko,
+four brights without the rain man: 8;
+.B Ame-shiko,
+four with him: 7;
+.B Sanko,
+three without him: 5.
+.TP
+.B Ino-shika-cho
+the boar, the deer and the butterflies: 5, and 1 more for each other
+animal.
+.TP
+.B Akatan
+the three poem ribbons: 5;
+.B Aotan,
+the three blue ribbons: 5;
+each 1 more for each other ribbon; both, 10, and 1 more for each other
+ribbon.
+.TP
+.B Hanami-zake, Tsukimi-zake
+the curtain, or the moon, with the sake cup: 5 each.
+.TP
+.B Tane, Tan, Kasu
+five animals, five ribbons, or ten plain cards: 1, and 1 more for each
+card beyond.
+Tane doesn't count with Ino-shika-cho, which counts the animals itself,
+nor Tan with Akatan or Aotan.
+.SS Koi-koi
+A player who makes a yaku can stop, and win the round with its points,
+or call koi-koi and play on for more.
+After a koi-koi, the next yaku either player makes ends the round: if
+it is the other player's, they win it, and their points count double.
+Seven points or more count double too.
+When the cards run out before a yaku, or after a koi-koi before
+another, no one scores.
+A hand that is dealt all four cards of a month, or four pairs, wins at
+once, for 6 points; if both hands are, no one scores.
+The winner of a round deals the next, and with no winner the deal
+passes; a game is three, six or twelve rounds.
+.SS Learning
+While you are learning, the game can help:
+.TP
+.B Lights and names
+The cards in your hand that can take one from the field are lit, and
+the status bar names the card under the pointer, its month, its kind
+and the yaku it is part of.
+When you make a yaku, the question says what the computer would do in
+your place.
+These can be turned off in Options.
+.TP
+.B Game, Hint
+Raises the card the computer would play in your place, with what it
+would take marked; or marks the card a card drawn would take.
+.TP
+.B Help, Yaku
+A chart of the yaku, each with its cards: yours as they are, the
+computer's dark, and those still to be won faded; and how many of them
+each of you has.
+It follows the game.
+.TP
+.B Help, Cards
+A chart of the cards, a month at a time, with those taken darker.
+.SH OICHO-KABU
+A banking game, like baccarat, against the computer as dealer, with the
+forty cards of January to October, each worth its month: January 1 to
+October 10.
+A hand is worth the last digit of its sum: 9 is best, and 10 or 20 is
+nothing.
+.PP
+The dealer lays a card face up on each of four lanes, and one face down
+for itself.
+Click a lane to bet a chip on it, up to ten chips a round, and click
+it with the right button to take one back; then click the stock, at the
+left of the dealer's card, to deal.
+Each lane gets a second card, and those not bet on a third.
+In turn, a lane bet on that makes 3 or less takes a third card; one
+that makes 4 to 6, or 9, is lit, and takes one if you click the stock,
+or stands if you click the lane; one that makes 7 or 8 stands.
+Then the dealer turns up its card and takes a second, and a third if it
+makes 5 or less.
+.PP
+A lane worth more than the dealer's hand wins its bet, and one worth
+less loses it.
+A tie stands off, the bet kept, as the computer always deals; or it
+goes to the dealer, as when the deal goes round the table.
+.TP
+.B Arashi
+three of a month: wins three times the bet, whatever the dealer holds,
+or the dealer's takes three times; if both have it, the higher wins.
+.TP
+.B Kuppin
+the dealer's first two cards, 9 and 1: beats every lane but arashi.
+.TP
+.B Shippin
+a lane's first two cards, 4 and 1: beats every hand of the dealer's
+but arashi and kuppin, and stands.
+.PP
+You start with fifty chips; a game is three, six or twelve rounds, or
+ends when the chips are gone.
+.PP
+With
+.B Learning
+on, the status bar names the card under the pointer and its worth, and
+says what its lane or the dealer makes.
+.B Game, Hint
+(Ctrl+H) plays the deal out many times over from the cards you can't
+see, the stock and the dealer's face down card: while you bet, it marks
+the lane that does best and says how often it wins and loses; when a
+lane may draw, it marks the stock or the lane, whichever does better,
+with both chances.
+.SH OPTIONS
+.TP
+.B Cards
+Traditional, the first choice, with black leaves, or Light, with green
+leaves and brown wood; and either with a red border and back, the
+first choice, or a black one.
+.TP
+.B Length
+Three, six or twelve rounds, from the next game.
+.TP
+.B Table
+Green felt, the first choice, or a tatami mat edged left and right in
+blue cloth.
+.TP
+.B Koi-Koi
+Whether the sake cup counts as a plain card too, as Nintendo's rules
+have it; whether the rain man spoils the viewing yaku; whether seven
+points or more count double; whether winning after the other player
+has called koi-koi doubles the points; whether koi-koi may be called
+again, each time a player has more points, and the round ends only
+when one stops; and whether a round no one makes a yaku in gives the
+dealer 6 points, the dealer's privilege, with the deal staying.
+.TP
+.B Oicho-Kabu
+Whether a tie goes to the dealer.
+.TP
+.B Learning
+Whether Koi-Koi lights the cards that match, names the card under the
+pointer, and says what the computer would do.
+.SH FILES
+.TP
+.I $XDG_CONFIG_HOME/cggames/cghanafuda.conf
+The options and the window's size, or
+.I ~/.config/cggames/cghanafuda.conf
+without the variable.
+.TP
+.I PREFIX/share/cggames/cghanafuda/cards
+The cards' pictures, a set to each SVG:
+.I traditional.svg
+and
+.IR light.svg .
+.SH AUTHORS
+cghanafuda was written for CGTK, and its cards were drawn for it.

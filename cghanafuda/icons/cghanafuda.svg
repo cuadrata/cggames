@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cghanafuda's icon, drawn for 48 pixels. Every size of it is this drawing, scaled.
+     The moon over the hill and the cherry blossom, after the cards of August and March.
+     Copyright (C) 2026 The CGTK authors. Under the games' licence: see COPYING. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+<g transform="rotate(-12 17 23.5)">
+<rect x="6.5" y="6.5" width="21" height="34" rx="2" fill="#1a1a1a" stroke="#000000"/>
+<clipPath id="hc6060"><rect x="8" y="8" width="18" height="31" rx="1"/></clipPath>
+<g clip-path="url(#hc6060)">
+<rect x="8" y="8" width="18" height="31" fill="#f4f0e4"/>
+<path d="M9 37.45Q16.1 25.05 11.6 10" fill="none" stroke="#3a2a22" stroke-width="1.6"/>
+<circle cx="13.4" cy="12.96" r="3.1" fill="#f08fb0"/><circle cx="13.4" cy="12.96" r="1" fill="#fff3c0"/>
+<circle cx="19.16" cy="14.82" r="3.1" fill="#f08fb0"/><circle cx="19.16" cy="14.82" r="1" fill="#fff3c0"/>
+<circle cx="11.6" cy="21.02" r="3.1" fill="#f08fb0"/><circle cx="11.6" cy="21.02" r="1" fill="#fff3c0"/>
+<circle cx="17.9" cy="23.5" r="3.1" fill="#f08fb0"/><circle cx="17.9" cy="23.5" r="1" fill="#fff3c0"/>
+<circle cx="14.12" cy="29.7" r="3.1" fill="#f08fb0"/><circle cx="14.12" cy="29.7" r="1" fill="#fff3c0"/>
+<circle cx="20.6" cy="32.18" r="3.1" fill="#f08fb0"/><circle cx="20.6" cy="32.18" r="1" fill="#fff3c0"/>
+<circle cx="22.4" cy="21.02" r="3.1" fill="#f08fb0"/><circle cx="22.4" cy="21.02" r="1" fill="#fff3c0"/>
+<rect x="18.44" y="16.68" width="5" height="15.5" fill="#d0202a"/>
+</g>
+</g>
+<g transform="rotate(8 31 25.5)">
+<rect x="20.5" y="8.5" width="21" height="34" rx="2" fill="#1a1a1a" stroke="#000000"/>
+<clipPath id="hc20080"><rect x="22" y="10" width="18" height="31" rx="1"/></clipPath>
+<g clip-path="url(#hc20080)">
+<rect x="21" y="9" width="20" height="33" fill="#1a1a1a"/>
+<path d="M22 10H40V34.18Q31 25.5 22 34.18Z" fill="#d0202a"/>
+<circle cx="31" cy="21.16" r="6.12" fill="#ffffff"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,85 @@
+cggames
+=======
+
+Games for CGTK, ported from the GNOME 1 games (gnome-games 1.4.0.4) as
+plain CGTK programs, with nothing of GNOME left in them, and new ones
+written the same way.
+
+  cgchess     Chess against GNU Chess or Stockfish, new
+  cgfreecell  FreeCell, from GNOME Freecell
+  cghanafuda  Flower card games, new: Koi-Koi and Oicho-Kabu
+  cghearts    Hearts card game against the computer, new
+  cgmahjong   Tile matching game, from GNOME Mahjongg
+  cgminesweep Minefield game, from GNOME Mines
+  cgsolitaire Classic Solitaire
+
+Each game keeps its settings in $XDG_CONFIG_HOME/cggames/GAME.conf
+and its best scores in $XDG_DATA_HOME/cggames/GAME.scores
+(~/.config and ~/.local/share by default).
+
+Building
+--------
+
+It needs CGTK 1.4, and autoconf and automake to build
+from git; cgchess wants GNU Chess (gnuchess) or Stockfish (stockfish),
+to play against, or any UCI chess engine:
+
+  autoreconf -vif
+  ./configure
+  make
+  make install
+
+Translations
+------------
+
+The games share one text domain, cggames, with its catalogues in po:
+Chinese (simplified), French, German, Japanese, Portuguese (Brazil),
+Russian and Spanish. The desktop files carry the same languages. They
+were machine translated and have not been reviewed by native speakers.
+
+History
+-------
+
+cgfreecell, cgmahjong and cgminesweep come from GNOME Freecell, GNOME
+Mahjongg and GNOME Mines of gnome-games 1.4.0.4. The ChangeLogs that
+Mahjongg and Mines had when they were brought in are in history/,
+unchanged.
+
+Licence
+-------
+
+The games are under the GNU General Public License, version 2 or later
+(COPYING), as gnome-games was.
+
+The playing cards, common/cards/deck.svg, are a public domain deck
+from Wikimedia Commons:
+https://commons.wikimedia.org/wiki/File:Public_domain_complete_playing_card_deck.svg
+The card backs in common/cards/backs were drawn for these games, and
+are under the GPL with the rest.
+
+The mahjong tiles' faces, cgmahjong/tiles/tiles.svg, are public domain
+(CC0) riichi tiles, from
+https://github.com/FluffyStuff/riichi-mahjong-tiles, put in one picture
+with what CGTK can't draw taken out. The flowers and seasons were
+drawn for these games, and are under the GPL with the rest.
+
+The flower cards, cghanafuda/cards/*.svg, were drawn for these games,
+and are under the GPL with the rest: traditional.svg with black leaves,
+and light.svg the same cards with green leaves and brown wood.
+
+The chess pieces, cgchess/pieces/*.svg, are under the GPL, version 2
+or later: cburnett.svg is Colin M. L. Burnett's set, and merida.svg
+Armando Hernandez Marroquin's Merida, both as lichess.org has them
+(https://github.com/lichess-org/lila), each set's twelve pieces put in
+one picture here.
+
+The games' icons were drawn for them, and are under the GPL with the
+rest. Each is one picture, as cgchess/icons/cgchess.svg, with the sizes
+of it and the XPM that common/render-icons.sh makes kept beside it.
+Three have a part of the pictures above in them: the knight in
+cgchess's is Merida's, the king in cgfreecell's is the deck's king of
+spades, and the red dragon on the tile in cgmahjong's is the riichi
+tiles'.
+
+The mahjong maps after Easy, cgmahjong/layouts.map, are GNOME
+Mahjongg's from gnome-games 2.32.1, under the GPL as gnome-games was.

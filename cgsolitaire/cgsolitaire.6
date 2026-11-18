@@ -1,0 +1,106 @@
+.TH CGSOLITAIRE 6 "November 2026" "cggames 1.4.0"
+.SH NAME
+cgsolitaire \- the classic Solitaire card game
+.SH SYNOPSIS
+.B cgsolitaire
+.RI [ "toolkit options" ]
+.SH DESCRIPTION
+.B cgsolitaire
+plays Klondike, the patience the classic desktop Solitaire played.
+Seven columns are dealt, the last card of each face up, and the rest of
+the pack is the stock.
+Build the four suits up from their aces on the foundations at the top
+right to win.
+.PP
+In the columns, a card goes on one a rank higher of the other colour,
+and an empty column takes only a king.
+Face up cards can be moved together, from any of them down.
+Clicking on the stock turns one card, or three, onto the waste beside
+it, whose top card can be played; when the stock is empty, clicking on
+it turns the waste over to be the stock again.
+An O on the empty stock means it can be turned again; an X means it
+can't.
+Clicking on a face down card at the foot of a column turns it up.
+.PP
+Cards are dragged with the left button, or clicked on and then put
+down with a second click where they are to go.
+A double click sends a card to its foundation; the right button sends
+every card that can go.
+Escape lets go of cards picked up.
+.B Undo
+takes back the last move.
+.PP
+The game can be played from the keyboard, as Windows Solitaire could.
+The first key shows a yellow ring round the place it is on.
+Tab goes from the deck to the foundations to the columns, and Shift
+with Tab back.
+Left and Right go along a row; Down goes from the top row to the
+column under it, and Up from a column to the top row.
+In a column, Up and Down choose the face up card a run is taken from,
+the ring going round all the cards that would move.
+Space or Enter turns the stock, turns up a column's face down card, or
+picks up the cards in the ring, shown in reverse colours; pressed again
+where they are to go, it puts them down.
+Escape lets go of them, and using the mouse hides the ring.
+.PP
+When the game is won, the cards bounce off the foundations; a click or
+a key stops them.
+.SH OPTIONS
+.TP
+.B Draw
+One or three cards turned from the stock at a time.
+.TP
+.B Scoring
+Standard scoring gives 5 points for a card from the waste to a column,
+10 for one to a foundation from the waste or a column, and 5 for
+turning up a card in a column, and takes off 15 for a card brought back
+from a foundation.
+Each time the waste is turned over costs 100 points drawing one, and
+20 drawing three from the fourth time.
+The score never goes below 0.
+.IP
+Vegas scoring costs $52 a game and pays $5 for each card on the
+foundations.
+The stock can be gone through only once drawing one, three times
+drawing three.
+With
+.B Cumulative score
+each game's dollars carry on to the next while the program runs.
+.IP
+None keeps no score.
+.TP
+.B Timed game
+Shows the time.
+With standard scoring, a timed game loses 2 points every 10 seconds,
+and a game won in 30 seconds or more gets a bonus of 700000 divided by
+its seconds.
+The clock starts with the first move and stops while the window is
+minimized.
+.TP
+.B Status bar
+Shows the score and the time under the table.
+.TP
+.B Outline dragging
+Drags the edge of the cards, leaving them in place until they are put
+down.
+.PP
+Changing the draw, the scoring or the timing deals a new game.
+.PP
+The cards are drawn as large as the window lets the table be, larger
+or smaller with it, down to three quarters of their usual size; a
+window wider than the table needs spreads the piles apart, as on
+Windows.
+.B Deck
+picks the design on the backs of the cards.
+.SH FILES
+.TP
+.I $XDG_CONFIG_HOME/cggames/cgsolitaire.conf
+The options and the card back.
+.PP
+Without the variable,
+.I ~/.config
+is used.
+.SH AUTHORS
+cgsolitaire was written for cggames.
+Its card faces are drawn from a public domain deck, in SVG; the backs
+are drawn by the program.

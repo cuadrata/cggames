@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=Mahjong
+Name[de]=Mahjong
+Name[es]=Mahjong
+Name[fr]=Mahjong
+Name[ja]=麻雀ソリティア
+Name[pt_BR]=Mahjong
+Name[ru]=Маджонг
+Name[zh_CN]=麻将接龙
+Comment=Take matching pairs of tiles off the board
+Comment[de]=Passende Steinpaare vom Brett nehmen
+Comment[es]=Quitar del tablero parejas de fichas iguales
+Comment[fr]=Retirer du plateau les paires de tuiles identiques
+Comment[ja]=同じ牌の組を盤から取り除く
+Comment[pt_BR]=Tirar do tabuleiro pares de peças iguais
+Comment[ru]=Убирайте с доски пары одинаковых костей
+Comment[zh_CN]=从棋盘上取走相同的牌对
+Exec=cgmahjong
+Icon=cgmahjong
+Terminal=false
+Categories=Game;BoardGame;
+StartupWMClass=Cgmahjong

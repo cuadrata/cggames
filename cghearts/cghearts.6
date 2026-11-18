@@ -1,0 +1,61 @@
+.TH CGHEARTS 6 "November 2026" "cggames 1.4.0"
+.SH NAME
+cghearts \- the Hearts card game
+.SH SYNOPSIS
+.B cghearts
+.RI [ "toolkit options" ]
+.SH DESCRIPTION
+.B cghearts
+plays Hearts against three players played by the computer, West, North
+and East, sitting round the table from the player at the bottom.
+Each hand, the pack is dealt out, thirteen cards each, and played in
+thirteen tricks.
+Every heart taken in a trick costs a point, and the queen of spades
+costs thirteen.
+The game ends once someone has 100 points, and whoever has the fewest
+then wins.
+.PP
+Before the play, each player passes three cards: to the left in the
+first hand, to the right in the second, across in the third, and none
+in the fourth, and so on.
+Click the cards to pass, which rise, then the arrow in the middle of
+the table.
+The cards passed to you stay raised until you play.
+.PP
+Whoever holds the two of clubs leads it to the first trick.
+Each player in turn plays a card, clockwise, following the suit led if
+they can; the highest card of that suit, aces high, takes the trick,
+and its taker leads the next.
+No heart, nor the queen of spades, may be played on the first trick,
+unless a hand holds nothing else.
+Hearts can't be led until one has been played, unless a hand holds
+nothing else.
+Click a card to play it; the status bar says why one can't be.
+A click on a full trick takes it off the table at once.
+.PP
+Taking every heart and the queen of spades in one hand is shooting the
+moon: the player who does takes no points, and the others 26 each.
+.PP
+The status bar shows each player's points.
+After each hand the score sheet shows them hand by hand; the next hand
+is dealt when it is closed.
+.B Score
+shows it at any time.
+.B Deck
+picks the design on the backs of the cards.
+.PP
+The cards are drawn as large as the window lets the table be, larger
+or smaller with it, down to three quarters of their usual size; a
+window wider than the table needs spreads the hands apart.
+.SH FILES
+.TP
+.I $XDG_CONFIG_HOME/cggames/cghearts.conf
+The card back, and the size of the window.
+.PP
+Without the variable,
+.I ~/.config
+is used.
+.SH AUTHORS
+cghearts was written for cggames, after the Hearts of Windows.
+Its card faces are drawn from a public domain deck, in SVG; the backs
+are drawn by the program.

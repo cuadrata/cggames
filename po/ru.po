@@ -1,0 +1,2466 @@
+# Russian translation of cggames.
+# Copyright (C) 2026 The CGTK authors
+# This file is distributed under the same license as the cggames package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cggames 1.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 06:52+0000\n"
+"PO-Revision-Date: 2026-11-11 12:00+0000\n"
+"Last-Translator: The CGTK authors\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: cgchess/cgchess.c:40
+msgid "Chess"
+msgstr "Шахматы"
+
+#: cgchess/cgchess.c:61
+msgid "Wood"
+msgstr "Дерево"
+
+#: cgchess/cgchess.c:63
+msgid "Green"
+msgstr "Зелёная"
+
+#: cgchess/cgchess.c:65
+msgid "Blue"
+msgstr "Синяя"
+
+#: cgchess/cgchess.c:67
+msgid "Grey"
+msgstr "Серая"
+
+#: cgchess/cgchess.c:69
+msgid "XBoard"
+msgstr "XBoard"
+
+#: cgchess/cgchess.c:117
+msgid "GNU Chess"
+msgstr "GNU Chess"
+
+#: cgchess/cgchess.c:118
+msgid "Stockfish"
+msgstr "Stockfish"
+
+#: cgchess/cgchess.c:757
+#, c-format
+msgid "White %d:%02d"
+msgstr "Белые %d:%02d"
+
+#: cgchess/cgchess.c:758
+#, c-format
+msgid "Black %d:%02d"
+msgstr "Чёрные %d:%02d"
+
+#: cgchess/cgchess.c:790
+msgid "Game over"
+msgstr "Партия окончена"
+
+#: cgchess/cgchess.c:791
+msgid "White to move"
+msgstr "Ход белых"
+
+#: cgchess/cgchess.c:792
+msgid "Black to move"
+msgstr "Ход чёрных"
+
+#: cgchess/cgchess.c:793
+#, c-format
+msgid "Move %d"
+msgstr "Ход %d"
+
+#: cgchess/cgchess.c:887
+msgid ""
+"The chess engine could not be started, or has\n"
+"stopped. Without it, you play both sides.\n"
+"\n"
+"Install GNU Chess or Stockfish, then choose it\n"
+"in Game > Options, under Engine."
+msgstr ""
+"Не удалось запустить шахматный движок, или он\n"
+"остановился. Без него вы играете за обе стороны.\n"
+"\n"
+"Установите GNU Chess или Stockfish, затем выберите\n"
+"его в меню Игра > Параметры, в разделе Движок."
+
+#: cgchess/cgchess.c:891 cgchess/cgchess.c:1278
+msgid "No engine: you play both sides."
+msgstr "Нет движка: вы играете за обе стороны."
+
+#: cgchess/cgchess.c:897
+#, c-format
+msgid "The engine's move, %s, is not a legal move here."
+msgstr "Ход движка, %s, здесь невозможен."
+
+#: cgchess/cgchess.c:911
+#, c-format
+msgid "Try %s."
+msgstr "Попробуйте %s."
+
+#: cgchess/cgchess.c:958
+msgid "White's time is up: Black wins."
+msgstr "Время белых истекло: чёрные выиграли."
+
+#: cgchess/cgchess.c:959
+msgid "Black's time is up: White wins."
+msgstr "Время чёрных истекло: белые выиграли."
+
+#: cgchess/cgchess.c:960
+msgid "Your time is up: the computer wins."
+msgstr "Ваше время истекло: компьютер выиграл."
+
+#: cgchess/cgchess.c:961
+msgid "The computer's time is up: you win."
+msgstr "Время компьютера истекло: вы выиграли."
+
+#: cgchess/cgchess.c:1000 cghanafuda/kabu-game.c:249
+#: cghanafuda/koikoi-game.c:422 cghearts/cghearts.c:1086
+msgid "Play Again"
+msgstr "Сыграть ещё"
+
+#: cgchess/cgchess.c:1000 cghanafuda/chart.c:260 cghanafuda/kabu-game.c:249
+#: cghanafuda/koikoi-game.c:422 cghearts/cghearts.c:1086
+#: common/games-dialogs.c:305 common/games-scores.c:380
+msgid "Close"
+msgstr "Закрыть"
+
+#: cgchess/cgchess.c:1022
+msgid "Checkmate: Black wins."
+msgstr "Мат: чёрные выиграли."
+
+#: cgchess/cgchess.c:1023
+msgid "Checkmate: White wins."
+msgstr "Мат: белые выиграли."
+
+#: cgchess/cgchess.c:1024
+msgid "Checkmate: the computer wins."
+msgstr "Мат: компьютер выиграл."
+
+#: cgchess/cgchess.c:1025
+msgid "Checkmate: you win."
+msgstr "Мат: вы выиграли."
+
+#: cgchess/cgchess.c:1028
+msgid "Stalemate: a draw."
+msgstr "Пат: ничья."
+
+#: cgchess/cgchess.c:1031
+msgid "Fifty moves without a capture or a pawn's move: a draw."
+msgstr "Пятьдесят ходов без взятий и ходов пешкой: ничья."
+
+#: cgchess/cgchess.c:1034
+msgid "Neither side can mate: a draw."
+msgstr "Ни одна из сторон не может поставить мат: ничья."
+
+#: cgchess/cgchess.c:1037
+msgid "The same position three times: a draw."
+msgstr "Одна и та же позиция трижды: ничья."
+
+#: cgchess/cgchess.c:1068
+#, c-format
+msgid "White plays %s."
+msgstr "Белые играют %s."
+
+#: cgchess/cgchess.c:1069
+#, c-format
+msgid "Black plays %s."
+msgstr "Чёрные играют %s."
+
+#: cgchess/cgchess.c:1086
+msgid "Thinking..."
+msgstr "Думаю..."
+
+#: cgchess/cgchess.c:1118
+msgid "Queen"
+msgstr "Ферзь"
+
+#: cgchess/cgchess.c:1118
+msgid "Rook"
+msgstr "Ладья"
+
+#: cgchess/cgchess.c:1118
+msgid "Bishop"
+msgstr "Слон"
+
+#: cgchess/cgchess.c:1118
+msgid "Knight"
+msgstr "Конь"
+
+#: cgchess/cgchess.c:1130
+msgid "What does the pawn become?"
+msgstr "Во что превратить пешку?"
+
+#: cgchess/cgchess.c:1279
+msgid "You play White."
+msgstr "Вы играете белыми."
+
+#: cgchess/cgchess.c:1280
+msgid "You play Black."
+msgstr "Вы играете чёрными."
+
+#: cgchess/cgchess.c:1307
+msgid "Move taken back."
+msgstr "Ход взят назад."
+
+#: cgchess/cgchess.c:1316
+msgid "Thinking of a move for you..."
+msgstr "Ищу ход для вас..."
+
+#: cgchess/cgchess.c:1454 cgchess/cgchess.c:1533
+msgid "Its starting position, in FEN, can't be read."
+msgstr "Её начальную позицию в FEN прочитать нельзя."
+
+#: cgchess/cgchess.c:1523
+msgid "It has too many moves."
+msgstr "В ней слишком много ходов."
+
+#: cgchess/cgchess.c:1525
+#, c-format
+msgid "Its move %d, %s, is not a legal move there."
+msgstr "Её ход %d, %s, в этой позиции невозможен."
+
+#: cgchess/cgchess.c:1587
+#, c-format
+msgid "The game could not be saved in %s: %s."
+msgstr "Не удалось сохранить партию в %s: %s."
+
+#: cgchess/cgchess.c:1591
+#, c-format
+msgid "Game saved in %s."
+msgstr "Партия сохранена в %s."
+
+#: cgchess/cgchess.c:1604
+#, c-format
+msgid "%s could not be opened: %s."
+msgstr "Не удалось открыть %s: %s."
+
+#: cgchess/cgchess.c:1620
+#, c-format
+msgid "%s is not a game that can be opened. %s"
+msgstr "%s не является партией, которую можно открыть. %s"
+
+#: cgchess/cgchess.c:1629
+#, c-format
+msgid "Opened %s: the game ended %s."
+msgstr "Открыт %s: партия закончилась %s."
+
+#: cgchess/cgchess.c:1631
+#, c-format
+msgid "Opened %s."
+msgstr "Открыт %s."
+
+#: cgchess/cgchess.c:1654
+msgid "Save Game"
+msgstr "Сохранить партию"
+
+#: cgchess/cgchess.c:1655
+msgid "Open Game"
+msgstr "Открыть партию"
+
+#: cgchess/cgchess.c:1774
+#, c-format
+msgid "The engine %s could not be started: you play both sides."
+msgstr "Не удалось запустить движок %s: вы играете за обе стороны."
+
+#: cgchess/cgchess.c:1779
+#, c-format
+msgid "The engine is now %s."
+msgstr "Теперь движок — %s."
+
+#: cgchess/cgchess.c:1838
+msgid "The clock changes from the next game."
+msgstr "Часы изменятся со следующей партии."
+
+#: cgchess/cgchess.c:1854
+msgid "Those pieces could not be read."
+msgstr "Не удалось прочитать эти фигуры."
+
+#: cgchess/cgchess.c:1862
+msgid "You play White from the next game."
+msgstr "Со следующей партии вы играете белыми."
+
+#: cgchess/cgchess.c:1863
+msgid "You play Black from the next game."
+msgstr "Со следующей партии вы играете чёрными."
+
+#: cgchess/cgchess.c:1972 cgfreecell/cgfreecell.c:1915
+#: cghanafuda/cghanafuda.c:333 cgsolitaire/cgsolitaire.c:1880
+msgid "Options"
+msgstr "Параметры"
+
+#: cgchess/cgchess.c:1981
+msgid "You play"
+msgstr "Вы играете"
+
+#: cgchess/cgchess.c:1982 cgchess/cgchess.c:2309
+msgid "White"
+msgstr "Белыми"
+
+#: cgchess/cgchess.c:1983 cgchess/cgchess.c:2309
+msgid "Black"
+msgstr "Чёрными"
+
+#: cgchess/cgchess.c:1986
+msgid "Pieces"
+msgstr "Фигуры"
+
+#: cgchess/cgchess.c:1991
+msgid "Board"
+msgstr "Доска"
+
+#: cgchess/cgchess.c:1999
+msgid "The computer thinks"
+msgstr "Компьютер думает"
+
+#: cgchess/cgchess.c:2003
+msgid "To a depth of"
+msgstr "На глубину"
+
+#: cgchess/cgchess.c:2004
+msgid "half-moves"
+msgstr "полуходов"
+
+#: cgchess/cgchess.c:2006
+msgid "For"
+msgstr "По"
+
+#: cgchess/cgchess.c:2008
+msgid "seconds a move"
+msgstr "секунд на ход"
+
+#: cgchess/cgchess.c:2019
+msgid "At a skill of"
+msgstr "С силой игры"
+
+#: cgchess/cgchess.c:2021
+msgid "out of 100"
+msgstr "из 100"
+
+#: cgchess/cgchess.c:2024
+msgid "Clock"
+msgstr "Часы"
+
+#: cgchess/cgchess.c:2030
+#, c-format
+msgid "%d minutes a side"
+msgstr "%d минут на сторону"
+
+#: cgchess/cgchess.c:2033 cgsolitaire/cgsolitaire.c:1869
+msgid "None"
+msgstr "Нет"
+
+#: cgchess/cgchess.c:2039
+msgid "Engine"
+msgstr "Движок"
+
+#: cgchess/cgchess.c:2051
+#, c-format
+msgid "%s (not installed)"
+msgstr "%s (не установлен)"
+
+#: cgchess/cgchess.c:2062
+msgid "Another UCI engine:"
+msgstr "Другой движок UCI:"
+
+#: cgchess/cgchess.c:2082 cgfreecell/cgfreecell.c:1928
+#: cgfreecell/cgfreecell.c:2001 cgfreecell/cgfreecell.c:2116
+#: cghanafuda/cghanafuda.c:388 cghearts/cghearts.c:987
+#: cghearts/cghearts.c:1326 cgmahjong/cgmahjong.c:858
+#: cgmahjong/cgmahjong.c:989 cgmahjong/cgmahjong.c:1370
+#: cgminesweep/cgminesweep.c:679 cgsolitaire/cgsolitaire.c:1929
+#: cgsolitaire/cgsolitaire.c:2080 common/games-dialogs.c:88
+msgid "OK"
+msgstr "ОК"
+
+#: cgchess/cgchess.c:2085 cgfreecell/cgfreecell.c:1931
+#: cgfreecell/cgfreecell.c:2004 cghanafuda/cghanafuda.c:391
+#: cghearts/cghearts.c:1329 cgmahjong/cgmahjong.c:858
+#: cgmahjong/cgmahjong.c:992 cgmahjong/cgmahjong.c:1373
+#: cgminesweep/cgminesweep.c:682 cgsolitaire/cgsolitaire.c:1932
+#: cgsolitaire/cgsolitaire.c:2083
+msgid "Cancel"
+msgstr "Отмена"
+
+#: cgchess/cgchess.c:2106
+msgid "Classic GUI Chess"
+msgstr "Classic GUI Шахматы"
+
+#: cgchess/cgchess.c:2180 cgfreecell/cgfreecell.c:2225
+#: cghanafuda/cghanafuda.c:543 cghearts/cghearts.c:1388
+#: cgmahjong/cgmahjong.c:1442 cgminesweep/cgminesweep.c:726
+#: cgsolitaire/cgsolitaire.c:2132
+msgid "/_Game"
+msgstr "/_Игра"
+
+#: cgchess/cgchess.c:2181 cgfreecell/cgfreecell.c:2226
+#: cghanafuda/cghanafuda.c:544 cghearts/cghearts.c:1389
+#: cgmahjong/cgmahjong.c:1443 cgminesweep/cgminesweep.c:727
+msgid "/Game/_New Game"
+msgstr "/Игра/_Новая игра"
+
+#: cgchess/cgchess.c:2183
+msgid "/Game/_Open Game..."
+msgstr "/Игра/_Открыть партию..."
+
+#: cgchess/cgchess.c:2185
+msgid "/Game/_Save Game..."
+msgstr "/Игра/_Сохранить партию..."
+
+#: cgchess/cgchess.c:2188 cgmahjong/cgmahjong.c:1450
+msgid "/Game/_Undo Move"
+msgstr "/Игра/Отменить _ход"
+
+#: cgchess/cgchess.c:2190 cghanafuda/cghanafuda.c:546
+#: cgmahjong/cgmahjong.c:1454
+msgid "/Game/_Hint"
+msgstr "/Игра/_Подсказка"
+
+#: cgchess/cgchess.c:2193 cgfreecell/cgfreecell.c:2235
+#: cghanafuda/cghanafuda.c:554 cgsolitaire/cgsolitaire.c:2138
+msgid "/Game/O_ptions..."
+msgstr "/Игра/П_араметры..."
+
+#: cgchess/cgchess.c:2196 cgfreecell/cgfreecell.c:2240
+#: cghanafuda/cghanafuda.c:557 cghearts/cghearts.c:1396
+#: cgmahjong/cgmahjong.c:1462 cgminesweep/cgminesweep.c:733
+#: cgsolitaire/cgsolitaire.c:2141
+msgid "/Game/E_xit"
+msgstr "/Игра/_Выход"
+
+#: cgchess/cgchess.c:2198
+msgid "/_View"
+msgstr "/_Вид"
+
+#: cgchess/cgchess.c:2199
+msgid "/View/_Coordinates"
+msgstr "/Вид/_Координаты"
+
+#: cgchess/cgchess.c:2201
+msgid "/View/_Move List"
+msgstr "/Вид/_Список ходов"
+
+#: cgchess/cgchess.c:2204
+msgid "/View/_Flip Board"
+msgstr "/Вид/_Перевернуть доску"
+
+#: cgchess/cgchess.c:2206 cgfreecell/cgfreecell.c:2242
+#: cghanafuda/cghanafuda.c:559 cghearts/cghearts.c:1398
+#: cgmahjong/cgmahjong.c:1470 cgminesweep/cgminesweep.c:740
+#: cgsolitaire/cgsolitaire.c:2143
+msgid "/_Help"
+msgstr "/_Справка"
+
+#: cgchess/cgchess.c:2207
+msgid "/Help/_About Chess..."
+msgstr "/Справка/_О программе Шахматы..."
+
+#: cgchess/cgchess.c:2262
+#, c-format
+msgid "%s: the pieces' pictures could not be read\n"
+msgstr "%s: не удалось прочитать изображения фигур\n"
+
+#: cgchess/pieces.c:34
+msgid "Merida"
+msgstr "Merida"
+
+#: cgchess/pieces.c:34
+msgid "Burnett"
+msgstr "Burnett"
+
+#: cgfreecell/cgfreecell.c:36 cgfreecell/cgfreecell.c:1367
+#: cgfreecell/cgfreecell.c:1593 cgfreecell/cgfreecell.c:2181
+msgid "FreeCell"
+msgstr "Свободная ячейка"
+
+#: cgfreecell/cgfreecell.c:956
+#, c-format
+msgid "Cards Left: %d"
+msgstr "Осталось карт: %d"
+
+#: cgfreecell/cgfreecell.c:968
+#, c-format
+msgid "FreeCell Game #%d"
+msgstr "Свободная ячейка, игра № %d"
+
+#: cgfreecell/cgfreecell.c:1368
+msgid "That move is not allowed."
+msgstr "Такой ход не разрешён."
+
+#: cgfreecell/cgfreecell.c:1411
+msgid "Move column"
+msgstr "Переместить столбец"
+
+#: cgfreecell/cgfreecell.c:1411
+msgid "Move single card"
+msgstr "Переместить одну карту"
+
+#: cgfreecell/cgfreecell.c:1417
+msgid "Move to Empty Column"
+msgstr "Перемещение в пустой столбец"
+
+#: cgfreecell/cgfreecell.c:1418
+msgid "Move the column, or a single card?"
+msgstr "Переместить столбец или одну карту?"
+
+#: cgfreecell/cgfreecell.c:1437
+#, c-format
+msgid ""
+"That move requires moving %d cards. You only have enough free space to move "
+"%d cards."
+msgstr ""
+"Для этого хода нужно переместить %d карт. Свободного места хватает только на"
+" %d карт."
+
+#: cgfreecell/cgfreecell.c:1594 cgfreecell/cgfreecell.c:2182
+msgid "Do you want to resign this game?"
+msgstr "Сдаться в этой игре?"
+
+#: cgfreecell/cgfreecell.c:1594 cgfreecell/cgfreecell.c:1653
+#: cgfreecell/cgfreecell.c:2182 cgmahjong/cgmahjong.c:649
+#: cgsolitaire/cgsolitaire.c:1258
+msgid "Yes"
+msgstr "Да"
+
+#: cgfreecell/cgfreecell.c:1594 cgfreecell/cgfreecell.c:1656
+#: cgfreecell/cgfreecell.c:2182 cgmahjong/cgmahjong.c:649
+#: cgsolitaire/cgsolitaire.c:1258
+msgid "No"
+msgstr "Нет"
+
+#: cgfreecell/cgfreecell.c:1634
+msgid "Game Over"
+msgstr "Игра окончена"
+
+#: cgfreecell/cgfreecell.c:1640
+msgid "Congratulations, you win!"
+msgstr "Поздравляем, вы выиграли!"
+
+#: cgfreecell/cgfreecell.c:1641
+msgid "Sorry, you lose."
+msgstr "Увы, вы проиграли."
+
+#: cgfreecell/cgfreecell.c:1644
+msgid "Do you want to play again?"
+msgstr "Сыграть ещё раз?"
+
+#: cgfreecell/cgfreecell.c:1647
+msgid "Select game"
+msgstr "Выбрать игру"
+
+#: cgfreecell/cgfreecell.c:1648
+msgid "Same game"
+msgstr "Та же игра"
+
+#: cgfreecell/cgfreecell.c:1921
+msgid "Display messages on illegal moves"
+msgstr "Сообщать о недопустимых ходах"
+
+#: cgfreecell/cgfreecell.c:1922
+msgid "Quick play (no animation)"
+msgstr "Быстрая игра (без анимации)"
+
+#: cgfreecell/cgfreecell.c:1923
+msgid "Double-click moves card to free cell"
+msgstr "Двойной щелчок кладёт карту в свободную ячейку"
+
+#: cgfreecell/cgfreecell.c:1960
+#, c-format
+msgid "Select a game number from 1 to %d."
+msgstr "Выберите номер игры от 1 до %d."
+
+#: cgfreecell/cgfreecell.c:1961 cgfreecell/cgfreecell.c:1980
+msgid "Game Number"
+msgstr "Номер игры"
+
+#: cgfreecell/cgfreecell.c:1986
+#, c-format
+msgid "Select a game number from 1 to %d:"
+msgstr "Выберите номер игры от 1 до %d:"
+
+#: cgfreecell/cgfreecell.c:2050
+#, c-format
+msgid "%d win"
+msgid_plural "%d wins"
+msgstr[0] "%d победа"
+msgstr[1] "%d победы"
+msgstr[2] "%d побед"
+
+#: cgfreecell/cgfreecell.c:2053
+#, c-format
+msgid "%d loss"
+msgid_plural "%d losses"
+msgstr[0] "%d поражение"
+msgstr[1] "%d поражения"
+msgstr[2] "%d поражений"
+
+#: cgfreecell/cgfreecell.c:2074
+msgid "This session:"
+msgstr "Этот сеанс:"
+
+#: cgfreecell/cgfreecell.c:2074 cgfreecell/cgfreecell.c:2075
+msgid "won:"
+msgstr "выиграно:"
+
+#: cgfreecell/cgfreecell.c:2074 cgfreecell/cgfreecell.c:2075
+msgid "lost:"
+msgstr "проиграно:"
+
+#: cgfreecell/cgfreecell.c:2075
+msgid "Total:"
+msgstr "Всего:"
+
+#: cgfreecell/cgfreecell.c:2076
+msgid "Streaks:"
+msgstr "Серии:"
+
+#: cgfreecell/cgfreecell.c:2076
+msgid "wins:"
+msgstr "победы:"
+
+#: cgfreecell/cgfreecell.c:2076
+msgid "losses:"
+msgstr "поражения:"
+
+#: cgfreecell/cgfreecell.c:2076
+msgid "current:"
+msgstr "текущая:"
+
+#: cgfreecell/cgfreecell.c:2088
+msgid "FreeCell Statistics"
+msgstr "Статистика «Свободной ячейки»"
+
+#: cgfreecell/cgfreecell.c:2120
+msgid "Clear"
+msgstr "Очистить"
+
+#: cgfreecell/cgfreecell.c:2136
+msgid "Classic GUI FreeCell"
+msgstr "Classic GUI Свободная ячейка"
+
+#: cgfreecell/cgfreecell.c:2228
+msgid "/Game/_Select Game..."
+msgstr "/Игра/Выбрать _игру..."
+
+#: cgfreecell/cgfreecell.c:2230 cgmahjong/cgmahjong.c:1447
+msgid "/Game/_Restart Game"
+msgstr "/Игра/Начать _заново"
+
+#: cgfreecell/cgfreecell.c:2233
+msgid "/Game/S_tatistics..."
+msgstr "/Игра/_Статистика..."
+
+#: cgfreecell/cgfreecell.c:2238 cgsolitaire/cgsolitaire.c:2135
+msgid "/Game/_Undo"
+msgstr "/Игра/_Отменить"
+
+#: cgfreecell/cgfreecell.c:2243
+msgid "/Help/_About FreeCell..."
+msgstr "/Справка/_О программе Свободная ячейка..."
+
+#: cgfreecell/cgfreecell.c:2292 cghanafuda/cghanafuda.c:624
+#: cghearts/cghearts.c:1452 cgsolitaire/cgsolitaire.c:2186
+#, c-format
+msgid "%s: the card images could not be read\n"
+msgstr "%s: не удалось прочитать изображения карт\n"
+
+#: cghanafuda/cghanafuda.c:226
+msgid "The next game will be the one chosen."
+msgstr "Следующей будет выбранная игра."
+
+#: cghanafuda/cghanafuda.c:234
+#, c-format
+msgid "Play %s"
+msgstr "Играть в %s"
+
+#: cghanafuda/cghanafuda.c:234 cgmahjong/cgmahjong.c:1292
+msgid "Continue Playing"
+msgstr "Продолжить игру"
+
+#: cghanafuda/cghanafuda.c:246
+#, c-format
+msgid ""
+"Do you want to start a game of %s now?\n"
+"\n"
+"If you continue playing, the next game will\n"
+"be %s."
+msgstr ""
+"Начать игру в %s сейчас?\n"
+"\n"
+"Если вы продолжите играть, следующей\n"
+"игрой будет %s."
+
+#: cghanafuda/cghanafuda.c:291
+msgid "Those cards could not be read."
+msgstr "Не удалось прочитать эти карты."
+
+#: cghanafuda/cghanafuda.c:294
+msgid "The number of rounds holds from the next game."
+msgstr "Число раундов изменится со следующей игры."
+
+#: cghanafuda/cghanafuda.c:323
+msgid "3 rounds"
+msgstr "3 раунда"
+
+#: cghanafuda/cghanafuda.c:323
+msgid "6 rounds"
+msgstr "6 раундов"
+
+#: cghanafuda/cghanafuda.c:323
+msgid "12 rounds"
+msgstr "12 раундов"
+
+#: cghanafuda/cghanafuda.c:334
+msgid "Green felt"
+msgstr "Зелёное сукно"
+
+#: cghanafuda/cghanafuda.c:334
+msgid "Tatami"
+msgstr "Татами"
+
+#: cghanafuda/cghanafuda.c:375
+msgid "Table"
+msgstr "Стол"
+
+#: cghanafuda/cghanafuda.c:342 cghanafuda/chart.c:437
+msgid "Cards"
+msgstr "Карты"
+
+#: cghanafuda/cghanafuda.c:352
+msgid "Length"
+msgstr "Длительность"
+
+#: cghanafuda/cghanafuda.c:364 cghanafuda/koikoi-game.c:699
+#: cghanafuda/koikoi-game.c:1151 cghanafuda/koikoi-game.c:1156
+msgid "Koi-Koi"
+msgstr "Кой-кой"
+
+#: cghanafuda/cghanafuda.c:365
+msgid "The sake cup is a plain card too"
+msgstr "Чаша сакэ — тоже простая карта"
+
+#: cghanafuda/cghanafuda.c:367
+msgid "The rain man spoils the viewing yaku"
+msgstr "Человек под дождём портит яку любования"
+
+#: cghanafuda/cghanafuda.c:369
+msgid "Seven points or more count double"
+msgstr "Семь очков и больше считаются вдвойне"
+
+#: cghanafuda/cghanafuda.c:371
+msgid "Winning after the other's koi-koi doubles"
+msgstr "Победа после кой-кой соперника удваивает очки"
+
+#: cghanafuda/cghanafuda.c:373
+msgid "Koi-koi may be called again on more points"
+msgstr "Кой-кой можно объявлять снова при большем числе очков"
+
+#: cghanafuda/cghanafuda.c:375
+msgid "With no yaku, the dealer takes 6 points"
+msgstr "Без яку сдающий получает 6 очков"
+
+#: cghanafuda/cghanafuda.c:378 cghanafuda/kabu-game.c:849
+#: cghanafuda/kabu-game.c:854
+msgid "Oicho-Kabu"
+msgstr "Ойтё-кабу"
+
+#: cghanafuda/cghanafuda.c:379
+msgid "A tie goes to the dealer"
+msgstr "Ничья в пользу банкомёта"
+
+#: cghanafuda/cghanafuda.c:381
+msgid "Learning"
+msgstr "Обучение"
+
+#: cghanafuda/cghanafuda.c:382
+msgid ""
+"Light the cards that match, name the cards under the pointer,\n"
+"and say what the computer would do"
+msgstr ""
+"Подсвечивать подходящие карты, называть карты под указателем\n"
+"и подсказывать, что сделал бы компьютер"
+
+#: cghanafuda/cghanafuda.c:408
+msgid "Classic GUI Hanafuda"
+msgstr "Classic GUI Ханафуда"
+
+#: cghanafuda/cghanafuda.c:487
+msgid "The game being played will be played next too."
+msgstr "Текущая игра будет и следующей."
+
+#: cghanafuda/cghanafuda.c:549
+msgid "/Game/_Koi-Koi"
+msgstr "/Игра/_Кой-кой"
+
+#: cghanafuda/cghanafuda.c:551
+msgid "/Game/Oi_cho-Kabu"
+msgstr "/Игра/Ой_тё-кабу"
+
+#: cghanafuda/cghanafuda.c:560
+msgid "/Help/_Rules..."
+msgstr "/Справка/_Правила..."
+
+#: cghanafuda/cghanafuda.c:562
+msgid "/Help/_Yaku..."
+msgstr "/Справка/_Яку..."
+
+#: cghanafuda/cghanafuda.c:564
+msgid "/Help/_Cards..."
+msgstr "/Справка/_Карты..."
+
+#: cghanafuda/cghanafuda.c:567
+msgid "/Help/_About Hanafuda..."
+msgstr "/Справка/_О программе Ханафуда..."
+
+#: cghanafuda/chart.c:58
+msgid "Brights"
+msgstr "Светлые"
+
+#: cghanafuda/chart.c:58
+msgid ""
+"Sanko 5: three, not the rain man\n"
+"Shiko 8: four, not him\n"
+"Ame-shiko 7: four with him\n"
+"Goko 10: all five"
+msgstr ""
+"Санко 5: три, без человека под дождём\n"
+"Сико 8: четыре, без него\n"
+"Амэ-сико 7: четыре с ним\n"
+"Гоко 10: все пять"
+
+#: cghanafuda/chart.c:64
+msgid "Ino-shika-cho 5"
+msgstr "Иносикатё 5"
+
+#: cghanafuda/chart.c:64
+msgid "and 1 for each other animal"
+msgstr "и 1 за каждое другое животное"
+
+#: cghanafuda/chart.c:66
+msgid "Akatan 5"
+msgstr "Акатан 5"
+
+#: cghanafuda/chart.c:66
+msgid ""
+"and 1 for each other ribbon;\n"
+"with Aotan, 10 for both"
+msgstr ""
+"и 1 за каждую другую ленту;\n"
+"с аотаном — 10 за оба"
+
+#: cghanafuda/chart.c:70
+msgid "Aotan 5"
+msgstr "Аотан 5"
+
+#: cghanafuda/chart.c:70
+msgid "and 1 for each other ribbon"
+msgstr "и 1 за каждую другую ленту"
+
+#: cghanafuda/chart.c:73
+msgid "Hanami-zake 5"
+msgstr "Ханами-дзакэ 5"
+
+#: cghanafuda/chart.c:73
+msgid "cherry blossom viewing"
+msgstr "любование цветением сакуры"
+
+#: cghanafuda/chart.c:75
+msgid "Tsukimi-zake 5"
+msgstr "Цукими-дзакэ 5"
+
+#: cghanafuda/chart.c:75
+msgid "moon viewing"
+msgstr "любование луной"
+
+#: cghanafuda/chart.c:77
+msgid "Tane 1"
+msgstr "Танэ 1"
+
+#: cghanafuda/chart.c:77
+msgid ""
+"any five animals,\n"
+"and 1 for each more"
+msgstr ""
+"любые пять животных,\n"
+"и 1 за каждое следующее"
+
+#: cghanafuda/chart.c:79
+msgid "Tan 1"
+msgstr "Тан 1"
+
+#: cghanafuda/chart.c:79
+msgid ""
+"any five ribbons,\n"
+"and 1 for each more"
+msgstr ""
+"любые пять лент,\n"
+"и 1 за каждую следующую"
+
+#: cghanafuda/chart.c:81
+msgid "Kasu 1"
+msgstr "Касу 1"
+
+#: cghanafuda/chart.c:81
+msgid ""
+"any ten plain cards,\n"
+"and 1 for each more"
+msgstr ""
+"любые десять простых карт,\n"
+"и 1 за каждую следующую"
+
+#: cghanafuda/chart.c:274 cghearts/cghearts.c:51
+msgid "You"
+msgstr "Вы"
+
+#: cghanafuda/chart.c:274
+msgid "The computer"
+msgstr "Компьютер"
+
+#: cghanafuda/chart.c:280
+#, c-format
+msgid "%s: made, %d point"
+msgid_plural "%s: made, %d points"
+msgstr[0] "%s: собрано, %d очко"
+msgstr[1] "%s: собрано, %d очка"
+msgstr[2] "%s: собрано, %d очков"
+
+#: cghanafuda/chart.c:296
+#, c-format
+msgid "%s: %d of %d"
+msgstr "%s: %d из %d"
+
+#: cghanafuda/chart.c:363
+msgid "The plain cards: two in most months, and the sake cup too."
+msgstr "Простые карты: по две в большинстве месяцев, и ещё чаша сакэ."
+
+#: cghanafuda/chart.c:365
+msgid "The plain cards: two in most months."
+msgstr "Простые карты: по две в большинстве месяцев."
+
+#: cghanafuda/chart.c:373
+msgid "Yaku"
+msgstr "Яку"
+
+#: cghanafuda/chart.c:374
+msgid ""
+"Your cards are shown as they are, the computer's dark, and those still to be won faded.\n"
+"A card one player has is lost to the other: the yaku the other needed it for can't be made."
+msgstr ""
+"Ваши карты показаны как есть, карты компьютера — затемнёнными, а ещё не взятые — бледными.\n"
+"Карта, взятая одним игроком, потеряна для другого: яку, для которого она ему нужна, уже не собрать."
+
+#: cghanafuda/chart.c:385
+msgid "bright"
+msgstr "светлая"
+
+#: cghanafuda/chart.c:385
+msgid "animal"
+msgstr "животное"
+
+#: cghanafuda/chart.c:385
+msgid "ribbon"
+msgstr "лента"
+
+#: cghanafuda/chart.c:385
+msgid "plain"
+msgstr "простая"
+
+#: cghanafuda/chart.c:438
+msgid ""
+"The cards a month at a time, those worth most first; the rest are plain.\n"
+"A card matches the others of its month. Those taken are shown darker."
+msgstr ""
+"Карты по месяцам, сначала самые ценные; остальные простые.\n"
+"Карта подходит к другим картам своего месяца. Взятые показаны темнее."
+
+#: cghanafuda/hanafuda.c:47
+msgid "Traditional"
+msgstr "Традиционные"
+
+#: cghanafuda/hanafuda.c:47
+msgid "Light"
+msgstr "Светлые"
+
+#: cghanafuda/hanafuda.c:56
+msgid "Red border"
+msgstr "Красная рамка"
+
+#: cghanafuda/hanafuda.c:56
+msgid "Black border"
+msgstr "Чёрная рамка"
+
+#: cghanafuda/kabu-game.c:204
+#, c-format
+msgid "Chips: %d"
+msgstr "Фишки: %d"
+
+#: cghanafuda/kabu-game.c:206
+#, c-format
+msgid "Bet: %d"
+msgstr "Ставка: %d"
+
+#: cghanafuda/kabu-game.c:208 cghanafuda/koikoi-game.c:379
+#, c-format
+msgid "Round %d of %d"
+msgstr "Раунд %d из %d"
+
+#: cghanafuda/kabu-game.c:217
+#, c-format
+msgid "%d chip"
+msgid_plural "%d chips"
+msgstr[0] "%d фишка"
+msgstr[1] "%d фишки"
+msgstr[2] "%d фишек"
+
+#: cghanafuda/kabu-game.c:257
+msgid "You have lost all your chips."
+msgstr "Вы проиграли все свои фишки."
+
+#: cghanafuda/kabu-game.c:259
+#, c-format
+msgid "You finish with %d chips, %s more than you began with."
+msgstr "Вы заканчиваете с %d фишками, на %s больше, чем в начале."
+
+#: cghanafuda/kabu-game.c:262
+#, c-format
+msgid "You finish with %d chips, %s fewer than you began with."
+msgstr "Вы заканчиваете с %d фишками, на %s меньше, чем в начале."
+
+#: cghanafuda/kabu-game.c:265
+#, c-format
+msgid "You finish with %d chips, as many as you began with."
+msgstr "Вы заканчиваете с %d фишками, столько же, сколько в начале."
+
+#: cghanafuda/kabu-game.c:295
+#, c-format
+msgid "%s has arashi, three of a month, making %d"
+msgstr "%s: араси, три карты одного месяца, это %d"
+
+#: cghanafuda/kabu-game.c:298
+#, c-format
+msgid "%s has kuppin, nine and one"
+msgstr "%s: куппин, девять и один"
+
+#: cghanafuda/kabu-game.c:300
+#, c-format
+msgid "%s has shippin, four and one"
+msgstr "%s: сиппин, четыре и один"
+
+#: cghanafuda/kabu-game.c:301
+#, c-format
+msgid "%s makes %d"
+msgstr "%s набирает %d"
+
+#: cghanafuda/kabu-game.c:308 cghanafuda/koikoi-game.c:466
+msgid "Next Round"
+msgstr "Следующий раунд"
+
+#: cghanafuda/kabu-game.c:309 cghanafuda/koikoi-game.c:467
+msgid "See the Score"
+msgstr "Посмотреть счёт"
+
+#: cghanafuda/kabu-game.c:315
+msgid "The dealer"
+msgstr "Банкомёт"
+
+#: cghanafuda/kabu-game.c:327
+#, c-format
+msgid "Lane %d"
+msgstr "Ряд %d"
+
+#: cghanafuda/kabu-game.c:331
+#, c-format
+msgid "%s: you win %s.\n"
+msgstr "%s: вы выигрываете %s.\n"
+
+#: cghanafuda/kabu-game.c:333
+#, c-format
+msgid "%s: you lose %s.\n"
+msgstr "%s: вы проигрываете %s.\n"
+
+#: cghanafuda/kabu-game.c:335
+#, c-format
+msgid "%s, the same: your bet stands.\n"
+msgstr "%s, поровну: ваша ставка остаётся.\n"
+
+#: cghanafuda/kabu-game.c:345
+#, c-format
+msgid ""
+"\n"
+"You win %s."
+msgstr ""
+"\n"
+"Вы выиграли %s."
+
+#: cghanafuda/kabu-game.c:345
+#, c-format
+msgid ""
+"\n"
+"You lose %s."
+msgstr ""
+"\n"
+"Вы проиграли %s."
+
+#: cghanafuda/kabu-game.c:350
+msgid ""
+"\n"
+"You come out even."
+msgstr ""
+"\n"
+"Вы остались при своих."
+
+#: cghanafuda/kabu-game.c:391
+msgid "The dealer turns up its card."
+msgstr "Банкомёт открывает свою карту."
+
+#: cghanafuda/kabu-game.c:425
+#, c-format
+msgid "Lane %d makes %d, and takes a card."
+msgstr "Ряд %d набирает %d и берёт карту."
+
+#: cghanafuda/kabu-game.c:431
+#, c-format
+msgid ""
+"Lane %d makes %d: click the stock to draw a card, or the lane to stand."
+msgstr ""
+"Ряд %d набирает %d: щёлкните колоду, чтобы взять карту, или ряд, чтобы "
+"остановиться."
+
+#: cghanafuda/kabu-game.c:440
+#, c-format
+msgid "Lane %d has shippin, and stands."
+msgstr "У ряда %d сиппин, он останавливается."
+
+#: cghanafuda/kabu-game.c:441
+#, c-format
+msgid "Lane %d makes %d, and stands."
+msgstr "Ряд %d набирает %d и останавливается."
+
+#: cghanafuda/kabu-game.c:506
+msgid "Bet a chip on a lane or more first."
+msgstr "Сначала поставьте фишку на один или несколько рядов."
+
+#: cghanafuda/kabu-game.c:515
+#, c-format
+msgid "No more than %d chips a round."
+msgstr "Не больше %d фишек за раунд."
+
+#: cghanafuda/kabu-game.c:524
+msgid "You have no more chips to bet."
+msgstr "У вас больше нет фишек для ставки."
+
+#: cghanafuda/kabu-game.c:547
+msgid ""
+"Click a lane to bet a chip on it, right-click to take one back; then click "
+"the stock to deal."
+msgstr ""
+"Щёлкните ряд, чтобы поставить на него фишку, правой кнопкой — чтобы забрать "
+"её; затем щёлкните колоду, чтобы раздать."
+
+#: cghanafuda/kabu-game.c:588
+#, c-format
+msgid "%s, %s: worth %d."
+msgstr "%s, %s: стоит %d."
+
+#: cghanafuda/kabu-game.c:603
+#, c-format
+msgid "Lane %d: %d so far, with %s bet."
+msgstr "Ряд %d: пока %d, ставка %s."
+
+#: cghanafuda/kabu-game.c:605
+#, c-format
+msgid "Lane %d: %d so far."
+msgstr "Ряд %d: пока %d."
+
+#: cghanafuda/kabu-game.c:607
+#, c-format
+msgid "Lane %d: arashi, three of a month."
+msgstr "Ряд %d: араси, три карты одного месяца."
+
+#: cghanafuda/kabu-game.c:609
+#, c-format
+msgid "Lane %d: shippin, four and one."
+msgstr "Ряд %d: сиппин, четыре и один."
+
+#: cghanafuda/kabu-game.c:612
+#, c-format
+msgid "Lane %d makes %d, with %s bet."
+msgstr "Ряд %d набирает %d, ставка %s."
+
+#: cghanafuda/kabu-game.c:614
+#, c-format
+msgid "Lane %d makes %d."
+msgstr "Ряд %d набирает %d."
+
+#: cghanafuda/kabu-game.c:659
+msgid "The dealer's first card, face down until the lanes are played."
+msgstr "Первая карта банкомёта, рубашкой вверх, пока не сыграны ряды."
+
+#: cghanafuda/kabu-game.c:666
+#, c-format
+msgid "%s The dealer makes %d."
+msgstr "%s Банкомёт набирает %d."
+
+#: cghanafuda/kabu-game.c:673 cghanafuda/koikoi-game.c:1050
+#, c-format
+msgid "The stock: %d card."
+msgid_plural "The stock: %d cards."
+msgstr[0] "Колода: %d карта."
+msgstr[1] "Колода: %d карты."
+msgstr[2] "Колода: %d карт."
+
+#: cghanafuda/kabu-game.c:789
+#, c-format
+msgid ""
+"Draw: lane %d wins %d%% of the time drawing and %d%% standing, and loses "
+"%d%% and %d%%."
+msgstr ""
+"Брать: ряд %d выигрывает в %d%% случаев, если брать, и в %d%%, если "
+"остановиться, а проигрывает в %d%% и %d%%."
+
+#: cghanafuda/kabu-game.c:791
+#, c-format
+msgid ""
+"Stand: lane %d wins %d%% of the time standing and %d%% drawing, and loses "
+"%d%% and %d%%."
+msgstr ""
+"Остановиться: ряд %d выигрывает в %d%% случаев, если остановиться, и в %d%%,"
+" если брать, а проигрывает в %d%% и %d%%."
+
+#: cghanafuda/kabu-game.c:808
+#, c-format
+msgid "Lane %d is the best bet: it wins %d%% of the time and loses %d%%."
+msgstr ""
+"Ряд %d — лучшая ставка: он выигрывает в %d%% случаев и проигрывает в %d%%."
+
+#: cghanafuda/kabu-game.c:814 cghanafuda/koikoi-game.c:1089
+msgid "A hint is for when it is your turn."
+msgstr "Подсказка — для вашего хода."
+
+#: cghanafuda/kabu-game.c:826
+#, c-format
+msgid ""
+"Oicho-Kabu is played with the forty cards of January to October,\n"
+"each worth its month, January 1 to October 10. A hand is worth\n"
+"the last digit of its sum: 9 is best, and 10 or 20 is nothing.\n"
+"\n"
+"The dealer lays a card face up on each of four lanes, and one\n"
+"face down for itself. Click a lane to bet a chip on it, up to %d\n"
+"a round, right-click to take one back, then click the stock to\n"
+"deal. Each lane gets a second card, and those not bet on a third.\n"
+"A lane bet on that makes 3 or less takes a third too; one that\n"
+"makes 4 to 6, or 9, may: click the stock to draw, or the lane to\n"
+"stand. One that makes 7 or 8 stands. Then the dealer turns its\n"
+"card, takes a second, and a third if it makes 5 or less.\n"
+"\n"
+"A lane worth more than the dealer wins its bet, and one worth\n"
+"less loses it; a tie stands off, or goes to the dealer if the\n"
+"options say so.\n"
+"\n"
+"Arashi: three of a month: wins three times the bet, or the\n"
+"dealer's takes three times; if both have it, the higher wins.\n"
+"Kuppin: the dealer's 9 and 1: beats every lane but arashi.\n"
+"Shippin: a lane's 4 and 1: beats every hand of the dealer's\n"
+"but arashi and kuppin.\n"
+"\n"
+"Game, Hint plays the deal out many times from the cards you\n"
+"can't see, and marks the best lane to bet on, or whether to\n"
+"draw or stand."
+msgstr ""
+"В ойтё-кабу играют сорока картами с января по октябрь,\n"
+"каждая стоит номер своего месяца, от января 1 до октября 10. Рука\n"
+"стоит последнюю цифру своей суммы: 9 лучше всего, а 10 или 20 — ноль.\n"
+"\n"
+"Банкомёт кладёт по карте лицом вверх на каждый из четырёх рядов,\n"
+"и одну рубашкой вверх себе. Щёлкните ряд, чтобы поставить на него\n"
+"фишку, до %d за раунд, правой кнопкой — чтобы забрать её, затем\n"
+"щёлкните колоду, чтобы раздать. Каждый ряд получает вторую карту,\n"
+"а ряды без ставок — третью. Ряд со ставкой, набравший 3 или меньше,\n"
+"тоже берёт третью; набравший от 4 до 6 или 9 может взять: щёлкните\n"
+"колоду, чтобы взять, или ряд, чтобы остановиться. Набравший 7 или 8\n"
+"останавливается. Затем банкомёт открывает свою карту, берёт вторую\n"
+"и третью, если набрал 5 или меньше.\n"
+"\n"
+"Ряд, который стоит больше банкомёта, выигрывает свою ставку, а который\n"
+"меньше — проигрывает её; ничья ничего не меняет или идёт в пользу\n"
+"банкомёта, если так указано в параметрах.\n"
+"\n"
+"Араси: три карты одного месяца: выигрывает тройную ставку, или араси\n"
+"банкомёта забирает втрое; если араси у обоих, выигрывает старший.\n"
+"Куппин: 9 и 1 у банкомёта: бьёт все ряды, кроме араси.\n"
+"Сиппин: 4 и 1 у ряда: бьёт любую руку банкомёта,\n"
+"кроме араси и куппина.\n"
+"\n"
+"Игра > Подсказка много раз разыгрывает раздачу с картами, которых\n"
+"вы не видите, и отмечает лучший ряд для ставки или говорит,\n"
+"брать или остановиться."
+
+#: cghanafuda/koikoi-game.c:273
+msgid "Your turn: no card matches, so lay one down."
+msgstr "Ваш ход: подходящих карт нет, положите одну на поле."
+
+#: cghanafuda/koikoi-game.c:275
+msgid "Your turn: the lit cards can take one from the field."
+msgstr "Ваш ход: подсвеченные карты могут взять карту с поля."
+
+#: cghanafuda/koikoi-game.c:277
+msgid "Your turn: play a card from your hand."
+msgstr "Ваш ход: сыграйте карту с руки."
+
+#: cghanafuda/koikoi-game.c:282
+msgid "Hint: lay the raised card down: click it again."
+msgstr "Подсказка: положите поднятую карту: щёлкните её ещё раз."
+
+#: cghanafuda/koikoi-game.c:283
+msgid "Hint: play the raised card, and take the marked one."
+msgstr "Подсказка: сыграйте поднятую карту и возьмите отмеченную."
+
+#: cghanafuda/koikoi-game.c:284
+msgid "Hint: play the raised card: click it again, or its match."
+msgstr "Подсказка: сыграйте поднятую карту: щёлкните её ещё раз или её пару."
+
+#: cghanafuda/koikoi-game.c:286
+msgid "No match: click it again to lay it down."
+msgstr "Пары нет: щёлкните ещё раз, чтобы положить её."
+
+#: cghanafuda/koikoi-game.c:287
+msgid "Choose which of the two it takes."
+msgstr "Выберите, какую из двух она берёт."
+
+#: cghanafuda/koikoi-game.c:288
+msgid "Click it again, or its match, to take."
+msgstr "Щёлкните её ещё раз или её пару, чтобы взять."
+
+#: cghanafuda/koikoi-game.c:291
+msgid "Hint: the drawn card takes the marked one."
+msgstr "Подсказка: взятая из колоды карта берёт отмеченную."
+
+#: cghanafuda/koikoi-game.c:293
+msgid "Choose which card the drawn one takes."
+msgstr "Выберите, какую карту берёт взятая из колоды."
+
+#: cghanafuda/koikoi-game.c:296
+msgid "The computer's turn."
+msgstr "Ход компьютера."
+
+#: cghanafuda/koikoi-game.c:375
+#, c-format
+msgid "You: %d"
+msgstr "Вы: %d"
+
+#: cghanafuda/koikoi-game.c:377
+#, c-format
+msgid "Computer: %d"
+msgstr "Компьютер: %d"
+
+#: cghanafuda/koikoi-game.c:402
+#, c-format
+msgid ", and %d more"
+msgstr " и ещё %d"
+
+#: cghanafuda/koikoi-game.c:430
+#, c-format
+msgid "You win, %d to %d."
+msgstr "Вы выиграли со счётом %d:%d."
+
+#: cghanafuda/koikoi-game.c:433
+#, c-format
+msgid "The computer wins, %d to %d."
+msgstr "Компьютер выиграл со счётом %d:%d."
+
+#: cghanafuda/koikoi-game.c:436
+#, c-format
+msgid "A draw, %d all."
+msgstr "Ничья, по %d."
+
+#: cghanafuda/koikoi-game.c:487
+msgid ""
+"The cards ran out after a koi-koi, before another yaku:\n"
+"no one scores."
+msgstr ""
+"Карты кончились после кой-кой, до следующего яку:\n"
+"никто не получает очков."
+
+#: cghanafuda/koikoi-game.c:496
+msgid "No one made a yaku. You dealt, so you take 6 points."
+msgstr "Никто не собрал яку. Сдавали вы, поэтому получаете 6 очков."
+
+#: cghanafuda/koikoi-game.c:498
+msgid "No one made a yaku. The computer dealt, so it takes 6 points."
+msgstr "Никто не собрал яку. Сдавал компьютер, поэтому он получает 6 очков."
+
+#: cghanafuda/koikoi-game.c:502
+msgid "No one made a yaku: no one scores."
+msgstr "Никто не собрал яку: никто не получает очков."
+
+#: cghanafuda/koikoi-game.c:513
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d point, doubled to %d."
+msgid_plural ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d points, doubled to %d."
+msgstr[0] ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d очко, удвоено до %d."
+msgstr[1] ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d очка, удвоено до %d."
+msgstr[2] ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d очков, удвоено до %d."
+
+#: cghanafuda/koikoi-game.c:517 cghanafuda/koikoi-game.c:523
+msgid "You win the round."
+msgstr "Вы выиграли раунд."
+
+#: cghanafuda/koikoi-game.c:518 cghanafuda/koikoi-game.c:524
+msgid "The computer wins the round."
+msgstr "Компьютер выиграл раунд."
+
+#: cghanafuda/koikoi-game.c:521
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d point."
+msgid_plural ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d points."
+msgstr[0] ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d очко."
+msgstr[1] ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d очка."
+msgstr[2] ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d очков."
+
+#: cghanafuda/koikoi-game.c:581
+msgid ""
+"Both hands as dealt are four of a month or four pairs:\n"
+"no one scores."
+msgstr ""
+"Обе розданные руки — четыре карты одного месяца или четыре пары:\n"
+"никто не получает очков."
+
+#: cghanafuda/koikoi-game.c:589
+msgid "Your hand as dealt wins: four of a month, or four pairs."
+msgstr ""
+"Ваша розданная рука выигрывает: четыре карты одного месяца или четыре пары."
+
+#: cghanafuda/koikoi-game.c:590
+msgid "The computer's hand as dealt wins: four of a month, or four pairs."
+msgstr ""
+"Розданная рука компьютера выигрывает: четыре карты одного месяца или четыре "
+"пары."
+
+#: cghanafuda/koikoi-game.c:601
+msgid "You deal, and lead."
+msgstr "Вы сдаёте и ходите первым."
+
+#: cghanafuda/koikoi-game.c:602
+msgid "The computer deals, and leads."
+msgstr "Компьютер сдаёт и ходит первым."
+
+#: cghanafuda/koikoi-game.c:632
+#, c-format
+msgid "You turned %s (%s), the computer %s (%s): you deal."
+msgstr "Вы открыли %s (%s), компьютер — %s (%s): сдаёте вы."
+
+#: cghanafuda/koikoi-game.c:633
+#, c-format
+msgid "You turned %s (%s), the computer %s (%s): the computer deals."
+msgstr "Вы открыли %s (%s), компьютер — %s (%s): сдаёт компьютер."
+
+#: cghanafuda/koikoi-game.c:664
+msgid "Koi-koi! Play on."
+msgstr "Кой-кой! Игра продолжается."
+
+#: cghanafuda/koikoi-game.c:665
+msgid "Koi-koi! The next yaku ends the round."
+msgstr "Кой-кой! Следующее яку завершит раунд."
+
+#: cghanafuda/koikoi-game.c:699
+msgid "Stop"
+msgstr "Стоп"
+
+#: cghanafuda/koikoi-game.c:702
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"%d point. Stop and take it, or call koi-koi and play on for more?"
+msgid_plural ""
+"%s\n"
+"\n"
+"%d points. Stop and take them, or call koi-koi and play on for more?"
+msgstr[0] ""
+"%s\n"
+"\n"
+"%d очко. Остановиться и взять его или объявить кой-кой и играть дальше ради большего?"
+msgstr[1] ""
+"%s\n"
+"\n"
+"%d очка. Остановиться и взять их или объявить кой-кой и играть дальше ради большего?"
+msgstr[2] ""
+"%s\n"
+"\n"
+"%d очков. Остановиться и взять их или объявить кой-кой и играть дальше ради большего?"
+
+#: cghanafuda/koikoi-game.c:715
+msgid ""
+"If you play on and the computer makes a yaku first, it wins\n"
+"the round with its points doubled, and yours count for nothing."
+msgstr ""
+"Если вы продолжите, а компьютер первым соберёт яку, он выиграет\n"
+"раунд с удвоенными очками, а ваши не будут засчитаны."
+
+#: cghanafuda/koikoi-game.c:718
+msgid ""
+"If you play on and the computer makes a yaku first, it wins\n"
+"the round, and yours count for nothing."
+msgstr ""
+"Если вы продолжите, а компьютер первым соберёт яку, он выиграет\n"
+"раунд, а ваши очки не будут засчитаны."
+
+#: cghanafuda/koikoi-game.c:721
+msgid "In your place, the computer would call koi-koi."
+msgstr "На вашем месте компьютер объявил бы кой-кой."
+
+#: cghanafuda/koikoi-game.c:722
+msgid "In your place, the computer would stop."
+msgstr "На вашем месте компьютер остановился бы."
+
+#: cghanafuda/koikoi-game.c:744
+msgid "The computer calls koi-koi: a yaku of yours now wins, doubled."
+msgstr "Компьютер объявляет кой-кой: теперь ваше яку выигрывает, вдвойне."
+
+#: cghanafuda/koikoi-game.c:746
+msgid "The computer calls koi-koi: a yaku of yours now wins."
+msgstr "Компьютер объявляет кой-кой: теперь ваше яку выигрывает."
+
+#: cghanafuda/koikoi-game.c:951
+msgid "For Goko and Ame-shiko only."
+msgstr "Только для гоко и амэ-сико."
+
+#: cghanafuda/koikoi-game.c:953
+msgid "For the bright yaku and Hanami-zake."
+msgstr "Для яку светлых и ханами-дзакэ."
+
+#: cghanafuda/koikoi-game.c:955
+msgid "For the bright yaku and Tsukimi-zake."
+msgstr "Для яку светлых и цукими-дзакэ."
+
+#: cghanafuda/koikoi-game.c:958
+msgid "For both viewing yaku, Tane and Kasu."
+msgstr "Для обоих яку любования, танэ и касу."
+
+#: cghanafuda/koikoi-game.c:959
+msgid "For both viewing yaku and Tane."
+msgstr "Для обоих яку любования и танэ."
+
+#: cghanafuda/koikoi-game.c:961
+msgid "For Ino-shika-cho and Tane."
+msgstr "Для иносикатё и танэ."
+
+#: cghanafuda/koikoi-game.c:963
+msgid "For Akatan and Tan."
+msgstr "Для акатана и тана."
+
+#: cghanafuda/koikoi-game.c:965
+msgid "For Aotan and Tan."
+msgstr "Для аотана и тана."
+
+#: cghanafuda/koikoi-game.c:969
+msgid "For the bright yaku."
+msgstr "Для яку светлых."
+
+#: cghanafuda/koikoi-game.c:970
+msgid "For Tane."
+msgstr "Для танэ."
+
+#: cghanafuda/koikoi-game.c:971
+msgid "For Tan."
+msgstr "Для тана."
+
+#: cghanafuda/koikoi-game.c:972
+msgid "For Kasu."
+msgstr "Для касу."
+
+#: cghanafuda/koikoi-game.c:981
+msgid "a bright"
+msgstr "светлая карта"
+
+#: cghanafuda/koikoi-game.c:981
+msgid "an animal"
+msgstr "животное"
+
+#: cghanafuda/koikoi-game.c:981
+msgid "a ribbon"
+msgstr "лента"
+
+#: cghanafuda/koikoi-game.c:981 cghanafuda/koikoi.c:119
+msgid "a plain card"
+msgstr "простая карта"
+
+#: cghanafuda/koikoi-game.c:1055
+#, c-format
+msgid "The computer's hand: %d card."
+msgid_plural "The computer's hand: %d cards."
+msgstr[0] "Рука компьютера: %d карта."
+msgstr[1] "Рука компьютера: %d карты."
+msgstr[2] "Рука компьютера: %d карт."
+
+#: cghanafuda/koikoi-game.c:1114
+msgid ""
+"Match a card from your hand to one of the same month on the field,\n"
+"then turn a card from the stock and do the same. Cards matched are yours.\n"
+"With a yaku, stop and take its points, or call koi-koi and play on.\n"
+msgstr ""
+"Положите карту с руки на карту того же месяца на поле,\n"
+"затем откройте карту из колоды и сделайте то же самое. Совпавшие карты ваши.\n"
+"Собрав яку, остановитесь и возьмите очки или объявите кой-кой и играйте дальше.\n"
+
+#: cghanafuda/koikoi-game.c:1121
+msgid ""
+"If the other makes a yaku first, they win the round.\n"
+"\n"
+msgstr ""
+"Если соперник первым соберёт яку, он выиграет раунд.\n"
+"\n"
+
+#: cghanafuda/koikoi-game.c:1123
+msgid ""
+"After a koi-koi, the next yaku ends the round, whoever makes it.\n"
+"\n"
+msgstr ""
+"После кой-кой следующее яку завершает раунд, кто бы его ни собрал.\n"
+"\n"
+
+#: cghanafuda/koikoi-game.c:1125
+msgid ""
+"Goko: the five brights: 10\n"
+"Shiko: four brights without the rain man: 8\n"
+"Ame-shiko: four brights with the rain man: 7\n"
+"Sanko: three brights without the rain man: 5\n"
+"Ino-shika-cho: the boar, the deer and the butterflies: 5, and 1 for each other animal\n"
+"Akatan: the three poem ribbons: 5, and 1 for each other ribbon\n"
+"Aotan: the three blue ribbons: 5, and 1 for each other ribbon\n"
+"Akatan-aotan: both: 10, and 1 for each other ribbon\n"
+"Hanami-zake: the curtain and the sake cup: 5\n"
+"Tsukimi-zake: the moon and the sake cup: 5\n"
+"Tane: five animals: 1, and 1 for each more\n"
+"Tan: five ribbons: 1, and 1 for each more\n"
+"Kasu: ten plain cards: 1, and 1 for each more\n"
+msgstr ""
+"Гоко: пять светлых: 10\n"
+"Сико: четыре светлых без человека под дождём: 8\n"
+"Амэ-сико: четыре светлых с человеком под дождём: 7\n"
+"Санко: три светлых без человека под дождём: 5\n"
+"Иносикатё: кабан, олень и бабочки: 5, и 1 за каждое другое животное\n"
+"Акатан: три ленты со стихами: 5, и 1 за каждую другую ленту\n"
+"Аотан: три синие ленты: 5, и 1 за каждую другую ленту\n"
+"Акатан-аотан: оба: 10, и 1 за каждую другую ленту\n"
+"Ханами-дзакэ: занавес и чаша сакэ: 5\n"
+"Цукими-дзакэ: луна и чаша сакэ: 5\n"
+"Танэ: пять животных: 1, и 1 за каждое следующее\n"
+"Тан: пять лент: 1, и 1 за каждую следующую\n"
+"Касу: десять простых карт: 1, и 1 за каждую следующую\n"
+
+#: cghanafuda/koikoi-game.c:1143
+msgid ""
+"\n"
+"Seven points or more count double."
+msgstr ""
+"\n"
+"Семь очков и больше считаются вдвойне."
+
+#: cghanafuda/koikoi-game.c:1145
+msgid ""
+"\n"
+"Winning after the other's koi-koi doubles the points."
+msgstr ""
+"\n"
+"Победа после кой-кой соперника удваивает очки."
+
+#: cghanafuda/koikoi-game.c:1147
+msgid ""
+"\n"
+"\n"
+"Help, Yaku shows each yaku's cards, and who has them; Help, Cards\n"
+"shows the months. Game, Hint shows what the computer would play."
+msgstr ""
+"\n"
+"\n"
+"Справка > Яку показывает карты каждого яку и у кого они; Справка > Карты\n"
+"показывает месяцы. Игра > Подсказка показывает, как сыграл бы компьютер."
+
+#: cghanafuda/koikoi.c:67
+msgid "January"
+msgstr "январь"
+
+#: cghanafuda/koikoi.c:67
+msgid "February"
+msgstr "февраль"
+
+#: cghanafuda/koikoi.c:67
+msgid "March"
+msgstr "март"
+
+#: cghanafuda/koikoi.c:67
+msgid "April"
+msgstr "апрель"
+
+#: cghanafuda/koikoi.c:67
+msgid "May"
+msgstr "май"
+
+#: cghanafuda/koikoi.c:68
+msgid "June"
+msgstr "июнь"
+
+#: cghanafuda/koikoi.c:68
+msgid "July"
+msgstr "июль"
+
+#: cghanafuda/koikoi.c:68
+msgid "August"
+msgstr "август"
+
+#: cghanafuda/koikoi.c:68
+msgid "September"
+msgstr "сентябрь"
+
+#: cghanafuda/koikoi.c:68
+msgid "October"
+msgstr "октябрь"
+
+#: cghanafuda/koikoi.c:69
+msgid "November"
+msgstr "ноябрь"
+
+#: cghanafuda/koikoi.c:69
+msgid "December"
+msgstr "декабрь"
+
+#: cghanafuda/koikoi.c:73
+msgid "pine"
+msgstr "сосна"
+
+#: cghanafuda/koikoi.c:73
+msgid "plum"
+msgstr "слива"
+
+#: cghanafuda/koikoi.c:73
+msgid "cherry"
+msgstr "сакура"
+
+#: cghanafuda/koikoi.c:73
+msgid "wisteria"
+msgstr "глициния"
+
+#: cghanafuda/koikoi.c:73
+msgid "iris"
+msgstr "ирис"
+
+#: cghanafuda/koikoi.c:74
+msgid "peony"
+msgstr "пион"
+
+#: cghanafuda/koikoi.c:74
+msgid "bush clover"
+msgstr "леспедеца"
+
+#: cghanafuda/koikoi.c:74
+msgid "pampas grass"
+msgstr "мискантус"
+
+#: cghanafuda/koikoi.c:74
+msgid "chrysanthemum"
+msgstr "хризантема"
+
+#: cghanafuda/koikoi.c:75
+msgid "maple"
+msgstr "клён"
+
+#: cghanafuda/koikoi.c:75
+msgid "willow"
+msgstr "ива"
+
+#: cghanafuda/koikoi.c:75
+msgid "paulownia"
+msgstr "павловния"
+
+#: cghanafuda/koikoi.c:84
+msgid "the crane and the sun"
+msgstr "журавль и солнце"
+
+#: cghanafuda/koikoi.c:84 cghanafuda/koikoi.c:85 cghanafuda/koikoi.c:86
+msgid "a poem ribbon"
+msgstr "лента со стихами"
+
+#: cghanafuda/koikoi.c:85
+msgid "the bush warbler"
+msgstr "соловей"
+
+#: cghanafuda/koikoi.c:86
+msgid "the curtain"
+msgstr "занавес"
+
+#: cghanafuda/koikoi.c:87
+msgid "the cuckoo"
+msgstr "кукушка"
+
+#: cghanafuda/koikoi.c:87 cghanafuda/koikoi.c:88 cghanafuda/koikoi.c:90
+#: cghanafuda/koikoi.c:95
+msgid "a red ribbon"
+msgstr "красная лента"
+
+#: cghanafuda/koikoi.c:88
+msgid "the eight-plank bridge"
+msgstr "мост из восьми досок"
+
+#: cghanafuda/koikoi.c:89
+msgid "the butterflies"
+msgstr "бабочки"
+
+#: cghanafuda/koikoi.c:89 cghanafuda/koikoi.c:92 cghanafuda/koikoi.c:93
+msgid "a blue ribbon"
+msgstr "синяя лента"
+
+#: cghanafuda/koikoi.c:90
+msgid "the boar"
+msgstr "кабан"
+
+#: cghanafuda/koikoi.c:91
+msgid "the moon"
+msgstr "луна"
+
+#: cghanafuda/koikoi.c:91
+msgid "the geese"
+msgstr "гуси"
+
+#: cghanafuda/koikoi.c:92
+msgid "the sake cup"
+msgstr "чаша сакэ"
+
+#: cghanafuda/koikoi.c:93
+msgid "the deer"
+msgstr "олень"
+
+#: cghanafuda/koikoi.c:94
+msgid "the rain man"
+msgstr "человек под дождём"
+
+#: cghanafuda/koikoi.c:94
+msgid "the swallow"
+msgstr "ласточка"
+
+#: cghanafuda/koikoi.c:95
+msgid "the lightning"
+msgstr "молния"
+
+#: cghanafuda/koikoi.c:96
+msgid "the phoenix"
+msgstr "феникс"
+
+#: cghanafuda/koikoi.c:166
+msgid "Five brights"
+msgstr "Пять светлых"
+
+#: cghanafuda/koikoi.c:170
+msgid "Four brights with rain"
+msgstr "Четыре светлых с дождём"
+
+#: cghanafuda/koikoi.c:172
+msgid "Four brights"
+msgstr "Четыре светлых"
+
+#: cghanafuda/koikoi.c:175
+msgid "Three brights"
+msgstr "Три светлых"
+
+#: cghanafuda/koikoi.c:181
+msgid "Boar, deer and butterflies"
+msgstr "Кабан, олень и бабочки"
+
+#: cghanafuda/koikoi.c:184
+msgid "Five animals"
+msgstr "Пять животных"
+
+#: cghanafuda/koikoi.c:190
+msgid "Poem and blue ribbons"
+msgstr "Ленты со стихами и синие"
+
+#: cghanafuda/koikoi.c:193
+msgid "Poem ribbons"
+msgstr "Ленты со стихами"
+
+#: cghanafuda/koikoi.c:196
+msgid "Blue ribbons"
+msgstr "Синие ленты"
+
+#: cghanafuda/koikoi.c:199
+msgid "Five ribbons"
+msgstr "Пять лент"
+
+#: cghanafuda/koikoi.c:203
+msgid "Cherry blossom viewing"
+msgstr "Любование сакурой"
+
+#: cghanafuda/koikoi.c:205
+msgid "Moon viewing"
+msgstr "Любование луной"
+
+#: cghanafuda/koikoi.c:208
+msgid "Ten plain cards"
+msgstr "Десять простых карт"
+
+#: cghearts/cghearts.c:29 cghearts/cghearts.c:1085
+msgid "Hearts"
+msgstr "Червы"
+
+#: cghearts/cghearts.c:51
+msgid "West"
+msgstr "Запад"
+
+#: cghearts/cghearts.c:51
+msgid "North"
+msgstr "Север"
+
+#: cghearts/cghearts.c:51
+msgid "East"
+msgstr "Восток"
+
+#: cghearts/cghearts.c:538
+msgid "The two of clubs leads."
+msgstr "Начинает двойка треф."
+
+#: cghearts/cghearts.c:541
+msgid "Hearts can't be led until one has been played."
+msgstr "Нельзя ходить с червей, пока черва не сыграна."
+
+#: cghearts/cghearts.c:545
+msgid "You must follow suit."
+msgstr "Нужно ходить в масть."
+
+#: cghearts/cghearts.c:550
+msgid "No points can be played on the first trick."
+msgstr "На первой взятке нельзя играть карты с очками."
+
+#: cghearts/cghearts.c:739
+msgid "Your lead: the two of clubs."
+msgstr "Ваш ход: двойка треф."
+
+#: cghearts/cghearts.c:739
+msgid "Your turn."
+msgstr "Ваш ход."
+
+#: cghearts/cghearts.c:744
+#, c-format
+msgid "%s to play."
+msgstr "Ходит %s."
+
+#: cghearts/cghearts.c:791
+msgid "You take the trick."
+msgstr "Вы берёте взятку."
+
+#: cghearts/cghearts.c:792
+#, c-format
+msgid "%s takes the trick."
+msgstr "%s берёт взятку."
+
+#: cghearts/cghearts.c:890
+msgid "Choose three cards to pass to the left, then click the arrow."
+msgstr "Выберите три карты, чтобы передать налево, затем щёлкните стрелку."
+
+#: cghearts/cghearts.c:891
+msgid "Choose three cards to pass to the right, then click the arrow."
+msgstr "Выберите три карты, чтобы передать направо, затем щёлкните стрелку."
+
+#: cghearts/cghearts.c:892
+msgid "Choose three cards to pass across, then click the arrow."
+msgstr "Выберите три карты, чтобы передать напротив, затем щёлкните стрелку."
+
+#: cghearts/cghearts.c:948 common/games-scores.c:356
+msgid "Score"
+msgstr "Счёт"
+
+#: cghearts/cghearts.c:982
+msgid "No hand played yet."
+msgstr "Ещё не сыграно ни одной раздачи."
+
+#: cghearts/cghearts.c:1043
+msgid "You shot the moon!"
+msgstr "Вы взяли все очки!"
+
+#: cghearts/cghearts.c:1044
+#, c-format
+msgid "%s shot the moon!"
+msgstr "%s взял все очки!"
+
+#: cghearts/cghearts.c:1056
+msgid "The hand is over."
+msgstr "Раздача окончена."
+
+#: cghearts/cghearts.c:1072
+msgid "You won the game!"
+msgstr "Вы выиграли игру!"
+
+#: cghearts/cghearts.c:1074
+msgid "You tied for the win."
+msgstr "Вы разделили победу."
+
+#: cghearts/cghearts.c:1080
+#, c-format
+msgid "%s won the game."
+msgstr "%s выиграл игру."
+
+#: cghearts/cghearts.c:1081
+#, c-format
+msgid "%s and others tied for the win."
+msgstr "%s и другие разделили победу."
+
+#: cghearts/cghearts.c:1293 cgsolitaire/cgsolitaire.c:2046
+msgid "Select Card Back"
+msgstr "Выбрать рубашку карт"
+
+#: cghearts/cghearts.c:1341
+msgid "Classic GUI Hearts"
+msgstr "Classic GUI Червы"
+
+#: cghearts/cghearts.c:1392
+msgid "/Game/_Score..."
+msgstr "/Игра/_Счёт..."
+
+#: cghearts/cghearts.c:1394 cgsolitaire/cgsolitaire.c:2137
+msgid "/Game/De_ck..."
+msgstr "/Игра/_Колода..."
+
+#: cghearts/cghearts.c:1399
+msgid "/Help/_About Hearts..."
+msgstr "/Справка/_О программе Червы..."
+
+#: cgmahjong/cgmahjong.c:34
+msgid "Mahjong"
+msgstr "Маджонг"
+
+#: cgmahjong/cgmahjong.c:604
+msgid "Shuffle"
+msgstr "Перемешать"
+
+#: cgmahjong/cgmahjong.c:606
+msgid "New Game"
+msgstr "Новая игра"
+
+#: cgmahjong/cgmahjong.c:609 cgmahjong/cgmahjong.c:1495
+msgid "Undo"
+msgstr "Отменить"
+
+#: cgmahjong/cgmahjong.c:614
+msgid "There are no more moves."
+msgstr "Ходов больше нет."
+
+#: cgmahjong/cgmahjong.c:638 cgmahjong/cgmahjong.c:799
+msgid "Mahjong Scores"
+msgstr "Рекорды маджонга"
+
+#: cgmahjong/cgmahjong.c:640 cgmahjong/cgmahjong.c:801
+msgid "Map:"
+msgstr "Карта:"
+
+#: cgmahjong/cgmahjong.c:642
+#, c-format
+msgid ""
+"Fantastic! %s!\n"
+"You have reached #%d in the Top Ten.\n"
+"\n"
+"Another game?"
+msgstr ""
+"Отлично! %s!\n"
+"Вы заняли %d-е место в десятке лучших.\n"
+"\n"
+"Ещё одну игру?"
+
+#: cgmahjong/cgmahjong.c:646
+#, c-format
+msgid ""
+"Great!\n"
+"You made it in %s.\n"
+"\n"
+"Another game?"
+msgstr ""
+"Здорово!\n"
+"Вы справились за %s.\n"
+"\n"
+"Ещё одну игру?"
+
+#: cgmahjong/cgmahjong.c:731
+msgid "Classic GUI Mahjong"
+msgstr "Classic GUI Маджонг"
+
+#: cgmahjong/cgmahjong.c:764
+msgid "... Game paused ..."
+msgstr "... Игра на паузе ..."
+
+#: cgmahjong/cgmahjong.c:851
+msgid "Really restart this game?"
+msgstr "Действительно начать эту игру заново?"
+
+#: cgmahjong/cgmahjong.c:854
+msgid "Really start a new game?"
+msgstr "Действительно начать новую игру?"
+
+#: cgmahjong/cgmahjong.c:904
+msgid "No more redo!"
+msgstr "Больше нечего повторять!"
+
+#: cgmahjong/cgmahjong.c:969
+msgid "Select Game"
+msgstr "Выбрать игру"
+
+#: cgmahjong/cgmahjong.c:975
+msgid "Game Number:"
+msgstr "Номер игры:"
+
+#: cgmahjong/cgmahjong.c:1122
+msgid ""
+"Sorry, I can't find\n"
+"a playable configuration."
+msgstr ""
+"Увы, не удаётся найти\n"
+"расклад, который можно пройти."
+
+#: cgmahjong/cgmahjong.c:1226
+msgid "Background Colour"
+msgstr "Цвет фона"
+
+#: cgmahjong/cgmahjong.c:1289
+msgid ""
+"Do you want to start a new game with this map?\n"
+"\n"
+"If you continue playing, the next game will\n"
+"use the new map."
+msgstr ""
+"Начать новую игру с этой картой?\n"
+"\n"
+"Если вы продолжите играть, следующая\n"
+"игра будет на новой карте."
+
+#: cgmahjong/cgmahjong.c:1292
+msgid "Use New Map"
+msgstr "Использовать новую карту"
+
+#: cgmahjong/cgmahjong.c:1336
+msgid "Preferences"
+msgstr "Настройки"
+
+#: cgmahjong/cgmahjong.c:1345
+msgid "Maps"
+msgstr "Карты"
+
+#: cgmahjong/cgmahjong.c:1346
+msgid "Select Map:"
+msgstr "Выберите карту:"
+
+#: cgmahjong/cgmahjong.c:1348
+msgid "Colours"
+msgstr "Цвета"
+
+#: cgmahjong/cgmahjong.c:1357
+msgid "Background:"
+msgstr "Фон:"
+
+#: cgmahjong/cgmahjong.c:1359
+msgid "Warnings"
+msgstr "Предупреждения"
+
+#: cgmahjong/cgmahjong.c:1360
+msgid "Confirm before starting over"
+msgstr "Спрашивать перед тем, как начать заново"
+
+#: cgmahjong/cgmahjong.c:1445
+msgid "/Game/New Game with _Seed..."
+msgstr "/Игра/Новая игра с з_ерном..."
+
+#: cgmahjong/cgmahjong.c:1452
+msgid "/Game/Re_do Move"
+msgstr "/Игра/Пов_торить ход"
+
+#: cgmahjong/cgmahjong.c:1456
+msgid "/Game/_Pause"
+msgstr "/Игра/П_ауза"
+
+#: cgmahjong/cgmahjong.c:1459 cgminesweep/cgminesweep.c:730
+msgid "/Game/S_cores..."
+msgstr "/Игра/_Рекорды..."
+
+#: cgmahjong/cgmahjong.c:1464 cgminesweep/cgminesweep.c:735
+msgid "/_Settings"
+msgstr "/_Настройки"
+
+#: cgmahjong/cgmahjong.c:1465
+msgid "/Settings/Show _Tool Bar"
+msgstr "/Настройки/Показывать панель _инструментов"
+
+#: cgmahjong/cgmahjong.c:1468 cgminesweep/cgminesweep.c:736
+msgid "/Settings/_Preferences..."
+msgstr "/Настройки/_Параметры..."
+
+#: cgmahjong/cgmahjong.c:1471
+msgid "/Help/_About Mahjong..."
+msgstr "/Справка/_О программе Маджонг..."
+
+#: cgmahjong/cgmahjong.c:1492
+msgid "New"
+msgstr "Новая"
+
+#: cgmahjong/cgmahjong.c:1492
+msgid "Start a new game"
+msgstr "Начать новую игру"
+
+#: cgmahjong/cgmahjong.c:1495
+msgid "Undo the last move"
+msgstr "Отменить последний ход"
+
+#: cgmahjong/cgmahjong.c:1498
+msgid "Hint"
+msgstr "Подсказка"
+
+#: cgmahjong/cgmahjong.c:1498
+msgid "Show a pair that can be taken"
+msgstr "Показать пару, которую можно снять"
+
+#: cgmahjong/cgmahjong.c:1502
+msgid "Pause"
+msgstr "Пауза"
+
+#: cgmahjong/cgmahjong.c:1503
+msgid "Pause the game"
+msgstr "Приостановить игру"
+
+#: cgmahjong/cgmahjong.c:1585
+msgid "Time:"
+msgstr "Время:"
+
+#: cgmahjong/cgmahjong.c:1586
+msgid "Moves Left:"
+msgstr "Осталось ходов:"
+
+#: cgmahjong/cgmahjong.c:1588
+msgid "Tiles Left:"
+msgstr "Осталось костей:"
+
+#: cgmahjong/cgmahjong.c:1605
+#, c-format
+msgid "%s: the tile images could not be read\n"
+msgstr "%s: не удалось прочитать изображения костей\n"
+
+#: cgmahjong/cgmahjong.c:1622
+msgid "Welcome to Mahjong!"
+msgstr "Добро пожаловать в Маджонг!"
+
+#: cgminesweep/cgminesweep.c:34
+msgid "Minesweep"
+msgstr "Сапёр"
+
+#: cgminesweep/cgminesweep.c:61
+msgid "Beginner"
+msgstr "Новичок"
+
+#: cgminesweep/cgminesweep.c:62
+msgid "Intermediate"
+msgstr "Любитель"
+
+#: cgminesweep/cgminesweep.c:63
+msgid "Expert"
+msgstr "Профессионал"
+
+#: cgminesweep/cgminesweep.c:64
+msgid "Custom"
+msgstr "Особый"
+
+#: cgminesweep/cgminesweep.c:358
+msgid "Minesweep Scores"
+msgstr "Рекорды сапёра"
+
+#: cgminesweep/cgminesweep.c:359
+msgid "Game:"
+msgstr "Уровень:"
+
+#: cgminesweep/cgminesweep.c:506
+msgid "Classic GUI Minesweep"
+msgstr "Classic GUI Сапёр"
+
+#: cgminesweep/cgminesweep.c:592
+msgid "Minesweep Preferences"
+msgstr "Настройки сапёра"
+
+#: cgminesweep/cgminesweep.c:601
+msgid "Field size"
+msgstr "Размер поля"
+
+#: cgminesweep/cgminesweep.c:622
+msgid "Custom size"
+msgstr "Особый размер"
+
+#: cgminesweep/cgminesweep.c:630
+msgid "Horizontal:"
+msgstr "По горизонтали:"
+
+#: cgminesweep/cgminesweep.c:639
+msgid "Vertical:"
+msgstr "По вертикали:"
+
+#: cgminesweep/cgminesweep.c:648
+msgid "Number of mines:"
+msgstr "Число мин:"
+
+#: cgminesweep/cgminesweep.c:664
+msgid "Mine size:"
+msgstr "Размер мин:"
+
+#: cgminesweep/cgminesweep.c:738
+msgid "/Settings/_Marks (?)"
+msgstr "/Настройки/_Отметки (?)"
+
+#: cgminesweep/cgminesweep.c:741
+msgid "/Help/_About Minesweep..."
+msgstr "/Справка/_О программе Сапёр..."
+
+#: cgminesweep/cgminesweep.c:876
+msgid "Press to resume"
+msgstr "Нажмите, чтобы продолжить"
+
+#: cgsolitaire/cgsolitaire.c:30 cgsolitaire/cgsolitaire.c:1257
+msgid "Solitaire"
+msgstr "Косынка"
+
+#: cgsolitaire/cgsolitaire.c:812
+#, c-format
+msgid "Score: %s$%d"
+msgstr "Очки: %s$%d"
+
+#: cgsolitaire/cgsolitaire.c:815
+#, c-format
+msgid "Score: %d"
+msgstr "Очки: %d"
+
+#: cgsolitaire/cgsolitaire.c:950
+#, c-format
+msgid "Bonus: %d"
+msgstr "Бонус: %d"
+
+#: cgsolitaire/cgsolitaire.c:1257
+msgid "Deal again?"
+msgstr "Сдать заново?"
+
+#: cgsolitaire/cgsolitaire.c:1869
+msgid "Standard"
+msgstr "Стандартный"
+
+#: cgsolitaire/cgsolitaire.c:1869
+msgid "Vegas"
+msgstr "Вегас"
+
+#: cgsolitaire/cgsolitaire.c:1889
+msgid "Draw"
+msgstr "Сдача"
+
+#: cgsolitaire/cgsolitaire.c:1890
+msgid "Draw One"
+msgstr "По одной"
+
+#: cgsolitaire/cgsolitaire.c:1892
+msgid "Draw Three"
+msgstr "По три"
+
+#: cgsolitaire/cgsolitaire.c:1899
+msgid "Scoring"
+msgstr "Подсчёт очков"
+
+#: cgsolitaire/cgsolitaire.c:1914
+msgid "Timed game"
+msgstr "Игра на время"
+
+#: cgsolitaire/cgsolitaire.c:1915
+msgid "Status bar"
+msgstr "Строка состояния"
+
+#: cgsolitaire/cgsolitaire.c:1918
+msgid "Outline dragging"
+msgstr "Перетаскивать контур"
+
+#: cgsolitaire/cgsolitaire.c:1919
+msgid "Cumulative score"
+msgstr "Накопительный счёт"
+
+#: cgsolitaire/cgsolitaire.c:2095
+msgid "Classic GUI Solitaire"
+msgstr "Classic GUI Косынка"
+
+#: cgsolitaire/cgsolitaire.c:2133
+msgid "/Game/_Deal"
+msgstr "/Игра/_Сдать"
+
+#: cgsolitaire/cgsolitaire.c:2144
+msgid "/Help/_About Solitaire..."
+msgstr "/Справка/_О программе Косынка..."
+
+#: cgsolitaire/cgsolitaire.c:2244
+msgid "Time: "
+msgstr "Время: "
+
+#: common/games-dialogs.c:272
+#, c-format
+msgid "About %s"
+msgstr "О программе %s"
+
+#: common/games-scores.c:355
+msgid "Name"
+msgstr "Имя"
+
+#: common/games-scores.c:356
+msgid "Time"
+msgstr "Время"
+
+#: common/games-scores.c:357
+msgid "Date"
+msgstr "Дата"

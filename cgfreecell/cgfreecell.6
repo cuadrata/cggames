@@ -1,0 +1,88 @@
+.TH CGFREECELL 6 "November 2026" "cggames 1.4.0"
+.SH NAME
+cgfreecell \- the FreeCell patience
+.SH SYNOPSIS
+.B cgfreecell
+.RI [ "toolkit options" ]
+.SH DESCRIPTION
+.B cgfreecell
+plays FreeCell as Windows plays it.
+The table is empty until a game is dealt with
+.B New Game
+or
+.BR "Select Game" .
+The whole pack is dealt face up into eight columns.
+Build the four suits up from their aces on the home cells at the top
+right to win.
+.PP
+The top card of a column can go on one a rank higher of the other
+colour, into an empty column, into one of the four free cells at the
+top left, which hold a card each, or home.
+A card in a free cell can go on a column or home.
+Cards are moved one at a time, but a run down in alternate colours
+is moved for you a card at a time through the free cells and empty
+columns, when there are enough of them: one more card than there are
+empty free cells, twice that for each empty column, one fewer of those
+if the run goes to one.
+.PP
+Click a column or a free cell, which shows its card picked, then the
+place it is to go: as many cards go as can.
+A place the cards picked up can go to is ringed in yellow while the
+pointer is over it.
+Click it again to put it down.
+When a run could go into an empty column, you are asked whether to
+move the column, as much of it as can go, or a single card.
+A double click on a column sends its card to a free cell.
+Holding the right button on a card in a column shows it whole.
+Cards that nothing could want to go on any more go home by themselves.
+The king between the cells looks towards the pointer while it is level
+with him, and towards the cells a card has just gone to; he smiles at a
+win.
+.PP
+Each deal has a number, shown in the title, from 1 to 1000000, the
+same deals as Windows' FreeCell has for those numbers.
+.B New Game
+deals one at random,
+.B Select Game
+the one asked for, and
+.B Restart Game
+the same one again.
+.B Undo
+takes back the last move.
+The menu bar shows the cards still to go home.
+.PP
+A game ends when it is won, or lost when no move is left.
+A game given up once a move is made, by dealing another or by leaving
+the program, counts as lost; you are asked first.
+.B Statistics
+shows the games won and lost, in this session and in all, and the
+longest runs of each.
+.PP
+The cards are drawn as large as the window lets the table be, larger
+or smaller with it, down to three quarters of their usual size; a
+window wider than the table needs spreads the columns apart.
+.SH OPTIONS
+.TP
+.B Display messages on illegal moves
+Says so when cards clicked on can't go where the next click is.
+.TP
+.B Quick play (no animation)
+Moves the cards at once, without showing them go.
+.TP
+.B Double-click moves card to free cell
+As it says; otherwise a double click picks a column up and puts it
+down again.
+.SH FILES
+.TP
+.I $XDG_CONFIG_HOME/cggames/cgfreecell.conf
+The options, the statistics, and the size of the window.
+.PP
+Without the variable,
+.I ~/.config
+is used.
+.SH AUTHORS
+cgfreecell is Freecell from gnome-games 1.4, ported to CGTK, and made
+to play as Windows' FreeCell does.
+Changwoo Ryu wrote Freecell.
+Its card faces, and the king between the cells, the king of spades',
+are drawn from a public domain deck, in SVG.

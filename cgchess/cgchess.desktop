@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=Chess
+Name[de]=Schach
+Name[es]=Ajedrez
+Name[fr]=Échecs
+Name[ja]=チェス
+Name[pt_BR]=Xadrez
+Name[ru]=Шахматы
+Name[zh_CN]=国际象棋
+Comment=Play chess against GNU Chess or Stockfish
+Comment[de]=Schach gegen GNU Chess oder Stockfish spielen
+Comment[es]=Jugar al ajedrez contra GNU Chess o Stockfish
+Comment[fr]=Jouer aux échecs contre GNU Chess ou Stockfish
+Comment[ja]=GNU Chess や Stockfish とチェスを指す
+Comment[pt_BR]=Jogar xadrez contra o GNU Chess ou o Stockfish
+Comment[ru]=Игра в шахматы против GNU Chess или Stockfish
+Comment[zh_CN]=与 GNU Chess 或 Stockfish 下国际象棋
+Exec=cgchess
+Icon=cgchess
+Terminal=false
+Categories=Game;BoardGame;
+StartupWMClass=Cgchess

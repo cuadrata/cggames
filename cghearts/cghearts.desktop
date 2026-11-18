@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=Hearts
+Name[de]=Hearts
+Name[es]=Corazones
+Name[fr]=Dame de pique
+Name[ja]=ハーツ
+Name[pt_BR]=Copas
+Name[ru]=Червы
+Name[zh_CN]=红心大战
+Comment=Take as few hearts as you can, and not the queen of spades
+Comment[de]=Möglichst wenige Herzen nehmen, und nicht die Pik-Dame
+Comment[es]=Llevarse los menos corazones posibles, y no la dama de picas
+Comment[fr]=Prendre le moins de cœurs possible, et pas la dame de pique
+Comment[ja]=ハートをできるだけ取らず、スペードのクイーンも取らない
+Comment[pt_BR]=Pegar o mínimo de copas possível, e não a dama de espadas
+Comment[ru]=Берите как можно меньше червей и не берите даму пик
+Comment[zh_CN]=尽量少拿红心，也不要拿黑桃 Q
+Exec=cghearts
+Icon=cghearts
+Terminal=false
+Categories=Game;CardGame;
+StartupWMClass=Cghearts

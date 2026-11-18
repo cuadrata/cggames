@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=Minesweep
+Name[de]=Minensuche
+Name[es]=Buscaminas
+Name[fr]=Démineur
+Name[ja]=マインスイーパ
+Name[pt_BR]=Campo minado
+Name[ru]=Сапёр
+Name[zh_CN]=扫雷
+Comment=Clear the field without setting off a mine
+Comment[de]=Das Feld räumen, ohne eine Mine auszulösen
+Comment[es]=Despejar el campo sin hacer estallar una mina
+Comment[fr]=Déminer le champ sans faire sauter une mine
+Comment[ja]=地雷を踏まずにフィールドを開ける
+Comment[pt_BR]=Limpar o campo sem detonar uma mina
+Comment[ru]=Расчистите поле, не подорвавшись на мине
+Comment[zh_CN]=清理雷区，不要踩到地雷
+Exec=cgminesweep
+Icon=cgminesweep
+Terminal=false
+Categories=Game;LogicGame;
+StartupWMClass=Cgminesweep

@@ -1,0 +1,2405 @@
+# Japanese translation of cggames.
+# Copyright (C) 2026 The CGTK authors
+# This file is distributed under the same license as the cggames package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cggames 1.4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-11 06:52+0000\n"
+"PO-Revision-Date: 2026-11-11 12:00+0000\n"
+"Last-Translator: The CGTK authors\n"
+"Language-Team: Japanese\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cgchess/cgchess.c:40
+msgid "Chess"
+msgstr "チェス"
+
+#: cgchess/cgchess.c:61
+msgid "Wood"
+msgstr "木目"
+
+#: cgchess/cgchess.c:63
+msgid "Green"
+msgstr "緑"
+
+#: cgchess/cgchess.c:65
+msgid "Blue"
+msgstr "青"
+
+#: cgchess/cgchess.c:67
+msgid "Grey"
+msgstr "灰色"
+
+#: cgchess/cgchess.c:69
+msgid "XBoard"
+msgstr "XBoard"
+
+#: cgchess/cgchess.c:117
+msgid "GNU Chess"
+msgstr "GNU Chess"
+
+#: cgchess/cgchess.c:118
+msgid "Stockfish"
+msgstr "Stockfish"
+
+#: cgchess/cgchess.c:757
+#, c-format
+msgid "White %d:%02d"
+msgstr "白 %d:%02d"
+
+#: cgchess/cgchess.c:758
+#, c-format
+msgid "Black %d:%02d"
+msgstr "黒 %d:%02d"
+
+#: cgchess/cgchess.c:790
+msgid "Game over"
+msgstr "対局終了"
+
+#: cgchess/cgchess.c:791
+msgid "White to move"
+msgstr "白の手番"
+
+#: cgchess/cgchess.c:792
+msgid "Black to move"
+msgstr "黒の手番"
+
+#: cgchess/cgchess.c:793
+#, c-format
+msgid "Move %d"
+msgstr "%d 手目"
+
+#: cgchess/cgchess.c:887
+msgid ""
+"The chess engine could not be started, or has\n"
+"stopped. Without it, you play both sides.\n"
+"\n"
+"Install GNU Chess or Stockfish, then choose it\n"
+"in Game > Options, under Engine."
+msgstr ""
+"チェスエンジンを起動できないか、エンジンが\n"
+"停止しました。エンジンなしでは両方を指します。\n"
+"\n"
+"GNU Chess か Stockfish をインストールして、\n"
+"[ゲーム] > [オプション] の [エンジン] で選んでください。"
+
+#: cgchess/cgchess.c:891 cgchess/cgchess.c:1278
+msgid "No engine: you play both sides."
+msgstr "エンジンなし: 両方を指します。"
+
+#: cgchess/cgchess.c:897
+#, c-format
+msgid "The engine's move, %s, is not a legal move here."
+msgstr "エンジンの手 %s はこの局面では指せません。"
+
+#: cgchess/cgchess.c:911
+#, c-format
+msgid "Try %s."
+msgstr "%s はどうでしょう。"
+
+#: cgchess/cgchess.c:958
+msgid "White's time is up: Black wins."
+msgstr "白の時間切れ: 黒の勝ちです。"
+
+#: cgchess/cgchess.c:959
+msgid "Black's time is up: White wins."
+msgstr "黒の時間切れ: 白の勝ちです。"
+
+#: cgchess/cgchess.c:960
+msgid "Your time is up: the computer wins."
+msgstr "あなたの時間切れ: コンピューターの勝ちです。"
+
+#: cgchess/cgchess.c:961
+msgid "The computer's time is up: you win."
+msgstr "コンピューターの時間切れ: あなたの勝ちです。"
+
+#: cgchess/cgchess.c:1000 cghanafuda/kabu-game.c:249
+#: cghanafuda/koikoi-game.c:422 cghearts/cghearts.c:1086
+msgid "Play Again"
+msgstr "もう一度"
+
+#: cgchess/cgchess.c:1000 cghanafuda/chart.c:260 cghanafuda/kabu-game.c:249
+#: cghanafuda/koikoi-game.c:422 cghearts/cghearts.c:1086
+#: common/games-dialogs.c:305 common/games-scores.c:380
+msgid "Close"
+msgstr "閉じる"
+
+#: cgchess/cgchess.c:1022
+msgid "Checkmate: Black wins."
+msgstr "チェックメイト: 黒の勝ちです。"
+
+#: cgchess/cgchess.c:1023
+msgid "Checkmate: White wins."
+msgstr "チェックメイト: 白の勝ちです。"
+
+#: cgchess/cgchess.c:1024
+msgid "Checkmate: the computer wins."
+msgstr "チェックメイト: コンピューターの勝ちです。"
+
+#: cgchess/cgchess.c:1025
+msgid "Checkmate: you win."
+msgstr "チェックメイト: あなたの勝ちです。"
+
+#: cgchess/cgchess.c:1028
+msgid "Stalemate: a draw."
+msgstr "ステイルメイト: 引き分けです。"
+
+#: cgchess/cgchess.c:1031
+msgid "Fifty moves without a capture or a pawn's move: a draw."
+msgstr "駒取りもポーンの手もなく 50 手: 引き分けです。"
+
+#: cgchess/cgchess.c:1034
+msgid "Neither side can mate: a draw."
+msgstr "どちらもメイトできません: 引き分けです。"
+
+#: cgchess/cgchess.c:1037
+msgid "The same position three times: a draw."
+msgstr "同じ局面が 3 回: 引き分けです。"
+
+#: cgchess/cgchess.c:1068
+#, c-format
+msgid "White plays %s."
+msgstr "白は %s。"
+
+#: cgchess/cgchess.c:1069
+#, c-format
+msgid "Black plays %s."
+msgstr "黒は %s。"
+
+#: cgchess/cgchess.c:1086
+msgid "Thinking..."
+msgstr "考え中..."
+
+#: cgchess/cgchess.c:1118
+msgid "Queen"
+msgstr "クイーン"
+
+#: cgchess/cgchess.c:1118
+msgid "Rook"
+msgstr "ルーク"
+
+#: cgchess/cgchess.c:1118
+msgid "Bishop"
+msgstr "ビショップ"
+
+#: cgchess/cgchess.c:1118
+msgid "Knight"
+msgstr "ナイト"
+
+#: cgchess/cgchess.c:1130
+msgid "What does the pawn become?"
+msgstr "ポーンを何に成らせますか?"
+
+#: cgchess/cgchess.c:1279
+msgid "You play White."
+msgstr "あなたは白です。"
+
+#: cgchess/cgchess.c:1280
+msgid "You play Black."
+msgstr "あなたは黒です。"
+
+#: cgchess/cgchess.c:1307
+msgid "Move taken back."
+msgstr "手を戻しました。"
+
+#: cgchess/cgchess.c:1316
+msgid "Thinking of a move for you..."
+msgstr "あなたの手を考え中..."
+
+#: cgchess/cgchess.c:1454 cgchess/cgchess.c:1533
+msgid "Its starting position, in FEN, can't be read."
+msgstr "開始局面の FEN が読めません。"
+
+#: cgchess/cgchess.c:1523
+msgid "It has too many moves."
+msgstr "手数が多すぎます。"
+
+#: cgchess/cgchess.c:1525
+#, c-format
+msgid "Its move %d, %s, is not a legal move there."
+msgstr "%d 手目の %s はその局面では指せません。"
+
+#: cgchess/cgchess.c:1587
+#, c-format
+msgid "The game could not be saved in %s: %s."
+msgstr "%s に対局を保存できませんでした: %s。"
+
+#: cgchess/cgchess.c:1591
+#, c-format
+msgid "Game saved in %s."
+msgstr "%s に対局を保存しました。"
+
+#: cgchess/cgchess.c:1604
+#, c-format
+msgid "%s could not be opened: %s."
+msgstr "%s を開けませんでした: %s。"
+
+#: cgchess/cgchess.c:1620
+#, c-format
+msgid "%s is not a game that can be opened. %s"
+msgstr "%s は開ける対局ではありません。%s"
+
+#: cgchess/cgchess.c:1629
+#, c-format
+msgid "Opened %s: the game ended %s."
+msgstr "%s を開きました: 結果は %s でした。"
+
+#: cgchess/cgchess.c:1631
+#, c-format
+msgid "Opened %s."
+msgstr "%s を開きました。"
+
+#: cgchess/cgchess.c:1654
+msgid "Save Game"
+msgstr "対局を保存"
+
+#: cgchess/cgchess.c:1655
+msgid "Open Game"
+msgstr "対局を開く"
+
+#: cgchess/cgchess.c:1774
+#, c-format
+msgid "The engine %s could not be started: you play both sides."
+msgstr "エンジン %s を起動できません: 両方を指します。"
+
+#: cgchess/cgchess.c:1779
+#, c-format
+msgid "The engine is now %s."
+msgstr "エンジンを %s にしました。"
+
+#: cgchess/cgchess.c:1838
+msgid "The clock changes from the next game."
+msgstr "持ち時間は次の対局から変わります。"
+
+#: cgchess/cgchess.c:1854
+msgid "Those pieces could not be read."
+msgstr "その駒を読み込めませんでした。"
+
+#: cgchess/cgchess.c:1862
+msgid "You play White from the next game."
+msgstr "次の対局からあなたは白です。"
+
+#: cgchess/cgchess.c:1863
+msgid "You play Black from the next game."
+msgstr "次の対局からあなたは黒です。"
+
+#: cgchess/cgchess.c:1972 cgfreecell/cgfreecell.c:1915
+#: cghanafuda/cghanafuda.c:333 cgsolitaire/cgsolitaire.c:1880
+msgid "Options"
+msgstr "オプション"
+
+#: cgchess/cgchess.c:1981
+msgid "You play"
+msgstr "あなたの色"
+
+#: cgchess/cgchess.c:1982 cgchess/cgchess.c:2309
+msgid "White"
+msgstr "白"
+
+#: cgchess/cgchess.c:1983 cgchess/cgchess.c:2309
+msgid "Black"
+msgstr "黒"
+
+#: cgchess/cgchess.c:1986
+msgid "Pieces"
+msgstr "駒"
+
+#: cgchess/cgchess.c:1991
+msgid "Board"
+msgstr "盤"
+
+#: cgchess/cgchess.c:1999
+msgid "The computer thinks"
+msgstr "コンピューターの思考"
+
+#: cgchess/cgchess.c:2003
+msgid "To a depth of"
+msgstr "読みの深さ"
+
+#: cgchess/cgchess.c:2004
+msgid "half-moves"
+msgstr "手"
+
+#: cgchess/cgchess.c:2006
+msgid "For"
+msgstr "1 手"
+
+#: cgchess/cgchess.c:2008
+msgid "seconds a move"
+msgstr "秒"
+
+#: cgchess/cgchess.c:2019
+msgid "At a skill of"
+msgstr "強さ"
+
+#: cgchess/cgchess.c:2021
+msgid "out of 100"
+msgstr "/ 100"
+
+#: cgchess/cgchess.c:2024
+msgid "Clock"
+msgstr "持ち時間"
+
+#: cgchess/cgchess.c:2030
+#, c-format
+msgid "%d minutes a side"
+msgstr "各 %d 分"
+
+#: cgchess/cgchess.c:2033 cgsolitaire/cgsolitaire.c:1869
+msgid "None"
+msgstr "なし"
+
+#: cgchess/cgchess.c:2039
+msgid "Engine"
+msgstr "エンジン"
+
+#: cgchess/cgchess.c:2051
+#, c-format
+msgid "%s (not installed)"
+msgstr "%s (未インストール)"
+
+#: cgchess/cgchess.c:2062
+msgid "Another UCI engine:"
+msgstr "その他の UCI エンジン:"
+
+#: cgchess/cgchess.c:2082 cgfreecell/cgfreecell.c:1928
+#: cgfreecell/cgfreecell.c:2001 cgfreecell/cgfreecell.c:2116
+#: cghanafuda/cghanafuda.c:388 cghearts/cghearts.c:987
+#: cghearts/cghearts.c:1326 cgmahjong/cgmahjong.c:858
+#: cgmahjong/cgmahjong.c:989 cgmahjong/cgmahjong.c:1370
+#: cgminesweep/cgminesweep.c:679 cgsolitaire/cgsolitaire.c:1929
+#: cgsolitaire/cgsolitaire.c:2080 common/games-dialogs.c:88
+msgid "OK"
+msgstr "OK"
+
+#: cgchess/cgchess.c:2085 cgfreecell/cgfreecell.c:1931
+#: cgfreecell/cgfreecell.c:2004 cghanafuda/cghanafuda.c:391
+#: cghearts/cghearts.c:1329 cgmahjong/cgmahjong.c:858
+#: cgmahjong/cgmahjong.c:992 cgmahjong/cgmahjong.c:1373
+#: cgminesweep/cgminesweep.c:682 cgsolitaire/cgsolitaire.c:1932
+#: cgsolitaire/cgsolitaire.c:2083
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: cgchess/cgchess.c:2106
+msgid "Classic GUI Chess"
+msgstr "Classic GUI チェス"
+
+#: cgchess/cgchess.c:2180 cgfreecell/cgfreecell.c:2225
+#: cghanafuda/cghanafuda.c:543 cghearts/cghearts.c:1388
+#: cgmahjong/cgmahjong.c:1442 cgminesweep/cgminesweep.c:726
+#: cgsolitaire/cgsolitaire.c:2132
+msgid "/_Game"
+msgstr "/ゲーム(_G)"
+
+#: cgchess/cgchess.c:2181 cgfreecell/cgfreecell.c:2226
+#: cghanafuda/cghanafuda.c:544 cghearts/cghearts.c:1389
+#: cgmahjong/cgmahjong.c:1443 cgminesweep/cgminesweep.c:727
+msgid "/Game/_New Game"
+msgstr "/ゲーム(G)/新しいゲーム(_N)"
+
+#: cgchess/cgchess.c:2183
+msgid "/Game/_Open Game..."
+msgstr "/ゲーム(G)/対局を開く(_O)..."
+
+#: cgchess/cgchess.c:2185
+msgid "/Game/_Save Game..."
+msgstr "/ゲーム(G)/対局を保存(_S)..."
+
+#: cgchess/cgchess.c:2188 cgmahjong/cgmahjong.c:1450
+msgid "/Game/_Undo Move"
+msgstr "/ゲーム(G)/一手戻す(_U)"
+
+#: cgchess/cgchess.c:2190 cghanafuda/cghanafuda.c:546
+#: cgmahjong/cgmahjong.c:1454
+msgid "/Game/_Hint"
+msgstr "/ゲーム(G)/ヒント(_H)"
+
+#: cgchess/cgchess.c:2193 cgfreecell/cgfreecell.c:2235
+#: cghanafuda/cghanafuda.c:554 cgsolitaire/cgsolitaire.c:2138
+msgid "/Game/O_ptions..."
+msgstr "/ゲーム(G)/オプション(_P)..."
+
+#: cgchess/cgchess.c:2196 cgfreecell/cgfreecell.c:2240
+#: cghanafuda/cghanafuda.c:557 cghearts/cghearts.c:1396
+#: cgmahjong/cgmahjong.c:1462 cgminesweep/cgminesweep.c:733
+#: cgsolitaire/cgsolitaire.c:2141
+msgid "/Game/E_xit"
+msgstr "/ゲーム(G)/終了(_X)"
+
+#: cgchess/cgchess.c:2198
+msgid "/_View"
+msgstr "/表示(_V)"
+
+#: cgchess/cgchess.c:2199
+msgid "/View/_Coordinates"
+msgstr "/表示(V)/座標(_C)"
+
+#: cgchess/cgchess.c:2201
+msgid "/View/_Move List"
+msgstr "/表示(V)/棋譜(_M)"
+
+#: cgchess/cgchess.c:2204
+msgid "/View/_Flip Board"
+msgstr "/表示(V)/盤を反転(_F)"
+
+#: cgchess/cgchess.c:2206 cgfreecell/cgfreecell.c:2242
+#: cghanafuda/cghanafuda.c:559 cghearts/cghearts.c:1398
+#: cgmahjong/cgmahjong.c:1470 cgminesweep/cgminesweep.c:740
+#: cgsolitaire/cgsolitaire.c:2143
+msgid "/_Help"
+msgstr "/ヘルプ(_H)"
+
+#: cgchess/cgchess.c:2207
+msgid "/Help/_About Chess..."
+msgstr "/ヘルプ(H)/チェスについて(_A)..."
+
+#: cgchess/cgchess.c:2262
+#, c-format
+msgid "%s: the pieces' pictures could not be read\n"
+msgstr "%s: 駒の画像を読み込めませんでした\n"
+
+#: cgchess/pieces.c:34
+msgid "Merida"
+msgstr "Merida"
+
+#: cgchess/pieces.c:34
+msgid "Burnett"
+msgstr "Burnett"
+
+#: cgfreecell/cgfreecell.c:36 cgfreecell/cgfreecell.c:1367
+#: cgfreecell/cgfreecell.c:1593 cgfreecell/cgfreecell.c:2181
+msgid "FreeCell"
+msgstr "フリーセル"
+
+#: cgfreecell/cgfreecell.c:956
+#, c-format
+msgid "Cards Left: %d"
+msgstr "残りのカード: %d"
+
+#: cgfreecell/cgfreecell.c:968
+#, c-format
+msgid "FreeCell Game #%d"
+msgstr "フリーセル ゲーム番号 %d"
+
+#: cgfreecell/cgfreecell.c:1368
+msgid "That move is not allowed."
+msgstr "その移動はできません。"
+
+#: cgfreecell/cgfreecell.c:1411
+msgid "Move column"
+msgstr "列ごと移動"
+
+#: cgfreecell/cgfreecell.c:1411
+msgid "Move single card"
+msgstr "1 枚だけ移動"
+
+#: cgfreecell/cgfreecell.c:1417
+msgid "Move to Empty Column"
+msgstr "空いた列への移動"
+
+#: cgfreecell/cgfreecell.c:1418
+msgid "Move the column, or a single card?"
+msgstr "列ごと移動しますか、それとも 1 枚だけですか?"
+
+#: cgfreecell/cgfreecell.c:1437
+#, c-format
+msgid ""
+"That move requires moving %d cards. You only have enough free space to move "
+"%d cards."
+msgstr "この移動には %d 枚のカードを動かす必要があります。空きは %d 枚分しかありません。"
+
+#: cgfreecell/cgfreecell.c:1594 cgfreecell/cgfreecell.c:2182
+msgid "Do you want to resign this game?"
+msgstr "このゲームを投了しますか?"
+
+#: cgfreecell/cgfreecell.c:1594 cgfreecell/cgfreecell.c:1653
+#: cgfreecell/cgfreecell.c:2182 cgmahjong/cgmahjong.c:649
+#: cgsolitaire/cgsolitaire.c:1258
+msgid "Yes"
+msgstr "はい"
+
+#: cgfreecell/cgfreecell.c:1594 cgfreecell/cgfreecell.c:1656
+#: cgfreecell/cgfreecell.c:2182 cgmahjong/cgmahjong.c:649
+#: cgsolitaire/cgsolitaire.c:1258
+msgid "No"
+msgstr "いいえ"
+
+#: cgfreecell/cgfreecell.c:1634
+msgid "Game Over"
+msgstr "ゲーム終了"
+
+#: cgfreecell/cgfreecell.c:1640
+msgid "Congratulations, you win!"
+msgstr "おめでとうございます。あなたの勝ちです!"
+
+#: cgfreecell/cgfreecell.c:1641
+msgid "Sorry, you lose."
+msgstr "残念、あなたの負けです。"
+
+#: cgfreecell/cgfreecell.c:1644
+msgid "Do you want to play again?"
+msgstr "もう一度プレイしますか?"
+
+#: cgfreecell/cgfreecell.c:1647
+msgid "Select game"
+msgstr "ゲームの選択"
+
+#: cgfreecell/cgfreecell.c:1648
+msgid "Same game"
+msgstr "同じゲーム"
+
+#: cgfreecell/cgfreecell.c:1921
+msgid "Display messages on illegal moves"
+msgstr "できない移動をメッセージで知らせる"
+
+#: cgfreecell/cgfreecell.c:1922
+msgid "Quick play (no animation)"
+msgstr "高速プレイ (アニメーションなし)"
+
+#: cgfreecell/cgfreecell.c:1923
+msgid "Double-click moves card to free cell"
+msgstr "ダブルクリックでカードをフリーセルへ移動"
+
+#: cgfreecell/cgfreecell.c:1960
+#, c-format
+msgid "Select a game number from 1 to %d."
+msgstr "1 から %d までのゲーム番号を選んでください。"
+
+#: cgfreecell/cgfreecell.c:1961 cgfreecell/cgfreecell.c:1980
+msgid "Game Number"
+msgstr "ゲーム番号"
+
+#: cgfreecell/cgfreecell.c:1986
+#, c-format
+msgid "Select a game number from 1 to %d:"
+msgstr "1 から %d までのゲーム番号を選んでください:"
+
+#: cgfreecell/cgfreecell.c:2050
+#, c-format
+msgid "%d win"
+msgid_plural "%d wins"
+msgstr[0] "%d 勝"
+
+#: cgfreecell/cgfreecell.c:2053
+#, c-format
+msgid "%d loss"
+msgid_plural "%d losses"
+msgstr[0] "%d 敗"
+
+#: cgfreecell/cgfreecell.c:2074
+msgid "This session:"
+msgstr "このセッション:"
+
+#: cgfreecell/cgfreecell.c:2074 cgfreecell/cgfreecell.c:2075
+msgid "won:"
+msgstr "勝ち:"
+
+#: cgfreecell/cgfreecell.c:2074 cgfreecell/cgfreecell.c:2075
+msgid "lost:"
+msgstr "負け:"
+
+#: cgfreecell/cgfreecell.c:2075
+msgid "Total:"
+msgstr "合計:"
+
+#: cgfreecell/cgfreecell.c:2076
+msgid "Streaks:"
+msgstr "連続記録:"
+
+#: cgfreecell/cgfreecell.c:2076
+msgid "wins:"
+msgstr "連勝:"
+
+#: cgfreecell/cgfreecell.c:2076
+msgid "losses:"
+msgstr "連敗:"
+
+#: cgfreecell/cgfreecell.c:2076
+msgid "current:"
+msgstr "現在:"
+
+#: cgfreecell/cgfreecell.c:2088
+msgid "FreeCell Statistics"
+msgstr "フリーセルの成績"
+
+#: cgfreecell/cgfreecell.c:2120
+msgid "Clear"
+msgstr "消去"
+
+#: cgfreecell/cgfreecell.c:2136
+msgid "Classic GUI FreeCell"
+msgstr "Classic GUI フリーセル"
+
+#: cgfreecell/cgfreecell.c:2228
+msgid "/Game/_Select Game..."
+msgstr "/ゲーム(G)/ゲームの選択(_S)..."
+
+#: cgfreecell/cgfreecell.c:2230 cgmahjong/cgmahjong.c:1447
+msgid "/Game/_Restart Game"
+msgstr "/ゲーム(G)/最初からやり直す(_R)"
+
+#: cgfreecell/cgfreecell.c:2233
+msgid "/Game/S_tatistics..."
+msgstr "/ゲーム(G)/成績(_T)..."
+
+#: cgfreecell/cgfreecell.c:2238 cgsolitaire/cgsolitaire.c:2135
+msgid "/Game/_Undo"
+msgstr "/ゲーム(G)/元に戻す(_U)"
+
+#: cgfreecell/cgfreecell.c:2243
+msgid "/Help/_About FreeCell..."
+msgstr "/ヘルプ(H)/フリーセルについて(_A)..."
+
+#: cgfreecell/cgfreecell.c:2292 cghanafuda/cghanafuda.c:624
+#: cghearts/cghearts.c:1452 cgsolitaire/cgsolitaire.c:2186
+#, c-format
+msgid "%s: the card images could not be read\n"
+msgstr "%s: カードの画像を読み込めませんでした\n"
+
+#: cghanafuda/cghanafuda.c:226
+msgid "The next game will be the one chosen."
+msgstr "次のゲームは選んだものになります。"
+
+#: cghanafuda/cghanafuda.c:234
+#, c-format
+msgid "Play %s"
+msgstr "%s で遊ぶ"
+
+#: cghanafuda/cghanafuda.c:234 cgmahjong/cgmahjong.c:1292
+msgid "Continue Playing"
+msgstr "このまま続ける"
+
+#: cghanafuda/cghanafuda.c:246
+#, c-format
+msgid ""
+"Do you want to start a game of %s now?\n"
+"\n"
+"If you continue playing, the next game will\n"
+"be %s."
+msgstr ""
+"今すぐ %s を始めますか?\n"
+"\n"
+"このまま続けると、次のゲームが\n"
+"%s になります。"
+
+#: cghanafuda/cghanafuda.c:291
+msgid "Those cards could not be read."
+msgstr "そのカードを読み込めませんでした。"
+
+#: cghanafuda/cghanafuda.c:294
+msgid "The number of rounds holds from the next game."
+msgstr "回数は次のゲームから変わります。"
+
+#: cghanafuda/cghanafuda.c:323
+msgid "3 rounds"
+msgstr "3 回戦"
+
+#: cghanafuda/cghanafuda.c:323
+msgid "6 rounds"
+msgstr "6 回戦"
+
+#: cghanafuda/cghanafuda.c:323
+msgid "12 rounds"
+msgstr "12 回戦"
+
+#: cghanafuda/cghanafuda.c:334
+msgid "Green felt"
+msgstr "緑のフェルト"
+
+#: cghanafuda/cghanafuda.c:334
+msgid "Tatami"
+msgstr "畳"
+
+#: cghanafuda/cghanafuda.c:375
+msgid "Table"
+msgstr "テーブル"
+
+#: cghanafuda/cghanafuda.c:342 cghanafuda/chart.c:437
+msgid "Cards"
+msgstr "札"
+
+#: cghanafuda/cghanafuda.c:352
+msgid "Length"
+msgstr "長さ"
+
+#: cghanafuda/cghanafuda.c:364 cghanafuda/koikoi-game.c:699
+#: cghanafuda/koikoi-game.c:1151 cghanafuda/koikoi-game.c:1156
+msgid "Koi-Koi"
+msgstr "こいこい"
+
+#: cghanafuda/cghanafuda.c:365
+msgid "The sake cup is a plain card too"
+msgstr "盃をカスとしても数える"
+
+#: cghanafuda/cghanafuda.c:367
+msgid "The rain man spoils the viewing yaku"
+msgstr "雨の小野道風は花見・月見を無効にする"
+
+#: cghanafuda/cghanafuda.c:369
+msgid "Seven points or more count double"
+msgstr "7 点以上は倍"
+
+#: cghanafuda/cghanafuda.c:371
+msgid "Winning after the other's koi-koi doubles"
+msgstr "相手のこいこいの後の上がりは倍"
+
+#: cghanafuda/cghanafuda.c:373
+msgid "Koi-koi may be called again on more points"
+msgstr "点が増えれば再びこいこいできる"
+
+#: cghanafuda/cghanafuda.c:375
+msgid "With no yaku, the dealer takes 6 points"
+msgstr "役なしのときは親が 6 点"
+
+#: cghanafuda/cghanafuda.c:378 cghanafuda/kabu-game.c:849
+#: cghanafuda/kabu-game.c:854
+msgid "Oicho-Kabu"
+msgstr "おいちょかぶ"
+
+#: cghanafuda/cghanafuda.c:379
+msgid "A tie goes to the dealer"
+msgstr "同点は親の勝ち"
+
+#: cghanafuda/cghanafuda.c:381
+msgid "Learning"
+msgstr "練習"
+
+#: cghanafuda/cghanafuda.c:382
+msgid ""
+"Light the cards that match, name the cards under the pointer,\n"
+"and say what the computer would do"
+msgstr ""
+"合う札を光らせ、ポインターの下の札の名前を出し、\n"
+"コンピューターならどうするかを示す"
+
+#: cghanafuda/cghanafuda.c:408
+msgid "Classic GUI Hanafuda"
+msgstr "Classic GUI 花札"
+
+#: cghanafuda/cghanafuda.c:487
+msgid "The game being played will be played next too."
+msgstr "今のゲームが次も遊ばれます。"
+
+#: cghanafuda/cghanafuda.c:549
+msgid "/Game/_Koi-Koi"
+msgstr "/ゲーム(G)/こいこい(_K)"
+
+#: cghanafuda/cghanafuda.c:551
+msgid "/Game/Oi_cho-Kabu"
+msgstr "/ゲーム(G)/おいちょかぶ(_C)"
+
+#: cghanafuda/cghanafuda.c:560
+msgid "/Help/_Rules..."
+msgstr "/ヘルプ(H)/ルール(_R)..."
+
+#: cghanafuda/cghanafuda.c:562
+msgid "/Help/_Yaku..."
+msgstr "/ヘルプ(H)/役(_Y)..."
+
+#: cghanafuda/cghanafuda.c:564
+msgid "/Help/_Cards..."
+msgstr "/ヘルプ(H)/札(_C)..."
+
+#: cghanafuda/cghanafuda.c:567
+msgid "/Help/_About Hanafuda..."
+msgstr "/ヘルプ(H)/花札について(_A)..."
+
+#: cghanafuda/chart.c:58
+msgid "Brights"
+msgstr "光札"
+
+#: cghanafuda/chart.c:58
+msgid ""
+"Sanko 5: three, not the rain man\n"
+"Shiko 8: four, not him\n"
+"Ame-shiko 7: four with him\n"
+"Goko 10: all five"
+msgstr ""
+"三光 5: 3 枚、道風を除く\n"
+"四光 8: 4 枚、道風を除く\n"
+"雨四光 7: 道風を含む 4 枚\n"
+"五光 10: 5 枚すべて"
+
+#: cghanafuda/chart.c:64
+msgid "Ino-shika-cho 5"
+msgstr "猪鹿蝶 5"
+
+#: cghanafuda/chart.c:64
+msgid "and 1 for each other animal"
+msgstr "ほかのタネ 1 枚ごとに 1"
+
+#: cghanafuda/chart.c:66
+msgid "Akatan 5"
+msgstr "赤短 5"
+
+#: cghanafuda/chart.c:66
+msgid ""
+"and 1 for each other ribbon;\n"
+"with Aotan, 10 for both"
+msgstr ""
+"ほかの短冊 1 枚ごとに 1;\n"
+"青短と合わせて 10"
+
+#: cghanafuda/chart.c:70
+msgid "Aotan 5"
+msgstr "青短 5"
+
+#: cghanafuda/chart.c:70
+msgid "and 1 for each other ribbon"
+msgstr "ほかの短冊 1 枚ごとに 1"
+
+#: cghanafuda/chart.c:73
+msgid "Hanami-zake 5"
+msgstr "花見で一杯 5"
+
+#: cghanafuda/chart.c:73
+msgid "cherry blossom viewing"
+msgstr "花見"
+
+#: cghanafuda/chart.c:75
+msgid "Tsukimi-zake 5"
+msgstr "月見で一杯 5"
+
+#: cghanafuda/chart.c:75
+msgid "moon viewing"
+msgstr "月見"
+
+#: cghanafuda/chart.c:77
+msgid "Tane 1"
+msgstr "タネ 1"
+
+#: cghanafuda/chart.c:77
+msgid ""
+"any five animals,\n"
+"and 1 for each more"
+msgstr ""
+"タネ 5 枚で、\n"
+"1 枚増えるごとに 1"
+
+#: cghanafuda/chart.c:79
+msgid "Tan 1"
+msgstr "タン 1"
+
+#: cghanafuda/chart.c:79
+msgid ""
+"any five ribbons,\n"
+"and 1 for each more"
+msgstr ""
+"短冊 5 枚で、\n"
+"1 枚増えるごとに 1"
+
+#: cghanafuda/chart.c:81
+msgid "Kasu 1"
+msgstr "カス 1"
+
+#: cghanafuda/chart.c:81
+msgid ""
+"any ten plain cards,\n"
+"and 1 for each more"
+msgstr ""
+"カス 10 枚で、\n"
+"1 枚増えるごとに 1"
+
+#: cghanafuda/chart.c:274 cghearts/cghearts.c:51
+msgid "You"
+msgstr "あなた"
+
+#: cghanafuda/chart.c:274
+msgid "The computer"
+msgstr "コンピューター"
+
+#: cghanafuda/chart.c:280
+#, c-format
+msgid "%s: made, %d point"
+msgid_plural "%s: made, %d points"
+msgstr[0] "%s: 成立、%d 点"
+
+#: cghanafuda/chart.c:296
+#, c-format
+msgid "%s: %d of %d"
+msgstr "%s: %d / %d"
+
+#: cghanafuda/chart.c:363
+msgid "The plain cards: two in most months, and the sake cup too."
+msgstr "カス: たいていの月に 2 枚、それに盃も。"
+
+#: cghanafuda/chart.c:365
+msgid "The plain cards: two in most months."
+msgstr "カス: たいていの月に 2 枚。"
+
+#: cghanafuda/chart.c:373
+msgid "Yaku"
+msgstr "役"
+
+#: cghanafuda/chart.c:374
+msgid ""
+"Your cards are shown as they are, the computer's dark, and those still to be won faded.\n"
+"A card one player has is lost to the other: the yaku the other needed it for can't be made."
+msgstr ""
+"あなたの札はそのまま、コンピューターの札は暗く、まだ取られていない札は薄く表示されます。\n"
+"一方が取った札はもう一方には使えません。その札が必要な役は作れなくなります。"
+
+#: cghanafuda/chart.c:385
+msgid "bright"
+msgstr "光"
+
+#: cghanafuda/chart.c:385
+msgid "animal"
+msgstr "タネ"
+
+#: cghanafuda/chart.c:385
+msgid "ribbon"
+msgstr "短冊"
+
+#: cghanafuda/chart.c:385
+msgid "plain"
+msgstr "カス"
+
+#: cghanafuda/chart.c:438
+msgid ""
+"The cards a month at a time, those worth most first; the rest are plain.\n"
+"A card matches the others of its month. Those taken are shown darker."
+msgstr ""
+"札を月ごとに、点の高いものから並べています。残りはカスです。\n"
+"札は同じ月の札と合います。取られた札は暗く表示されます。"
+
+#: cghanafuda/hanafuda.c:47
+msgid "Traditional"
+msgstr "伝統的"
+
+#: cghanafuda/hanafuda.c:47
+msgid "Light"
+msgstr "明るい色"
+
+#: cghanafuda/hanafuda.c:56
+msgid "Red border"
+msgstr "赤い縁"
+
+#: cghanafuda/hanafuda.c:56
+msgid "Black border"
+msgstr "黒い縁"
+
+#: cghanafuda/kabu-game.c:204
+#, c-format
+msgid "Chips: %d"
+msgstr "チップ: %d"
+
+#: cghanafuda/kabu-game.c:206
+#, c-format
+msgid "Bet: %d"
+msgstr "賭け: %d"
+
+#: cghanafuda/kabu-game.c:208 cghanafuda/koikoi-game.c:379
+#, c-format
+msgid "Round %d of %d"
+msgstr "第 %d 回戦 / %d"
+
+#: cghanafuda/kabu-game.c:217
+#, c-format
+msgid "%d chip"
+msgid_plural "%d chips"
+msgstr[0] "%d 枚"
+
+#: cghanafuda/kabu-game.c:257
+msgid "You have lost all your chips."
+msgstr "チップをすべて失いました。"
+
+#: cghanafuda/kabu-game.c:259
+#, c-format
+msgid "You finish with %d chips, %s more than you began with."
+msgstr "チップ %d 枚で終了、始めより %s 多くなりました。"
+
+#: cghanafuda/kabu-game.c:262
+#, c-format
+msgid "You finish with %d chips, %s fewer than you began with."
+msgstr "チップ %d 枚で終了、始めより %s 少なくなりました。"
+
+#: cghanafuda/kabu-game.c:265
+#, c-format
+msgid "You finish with %d chips, as many as you began with."
+msgstr "チップ %d 枚で終了、始めと同じです。"
+
+#: cghanafuda/kabu-game.c:295
+#, c-format
+msgid "%s has arashi, three of a month, making %d"
+msgstr "%s: 嵐、同じ月の 3 枚で %d"
+
+#: cghanafuda/kabu-game.c:298
+#, c-format
+msgid "%s has kuppin, nine and one"
+msgstr "%s: クッピン、九と一"
+
+#: cghanafuda/kabu-game.c:300
+#, c-format
+msgid "%s has shippin, four and one"
+msgstr "%s: シッピン、四と一"
+
+#: cghanafuda/kabu-game.c:301
+#, c-format
+msgid "%s makes %d"
+msgstr "%s: %d"
+
+#: cghanafuda/kabu-game.c:308 cghanafuda/koikoi-game.c:466
+msgid "Next Round"
+msgstr "次の回戦"
+
+#: cghanafuda/kabu-game.c:309 cghanafuda/koikoi-game.c:467
+msgid "See the Score"
+msgstr "得点を見る"
+
+#: cghanafuda/kabu-game.c:315
+msgid "The dealer"
+msgstr "親"
+
+#: cghanafuda/kabu-game.c:327
+#, c-format
+msgid "Lane %d"
+msgstr "%d 番"
+
+#: cghanafuda/kabu-game.c:331
+#, c-format
+msgid "%s: you win %s.\n"
+msgstr "%s: %s 勝ちました。\n"
+
+#: cghanafuda/kabu-game.c:333
+#, c-format
+msgid "%s: you lose %s.\n"
+msgstr "%s: %s 負けました。\n"
+
+#: cghanafuda/kabu-game.c:335
+#, c-format
+msgid "%s, the same: your bet stands.\n"
+msgstr "%s、同点: 賭けはそのままです。\n"
+
+#: cghanafuda/kabu-game.c:345
+#, c-format
+msgid ""
+"\n"
+"You win %s."
+msgstr ""
+"\n"
+"%s 勝ちました。"
+
+#: cghanafuda/kabu-game.c:345
+#, c-format
+msgid ""
+"\n"
+"You lose %s."
+msgstr ""
+"\n"
+"%s 負けました。"
+
+#: cghanafuda/kabu-game.c:350
+msgid ""
+"\n"
+"You come out even."
+msgstr ""
+"\n"
+"勝ち負けなしです。"
+
+#: cghanafuda/kabu-game.c:391
+msgid "The dealer turns up its card."
+msgstr "親が札を開けます。"
+
+#: cghanafuda/kabu-game.c:425
+#, c-format
+msgid "Lane %d makes %d, and takes a card."
+msgstr "%d 番は %d で、もう 1 枚取ります。"
+
+#: cghanafuda/kabu-game.c:431
+#, c-format
+msgid ""
+"Lane %d makes %d: click the stock to draw a card, or the lane to stand."
+msgstr "%d 番は %d: 山札をクリックしてもう 1 枚引くか、その列をクリックして止めます。"
+
+#: cghanafuda/kabu-game.c:440
+#, c-format
+msgid "Lane %d has shippin, and stands."
+msgstr "%d 番はシッピンで止めます。"
+
+#: cghanafuda/kabu-game.c:441
+#, c-format
+msgid "Lane %d makes %d, and stands."
+msgstr "%d 番は %d で止めます。"
+
+#: cghanafuda/kabu-game.c:506
+msgid "Bet a chip on a lane or more first."
+msgstr "まず 1 つ以上の列にチップを賭けてください。"
+
+#: cghanafuda/kabu-game.c:515
+#, c-format
+msgid "No more than %d chips a round."
+msgstr "1 回戦に %d 枚までです。"
+
+#: cghanafuda/kabu-game.c:524
+msgid "You have no more chips to bet."
+msgstr "賭けるチップがもうありません。"
+
+#: cghanafuda/kabu-game.c:547
+msgid ""
+"Click a lane to bet a chip on it, right-click to take one back; then click "
+"the stock to deal."
+msgstr "列をクリックしてチップを賭け、右クリックで取り消します。それから山札をクリックして配ります。"
+
+#: cghanafuda/kabu-game.c:588
+#, c-format
+msgid "%s, %s: worth %d."
+msgstr "%s、%s: %d。"
+
+#: cghanafuda/kabu-game.c:603
+#, c-format
+msgid "Lane %d: %d so far, with %s bet."
+msgstr "%d 番: 今のところ %d、賭け %s。"
+
+#: cghanafuda/kabu-game.c:605
+#, c-format
+msgid "Lane %d: %d so far."
+msgstr "%d 番: 今のところ %d。"
+
+#: cghanafuda/kabu-game.c:607
+#, c-format
+msgid "Lane %d: arashi, three of a month."
+msgstr "%d 番: 嵐、同じ月の 3 枚。"
+
+#: cghanafuda/kabu-game.c:609
+#, c-format
+msgid "Lane %d: shippin, four and one."
+msgstr "%d 番: シッピン、四と一。"
+
+#: cghanafuda/kabu-game.c:612
+#, c-format
+msgid "Lane %d makes %d, with %s bet."
+msgstr "%d 番は %d、賭け %s。"
+
+#: cghanafuda/kabu-game.c:614
+#, c-format
+msgid "Lane %d makes %d."
+msgstr "%d 番は %d。"
+
+#: cghanafuda/kabu-game.c:659
+msgid "The dealer's first card, face down until the lanes are played."
+msgstr "親の 1 枚目。各列が終わるまで伏せたままです。"
+
+#: cghanafuda/kabu-game.c:666
+#, c-format
+msgid "%s The dealer makes %d."
+msgstr "%s 親は %d。"
+
+#: cghanafuda/kabu-game.c:673 cghanafuda/koikoi-game.c:1050
+#, c-format
+msgid "The stock: %d card."
+msgid_plural "The stock: %d cards."
+msgstr[0] "山札: %d 枚。"
+
+#: cghanafuda/kabu-game.c:789
+#, c-format
+msgid ""
+"Draw: lane %d wins %d%% of the time drawing and %d%% standing, and loses "
+"%d%% and %d%%."
+msgstr "引く: %d 番は引けば %d%%、止めれば %d%% 勝ち、負けは %d%% と %d%% です。"
+
+#: cghanafuda/kabu-game.c:791
+#, c-format
+msgid ""
+"Stand: lane %d wins %d%% of the time standing and %d%% drawing, and loses "
+"%d%% and %d%%."
+msgstr "止める: %d 番は止めれば %d%%、引けば %d%% 勝ち、負けは %d%% と %d%% です。"
+
+#: cghanafuda/kabu-game.c:808
+#, c-format
+msgid "Lane %d is the best bet: it wins %d%% of the time and loses %d%%."
+msgstr "%d 番がいちばんの賭けどころ: 勝ち %d%%、負け %d%% です。"
+
+#: cghanafuda/kabu-game.c:814 cghanafuda/koikoi-game.c:1089
+msgid "A hint is for when it is your turn."
+msgstr "ヒントはあなたの番のときに使えます。"
+
+#: cghanafuda/kabu-game.c:826
+#, c-format
+msgid ""
+"Oicho-Kabu is played with the forty cards of January to October,\n"
+"each worth its month, January 1 to October 10. A hand is worth\n"
+"the last digit of its sum: 9 is best, and 10 or 20 is nothing.\n"
+"\n"
+"The dealer lays a card face up on each of four lanes, and one\n"
+"face down for itself. Click a lane to bet a chip on it, up to %d\n"
+"a round, right-click to take one back, then click the stock to\n"
+"deal. Each lane gets a second card, and those not bet on a third.\n"
+"A lane bet on that makes 3 or less takes a third too; one that\n"
+"makes 4 to 6, or 9, may: click the stock to draw, or the lane to\n"
+"stand. One that makes 7 or 8 stands. Then the dealer turns its\n"
+"card, takes a second, and a third if it makes 5 or less.\n"
+"\n"
+"A lane worth more than the dealer wins its bet, and one worth\n"
+"less loses it; a tie stands off, or goes to the dealer if the\n"
+"options say so.\n"
+"\n"
+"Arashi: three of a month: wins three times the bet, or the\n"
+"dealer's takes three times; if both have it, the higher wins.\n"
+"Kuppin: the dealer's 9 and 1: beats every lane but arashi.\n"
+"Shippin: a lane's 4 and 1: beats every hand of the dealer's\n"
+"but arashi and kuppin.\n"
+"\n"
+"Game, Hint plays the deal out many times from the cards you\n"
+"can't see, and marks the best lane to bet on, or whether to\n"
+"draw or stand."
+msgstr ""
+"おいちょかぶは 1 月から 10 月までの 40 枚で遊びます。\n"
+"札の値は月の数で、1 月が 1、10 月が 10 です。手の値は合計の\n"
+"下 1 桁です。9 がいちばん強く、10 や 20 はブタ (0) です。\n"
+"\n"
+"親は 4 つの列に 1 枚ずつ表向きに置き、自分には 1 枚伏せて\n"
+"置きます。列をクリックしてチップを賭け (1 回戦に %d 枚まで)、\n"
+"右クリックで取り消し、山札をクリックして配ります。各列に 2 枚目\n"
+"が配られ、賭けていない列には 3 枚目も配られます。賭けた列が\n"
+"3 以下なら 3 枚目を取り、4 から 6 または 9 なら取ってもかまい\n"
+"ません: 山札をクリックすれば引き、列をクリックすれば止めます。\n"
+"7 か 8 なら止めます。そのあと親が札を開け、2 枚目を取り、\n"
+"5 以下なら 3 枚目も取ります。\n"
+"\n"
+"親より値が上の列は賭けを勝ち取り、下の列は負けます。同点は\n"
+"分け、またはオプションの設定により親の勝ちです。\n"
+"\n"
+"嵐: 同じ月の 3 枚: 賭けの 3 倍を勝ち取ります。親の嵐なら 3 倍\n"
+"を取られます。両方が嵐なら高いほうの勝ちです。\n"
+"クッピン: 親の九と一: 嵐以外のすべての列に勝ちます。\n"
+"シッピン: 列の四と一: 嵐とクッピン以外の親の手すべてに\n"
+"勝ちます。\n"
+"\n"
+"[ゲーム] の [ヒント] は、見えていない札で何度も勝負をやり直し、\n"
+"いちばん良い賭け先や、引くか止めるかを示します。"
+
+#: cghanafuda/koikoi-game.c:273
+msgid "Your turn: no card matches, so lay one down."
+msgstr "あなたの番: 合う札がないので 1 枚捨ててください。"
+
+#: cghanafuda/koikoi-game.c:275
+msgid "Your turn: the lit cards can take one from the field."
+msgstr "あなたの番: 光っている札で場の札を取れます。"
+
+#: cghanafuda/koikoi-game.c:277
+msgid "Your turn: play a card from your hand."
+msgstr "あなたの番: 手札から 1 枚出してください。"
+
+#: cghanafuda/koikoi-game.c:282
+msgid "Hint: lay the raised card down: click it again."
+msgstr "ヒント: 持ち上げた札を捨てます。もう一度クリックしてください。"
+
+#: cghanafuda/koikoi-game.c:283
+msgid "Hint: play the raised card, and take the marked one."
+msgstr "ヒント: 持ち上げた札を出して、印のついた札を取ります。"
+
+#: cghanafuda/koikoi-game.c:284
+msgid "Hint: play the raised card: click it again, or its match."
+msgstr "ヒント: 持ち上げた札を出します。もう一度クリックするか、合う札をクリックしてください。"
+
+#: cghanafuda/koikoi-game.c:286
+msgid "No match: click it again to lay it down."
+msgstr "合う札なし: もう一度クリックすると場に置きます。"
+
+#: cghanafuda/koikoi-game.c:287
+msgid "Choose which of the two it takes."
+msgstr "2 枚のどちらを取るか選んでください。"
+
+#: cghanafuda/koikoi-game.c:288
+msgid "Click it again, or its match, to take."
+msgstr "もう一度クリックするか、合う札をクリックして取ります。"
+
+#: cghanafuda/koikoi-game.c:291
+msgid "Hint: the drawn card takes the marked one."
+msgstr "ヒント: めくった札で印のついた札を取ります。"
+
+#: cghanafuda/koikoi-game.c:293
+msgid "Choose which card the drawn one takes."
+msgstr "めくった札でどの札を取るか選んでください。"
+
+#: cghanafuda/koikoi-game.c:296
+msgid "The computer's turn."
+msgstr "コンピューターの番です。"
+
+#: cghanafuda/koikoi-game.c:375
+#, c-format
+msgid "You: %d"
+msgstr "あなた: %d"
+
+#: cghanafuda/koikoi-game.c:377
+#, c-format
+msgid "Computer: %d"
+msgstr "コンピューター: %d"
+
+#: cghanafuda/koikoi-game.c:402
+#, c-format
+msgid ", and %d more"
+msgstr "、ほか %d"
+
+#: cghanafuda/koikoi-game.c:430
+#, c-format
+msgid "You win, %d to %d."
+msgstr "あなたの勝ち、%d 対 %d。"
+
+#: cghanafuda/koikoi-game.c:433
+#, c-format
+msgid "The computer wins, %d to %d."
+msgstr "コンピューターの勝ち、%d 対 %d。"
+
+#: cghanafuda/koikoi-game.c:436
+#, c-format
+msgid "A draw, %d all."
+msgstr "引き分け、%d 点ずつ。"
+
+#: cghanafuda/koikoi-game.c:487
+msgid ""
+"The cards ran out after a koi-koi, before another yaku:\n"
+"no one scores."
+msgstr ""
+"こいこいの後、次の役ができる前に札がなくなりました:\n"
+"得点なしです。"
+
+#: cghanafuda/koikoi-game.c:496
+msgid "No one made a yaku. You dealt, so you take 6 points."
+msgstr "誰も役を作れませんでした。あなたが親なので 6 点です。"
+
+#: cghanafuda/koikoi-game.c:498
+msgid "No one made a yaku. The computer dealt, so it takes 6 points."
+msgstr "誰も役を作れませんでした。コンピューターが親なので 6 点です。"
+
+#: cghanafuda/koikoi-game.c:502
+msgid "No one made a yaku: no one scores."
+msgstr "誰も役を作れませんでした: 得点なしです。"
+
+#: cghanafuda/koikoi-game.c:513
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d point, doubled to %d."
+msgid_plural ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d points, doubled to %d."
+msgstr[0] ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d 点、倍で %d 点。"
+
+#: cghanafuda/koikoi-game.c:517 cghanafuda/koikoi-game.c:523
+msgid "You win the round."
+msgstr "あなたがこの回戦の勝ちです。"
+
+#: cghanafuda/koikoi-game.c:518 cghanafuda/koikoi-game.c:524
+msgid "The computer wins the round."
+msgstr "コンピューターがこの回戦の勝ちです。"
+
+#: cghanafuda/koikoi-game.c:521
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d point."
+msgid_plural ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d points."
+msgstr[0] ""
+"%s\n"
+"\n"
+"%s\n"
+"\n"
+"%d 点。"
+
+#: cghanafuda/koikoi-game.c:581
+msgid ""
+"Both hands as dealt are four of a month or four pairs:\n"
+"no one scores."
+msgstr ""
+"配られた手札がどちらも手四か くっつきです:\n"
+"得点なしです。"
+
+#: cghanafuda/koikoi-game.c:589
+msgid "Your hand as dealt wins: four of a month, or four pairs."
+msgstr "配られた手札であなたの勝ち: 手四か くっつきです。"
+
+#: cghanafuda/koikoi-game.c:590
+msgid "The computer's hand as dealt wins: four of a month, or four pairs."
+msgstr "配られた手札でコンピューターの勝ち: 手四か くっつきです。"
+
+#: cghanafuda/koikoi-game.c:601
+msgid "You deal, and lead."
+msgstr "あなたが親で、先手です。"
+
+#: cghanafuda/koikoi-game.c:602
+msgid "The computer deals, and leads."
+msgstr "コンピューターが親で、先手です。"
+
+#: cghanafuda/koikoi-game.c:632
+#, c-format
+msgid "You turned %s (%s), the computer %s (%s): you deal."
+msgstr "あなたは %s (%s)、コンピューターは %s (%s): あなたが親です。"
+
+#: cghanafuda/koikoi-game.c:633
+#, c-format
+msgid "You turned %s (%s), the computer %s (%s): the computer deals."
+msgstr "あなたは %s (%s)、コンピューターは %s (%s): コンピューターが親です。"
+
+#: cghanafuda/koikoi-game.c:664
+msgid "Koi-koi! Play on."
+msgstr "こいこい! 続けます。"
+
+#: cghanafuda/koikoi-game.c:665
+msgid "Koi-koi! The next yaku ends the round."
+msgstr "こいこい! 次の役でこの回戦は終わりです。"
+
+#: cghanafuda/koikoi-game.c:699
+msgid "Stop"
+msgstr "勝負"
+
+#: cghanafuda/koikoi-game.c:702
+#, c-format
+msgid ""
+"%s\n"
+"\n"
+"%d point. Stop and take it, or call koi-koi and play on for more?"
+msgid_plural ""
+"%s\n"
+"\n"
+"%d points. Stop and take them, or call koi-koi and play on for more?"
+msgstr[0] ""
+"%s\n"
+"\n"
+"%d 点。勝負して点を取りますか、それとも こいこい して続けますか?"
+
+#: cghanafuda/koikoi-game.c:715
+msgid ""
+"If you play on and the computer makes a yaku first, it wins\n"
+"the round with its points doubled, and yours count for nothing."
+msgstr ""
+"続けてコンピューターが先に役を作ると、コンピューターが\n"
+"倍の点でこの回戦に勝ち、あなたの点はなくなります。"
+
+#: cghanafuda/koikoi-game.c:718
+msgid ""
+"If you play on and the computer makes a yaku first, it wins\n"
+"the round, and yours count for nothing."
+msgstr ""
+"続けてコンピューターが先に役を作ると、コンピューターが\n"
+"この回戦に勝ち、あなたの点はなくなります。"
+
+#: cghanafuda/koikoi-game.c:721
+msgid "In your place, the computer would call koi-koi."
+msgstr "あなたの立場なら、コンピューターは こいこい します。"
+
+#: cghanafuda/koikoi-game.c:722
+msgid "In your place, the computer would stop."
+msgstr "あなたの立場なら、コンピューターは勝負します。"
+
+#: cghanafuda/koikoi-game.c:744
+msgid "The computer calls koi-koi: a yaku of yours now wins, doubled."
+msgstr "コンピューターが こいこい: あなたが役を作れば倍で勝ちです。"
+
+#: cghanafuda/koikoi-game.c:746
+msgid "The computer calls koi-koi: a yaku of yours now wins."
+msgstr "コンピューターが こいこい: あなたが役を作れば勝ちです。"
+
+#: cghanafuda/koikoi-game.c:951
+msgid "For Goko and Ame-shiko only."
+msgstr "五光と雨四光のみ。"
+
+#: cghanafuda/koikoi-game.c:953
+msgid "For the bright yaku and Hanami-zake."
+msgstr "光の役と花見で一杯に。"
+
+#: cghanafuda/koikoi-game.c:955
+msgid "For the bright yaku and Tsukimi-zake."
+msgstr "光の役と月見で一杯に。"
+
+#: cghanafuda/koikoi-game.c:958
+msgid "For both viewing yaku, Tane and Kasu."
+msgstr "花見・月見、タネ、カスに。"
+
+#: cghanafuda/koikoi-game.c:959
+msgid "For both viewing yaku and Tane."
+msgstr "花見・月見とタネに。"
+
+#: cghanafuda/koikoi-game.c:961
+msgid "For Ino-shika-cho and Tane."
+msgstr "猪鹿蝶とタネに。"
+
+#: cghanafuda/koikoi-game.c:963
+msgid "For Akatan and Tan."
+msgstr "赤短とタンに。"
+
+#: cghanafuda/koikoi-game.c:965
+msgid "For Aotan and Tan."
+msgstr "青短とタンに。"
+
+#: cghanafuda/koikoi-game.c:969
+msgid "For the bright yaku."
+msgstr "光の役に。"
+
+#: cghanafuda/koikoi-game.c:970
+msgid "For Tane."
+msgstr "タネに。"
+
+#: cghanafuda/koikoi-game.c:971
+msgid "For Tan."
+msgstr "タンに。"
+
+#: cghanafuda/koikoi-game.c:972
+msgid "For Kasu."
+msgstr "カスに。"
+
+#: cghanafuda/koikoi-game.c:981
+msgid "a bright"
+msgstr "光札"
+
+#: cghanafuda/koikoi-game.c:981
+msgid "an animal"
+msgstr "タネ"
+
+#: cghanafuda/koikoi-game.c:981
+msgid "a ribbon"
+msgstr "短冊"
+
+#: cghanafuda/koikoi-game.c:981 cghanafuda/koikoi.c:119
+msgid "a plain card"
+msgstr "カス"
+
+#: cghanafuda/koikoi-game.c:1055
+#, c-format
+msgid "The computer's hand: %d card."
+msgid_plural "The computer's hand: %d cards."
+msgstr[0] "コンピューターの手札: %d 枚。"
+
+#: cghanafuda/koikoi-game.c:1114
+msgid ""
+"Match a card from your hand to one of the same month on the field,\n"
+"then turn a card from the stock and do the same. Cards matched are yours.\n"
+"With a yaku, stop and take its points, or call koi-koi and play on.\n"
+msgstr ""
+"手札から場の同じ月の札に 1 枚合わせ、\n"
+"次に山札から 1 枚めくって同じようにします。合わせた札はあなたのものです。\n"
+"役ができたら、勝負して点を取るか、こいこい して続けます。\n"
+
+#: cghanafuda/koikoi-game.c:1121
+msgid ""
+"If the other makes a yaku first, they win the round.\n"
+"\n"
+msgstr ""
+"相手が先に役を作ると、相手がこの回戦に勝ちます。\n"
+"\n"
+
+#: cghanafuda/koikoi-game.c:1123
+msgid ""
+"After a koi-koi, the next yaku ends the round, whoever makes it.\n"
+"\n"
+msgstr ""
+"こいこいの後は、誰が作っても次の役でこの回戦は終わりです。\n"
+"\n"
+
+#: cghanafuda/koikoi-game.c:1125
+msgid ""
+"Goko: the five brights: 10\n"
+"Shiko: four brights without the rain man: 8\n"
+"Ame-shiko: four brights with the rain man: 7\n"
+"Sanko: three brights without the rain man: 5\n"
+"Ino-shika-cho: the boar, the deer and the butterflies: 5, and 1 for each other animal\n"
+"Akatan: the three poem ribbons: 5, and 1 for each other ribbon\n"
+"Aotan: the three blue ribbons: 5, and 1 for each other ribbon\n"
+"Akatan-aotan: both: 10, and 1 for each other ribbon\n"
+"Hanami-zake: the curtain and the sake cup: 5\n"
+"Tsukimi-zake: the moon and the sake cup: 5\n"
+"Tane: five animals: 1, and 1 for each more\n"
+"Tan: five ribbons: 1, and 1 for each more\n"
+"Kasu: ten plain cards: 1, and 1 for each more\n"
+msgstr ""
+"五光: 光札 5 枚: 10\n"
+"四光: 道風を除く光札 4 枚: 8\n"
+"雨四光: 道風を含む光札 4 枚: 7\n"
+"三光: 道風を除く光札 3 枚: 5\n"
+"猪鹿蝶: 猪、鹿、蝶: 5、ほかのタネ 1 枚ごとに 1\n"
+"赤短: 歌の書かれた赤短 3 枚: 5、ほかの短冊 1 枚ごとに 1\n"
+"青短: 青短 3 枚: 5、ほかの短冊 1 枚ごとに 1\n"
+"赤短・青短の重複: 両方: 10、ほかの短冊 1 枚ごとに 1\n"
+"花見で一杯: 幕と盃: 5\n"
+"月見で一杯: 月と盃: 5\n"
+"タネ: タネ 5 枚: 1、1 枚増えるごとに 1\n"
+"タン: 短冊 5 枚: 1、1 枚増えるごとに 1\n"
+"カス: カス 10 枚: 1、1 枚増えるごとに 1\n"
+
+#: cghanafuda/koikoi-game.c:1143
+msgid ""
+"\n"
+"Seven points or more count double."
+msgstr ""
+"\n"
+"7 点以上は倍になります。"
+
+#: cghanafuda/koikoi-game.c:1145
+msgid ""
+"\n"
+"Winning after the other's koi-koi doubles the points."
+msgstr ""
+"\n"
+"相手のこいこいの後に上がると点が倍になります。"
+
+#: cghanafuda/koikoi-game.c:1147
+msgid ""
+"\n"
+"\n"
+"Help, Yaku shows each yaku's cards, and who has them; Help, Cards\n"
+"shows the months. Game, Hint shows what the computer would play."
+msgstr ""
+"\n"
+"\n"
+"[ヘルプ] の [役] で各役の札と誰が持っているかを、[ヘルプ] の [札]\n"
+"で月を見られます。[ゲーム] の [ヒント] でコンピューターならどう打つかを示します。"
+
+#: cghanafuda/koikoi.c:67
+msgid "January"
+msgstr "1 月"
+
+#: cghanafuda/koikoi.c:67
+msgid "February"
+msgstr "2 月"
+
+#: cghanafuda/koikoi.c:67
+msgid "March"
+msgstr "3 月"
+
+#: cghanafuda/koikoi.c:67
+msgid "April"
+msgstr "4 月"
+
+#: cghanafuda/koikoi.c:67
+msgid "May"
+msgstr "5 月"
+
+#: cghanafuda/koikoi.c:68
+msgid "June"
+msgstr "6 月"
+
+#: cghanafuda/koikoi.c:68
+msgid "July"
+msgstr "7 月"
+
+#: cghanafuda/koikoi.c:68
+msgid "August"
+msgstr "8 月"
+
+#: cghanafuda/koikoi.c:68
+msgid "September"
+msgstr "9 月"
+
+#: cghanafuda/koikoi.c:68
+msgid "October"
+msgstr "10 月"
+
+#: cghanafuda/koikoi.c:69
+msgid "November"
+msgstr "11 月"
+
+#: cghanafuda/koikoi.c:69
+msgid "December"
+msgstr "12 月"
+
+#: cghanafuda/koikoi.c:73
+msgid "pine"
+msgstr "松"
+
+#: cghanafuda/koikoi.c:73
+msgid "plum"
+msgstr "梅"
+
+#: cghanafuda/koikoi.c:73
+msgid "cherry"
+msgstr "桜"
+
+#: cghanafuda/koikoi.c:73
+msgid "wisteria"
+msgstr "藤"
+
+#: cghanafuda/koikoi.c:73
+msgid "iris"
+msgstr "菖蒲"
+
+#: cghanafuda/koikoi.c:74
+msgid "peony"
+msgstr "牡丹"
+
+#: cghanafuda/koikoi.c:74
+msgid "bush clover"
+msgstr "萩"
+
+#: cghanafuda/koikoi.c:74
+msgid "pampas grass"
+msgstr "芒"
+
+#: cghanafuda/koikoi.c:74
+msgid "chrysanthemum"
+msgstr "菊"
+
+#: cghanafuda/koikoi.c:75
+msgid "maple"
+msgstr "紅葉"
+
+#: cghanafuda/koikoi.c:75
+msgid "willow"
+msgstr "柳"
+
+#: cghanafuda/koikoi.c:75
+msgid "paulownia"
+msgstr "桐"
+
+#: cghanafuda/koikoi.c:84
+msgid "the crane and the sun"
+msgstr "松に鶴"
+
+#: cghanafuda/koikoi.c:84 cghanafuda/koikoi.c:85 cghanafuda/koikoi.c:86
+msgid "a poem ribbon"
+msgstr "赤短 (歌)"
+
+#: cghanafuda/koikoi.c:85
+msgid "the bush warbler"
+msgstr "梅に鶯"
+
+#: cghanafuda/koikoi.c:86
+msgid "the curtain"
+msgstr "桜に幕"
+
+#: cghanafuda/koikoi.c:87
+msgid "the cuckoo"
+msgstr "藤に不如帰"
+
+#: cghanafuda/koikoi.c:87 cghanafuda/koikoi.c:88 cghanafuda/koikoi.c:90
+#: cghanafuda/koikoi.c:95
+msgid "a red ribbon"
+msgstr "赤短"
+
+#: cghanafuda/koikoi.c:88
+msgid "the eight-plank bridge"
+msgstr "菖蒲に八橋"
+
+#: cghanafuda/koikoi.c:89
+msgid "the butterflies"
+msgstr "牡丹に蝶"
+
+#: cghanafuda/koikoi.c:89 cghanafuda/koikoi.c:92 cghanafuda/koikoi.c:93
+msgid "a blue ribbon"
+msgstr "青短"
+
+#: cghanafuda/koikoi.c:90
+msgid "the boar"
+msgstr "萩に猪"
+
+#: cghanafuda/koikoi.c:91
+msgid "the moon"
+msgstr "芒に月"
+
+#: cghanafuda/koikoi.c:91
+msgid "the geese"
+msgstr "芒に雁"
+
+#: cghanafuda/koikoi.c:92
+msgid "the sake cup"
+msgstr "菊に盃"
+
+#: cghanafuda/koikoi.c:93
+msgid "the deer"
+msgstr "紅葉に鹿"
+
+#: cghanafuda/koikoi.c:94
+msgid "the rain man"
+msgstr "柳に小野道風"
+
+#: cghanafuda/koikoi.c:94
+msgid "the swallow"
+msgstr "柳に燕"
+
+#: cghanafuda/koikoi.c:95
+msgid "the lightning"
+msgstr "柳に雷"
+
+#: cghanafuda/koikoi.c:96
+msgid "the phoenix"
+msgstr "桐に鳳凰"
+
+#: cghanafuda/koikoi.c:166
+msgid "Five brights"
+msgstr "五光"
+
+#: cghanafuda/koikoi.c:170
+msgid "Four brights with rain"
+msgstr "雨四光"
+
+#: cghanafuda/koikoi.c:172
+msgid "Four brights"
+msgstr "四光"
+
+#: cghanafuda/koikoi.c:175
+msgid "Three brights"
+msgstr "三光"
+
+#: cghanafuda/koikoi.c:181
+msgid "Boar, deer and butterflies"
+msgstr "猪鹿蝶"
+
+#: cghanafuda/koikoi.c:184
+msgid "Five animals"
+msgstr "タネ 5 枚"
+
+#: cghanafuda/koikoi.c:190
+msgid "Poem and blue ribbons"
+msgstr "赤短・青短"
+
+#: cghanafuda/koikoi.c:193
+msgid "Poem ribbons"
+msgstr "赤短"
+
+#: cghanafuda/koikoi.c:196
+msgid "Blue ribbons"
+msgstr "青短"
+
+#: cghanafuda/koikoi.c:199
+msgid "Five ribbons"
+msgstr "短冊 5 枚"
+
+#: cghanafuda/koikoi.c:203
+msgid "Cherry blossom viewing"
+msgstr "花見で一杯"
+
+#: cghanafuda/koikoi.c:205
+msgid "Moon viewing"
+msgstr "月見で一杯"
+
+#: cghanafuda/koikoi.c:208
+msgid "Ten plain cards"
+msgstr "カス 10 枚"
+
+#: cghearts/cghearts.c:29 cghearts/cghearts.c:1085
+msgid "Hearts"
+msgstr "ハーツ"
+
+#: cghearts/cghearts.c:51
+msgid "West"
+msgstr "西"
+
+#: cghearts/cghearts.c:51
+msgid "North"
+msgstr "北"
+
+#: cghearts/cghearts.c:51
+msgid "East"
+msgstr "東"
+
+#: cghearts/cghearts.c:538
+msgid "The two of clubs leads."
+msgstr "クラブの 2 から始めます。"
+
+#: cghearts/cghearts.c:541
+msgid "Hearts can't be led until one has been played."
+msgstr "ハートが出されるまで、ハートでは始められません。"
+
+#: cghearts/cghearts.c:545
+msgid "You must follow suit."
+msgstr "同じスートを出してください。"
+
+#: cghearts/cghearts.c:550
+msgid "No points can be played on the first trick."
+msgstr "最初のトリックでは点札を出せません。"
+
+#: cghearts/cghearts.c:739
+msgid "Your lead: the two of clubs."
+msgstr "あなたからです: クラブの 2。"
+
+#: cghearts/cghearts.c:739
+msgid "Your turn."
+msgstr "あなたの番です。"
+
+#: cghearts/cghearts.c:744
+#, c-format
+msgid "%s to play."
+msgstr "%s の番です。"
+
+#: cghearts/cghearts.c:791
+msgid "You take the trick."
+msgstr "あなたがトリックを取りました。"
+
+#: cghearts/cghearts.c:792
+#, c-format
+msgid "%s takes the trick."
+msgstr "%s がトリックを取りました。"
+
+#: cghearts/cghearts.c:890
+msgid "Choose three cards to pass to the left, then click the arrow."
+msgstr "左に渡すカードを 3 枚選んで、矢印をクリックしてください。"
+
+#: cghearts/cghearts.c:891
+msgid "Choose three cards to pass to the right, then click the arrow."
+msgstr "右に渡すカードを 3 枚選んで、矢印をクリックしてください。"
+
+#: cghearts/cghearts.c:892
+msgid "Choose three cards to pass across, then click the arrow."
+msgstr "向かいに渡すカードを 3 枚選んで、矢印をクリックしてください。"
+
+#: cghearts/cghearts.c:948 common/games-scores.c:356
+msgid "Score"
+msgstr "得点"
+
+#: cghearts/cghearts.c:982
+msgid "No hand played yet."
+msgstr "まだ 1 回も遊んでいません。"
+
+#: cghearts/cghearts.c:1043
+msgid "You shot the moon!"
+msgstr "シュート・ザ・ムーンです!"
+
+#: cghearts/cghearts.c:1044
+#, c-format
+msgid "%s shot the moon!"
+msgstr "%s がシュート・ザ・ムーン!"
+
+#: cghearts/cghearts.c:1056
+msgid "The hand is over."
+msgstr "この回は終わりです。"
+
+#: cghearts/cghearts.c:1072
+msgid "You won the game!"
+msgstr "あなたの勝ちです!"
+
+#: cghearts/cghearts.c:1074
+msgid "You tied for the win."
+msgstr "あなたは同点で優勝です。"
+
+#: cghearts/cghearts.c:1080
+#, c-format
+msgid "%s won the game."
+msgstr "%s の勝ちです。"
+
+#: cghearts/cghearts.c:1081
+#, c-format
+msgid "%s and others tied for the win."
+msgstr "%s ほかが同点で優勝です。"
+
+#: cghearts/cghearts.c:1293 cgsolitaire/cgsolitaire.c:2046
+msgid "Select Card Back"
+msgstr "カードの裏の選択"
+
+#: cghearts/cghearts.c:1341
+msgid "Classic GUI Hearts"
+msgstr "Classic GUI ハーツ"
+
+#: cghearts/cghearts.c:1392
+msgid "/Game/_Score..."
+msgstr "/ゲーム(G)/得点(_S)..."
+
+#: cghearts/cghearts.c:1394 cgsolitaire/cgsolitaire.c:2137
+msgid "/Game/De_ck..."
+msgstr "/ゲーム(G)/カード(_C)..."
+
+#: cghearts/cghearts.c:1399
+msgid "/Help/_About Hearts..."
+msgstr "/ヘルプ(H)/ハーツについて(_A)..."
+
+#: cgmahjong/cgmahjong.c:34
+msgid "Mahjong"
+msgstr "麻雀ソリティア"
+
+#: cgmahjong/cgmahjong.c:604
+msgid "Shuffle"
+msgstr "シャッフル"
+
+#: cgmahjong/cgmahjong.c:606
+msgid "New Game"
+msgstr "新しいゲーム"
+
+#: cgmahjong/cgmahjong.c:609 cgmahjong/cgmahjong.c:1495
+msgid "Undo"
+msgstr "元に戻す"
+
+#: cgmahjong/cgmahjong.c:614
+msgid "There are no more moves."
+msgstr "もう動かせる牌がありません。"
+
+#: cgmahjong/cgmahjong.c:638 cgmahjong/cgmahjong.c:799
+msgid "Mahjong Scores"
+msgstr "麻雀ソリティアの記録"
+
+#: cgmahjong/cgmahjong.c:640 cgmahjong/cgmahjong.c:801
+msgid "Map:"
+msgstr "配置:"
+
+#: cgmahjong/cgmahjong.c:642
+#, c-format
+msgid ""
+"Fantastic! %s!\n"
+"You have reached #%d in the Top Ten.\n"
+"\n"
+"Another game?"
+msgstr ""
+"すばらしい! %s!\n"
+"ベスト 10 の %d 位に入りました。\n"
+"\n"
+"もう一度遊びますか?"
+
+#: cgmahjong/cgmahjong.c:646
+#, c-format
+msgid ""
+"Great!\n"
+"You made it in %s.\n"
+"\n"
+"Another game?"
+msgstr ""
+"やりました!\n"
+"%s でクリアしました。\n"
+"\n"
+"もう一度遊びますか?"
+
+#: cgmahjong/cgmahjong.c:731
+msgid "Classic GUI Mahjong"
+msgstr "Classic GUI 麻雀ソリティア"
+
+#: cgmahjong/cgmahjong.c:764
+msgid "... Game paused ..."
+msgstr "... 一時停止中 ..."
+
+#: cgmahjong/cgmahjong.c:851
+msgid "Really restart this game?"
+msgstr "このゲームを本当にやり直しますか?"
+
+#: cgmahjong/cgmahjong.c:854
+msgid "Really start a new game?"
+msgstr "本当に新しいゲームを始めますか?"
+
+#: cgmahjong/cgmahjong.c:904
+msgid "No more redo!"
+msgstr "これ以上やり直せません!"
+
+#: cgmahjong/cgmahjong.c:969
+msgid "Select Game"
+msgstr "ゲームの選択"
+
+#: cgmahjong/cgmahjong.c:975
+msgid "Game Number:"
+msgstr "ゲーム番号:"
+
+#: cgmahjong/cgmahjong.c:1122
+msgid ""
+"Sorry, I can't find\n"
+"a playable configuration."
+msgstr ""
+"残念ながら、解ける配置を\n"
+"見つけられません。"
+
+#: cgmahjong/cgmahjong.c:1226
+msgid "Background Colour"
+msgstr "背景色"
+
+#: cgmahjong/cgmahjong.c:1289
+msgid ""
+"Do you want to start a new game with this map?\n"
+"\n"
+"If you continue playing, the next game will\n"
+"use the new map."
+msgstr ""
+"この配置で新しいゲームを始めますか?\n"
+"\n"
+"このまま続けると、次のゲームから\n"
+"新しい配置を使います。"
+
+#: cgmahjong/cgmahjong.c:1292
+msgid "Use New Map"
+msgstr "新しい配置を使う"
+
+#: cgmahjong/cgmahjong.c:1336
+msgid "Preferences"
+msgstr "設定"
+
+#: cgmahjong/cgmahjong.c:1345
+msgid "Maps"
+msgstr "配置"
+
+#: cgmahjong/cgmahjong.c:1346
+msgid "Select Map:"
+msgstr "配置の選択:"
+
+#: cgmahjong/cgmahjong.c:1348
+msgid "Colours"
+msgstr "色"
+
+#: cgmahjong/cgmahjong.c:1357
+msgid "Background:"
+msgstr "背景:"
+
+#: cgmahjong/cgmahjong.c:1359
+msgid "Warnings"
+msgstr "確認"
+
+#: cgmahjong/cgmahjong.c:1360
+msgid "Confirm before starting over"
+msgstr "やり直す前に確認する"
+
+#: cgmahjong/cgmahjong.c:1445
+msgid "/Game/New Game with _Seed..."
+msgstr "/ゲーム(G)/番号を指定して新しいゲーム(_E)..."
+
+#: cgmahjong/cgmahjong.c:1452
+msgid "/Game/Re_do Move"
+msgstr "/ゲーム(G)/やり直し(_D)"
+
+#: cgmahjong/cgmahjong.c:1456
+msgid "/Game/_Pause"
+msgstr "/ゲーム(G)/一時停止(_P)"
+
+#: cgmahjong/cgmahjong.c:1459 cgminesweep/cgminesweep.c:730
+msgid "/Game/S_cores..."
+msgstr "/ゲーム(G)/記録(_C)..."
+
+#: cgmahjong/cgmahjong.c:1464 cgminesweep/cgminesweep.c:735
+msgid "/_Settings"
+msgstr "/設定(_S)"
+
+#: cgmahjong/cgmahjong.c:1465
+msgid "/Settings/Show _Tool Bar"
+msgstr "/設定(S)/ツールバーを表示(_T)"
+
+#: cgmahjong/cgmahjong.c:1468 cgminesweep/cgminesweep.c:736
+msgid "/Settings/_Preferences..."
+msgstr "/設定(S)/設定(_P)..."
+
+#: cgmahjong/cgmahjong.c:1471
+msgid "/Help/_About Mahjong..."
+msgstr "/ヘルプ(H)/麻雀ソリティアについて(_A)..."
+
+#: cgmahjong/cgmahjong.c:1492
+msgid "New"
+msgstr "新規"
+
+#: cgmahjong/cgmahjong.c:1492
+msgid "Start a new game"
+msgstr "新しいゲームを始める"
+
+#: cgmahjong/cgmahjong.c:1495
+msgid "Undo the last move"
+msgstr "最後の手を元に戻す"
+
+#: cgmahjong/cgmahjong.c:1498
+msgid "Hint"
+msgstr "ヒント"
+
+#: cgmahjong/cgmahjong.c:1498
+msgid "Show a pair that can be taken"
+msgstr "取れる牌の組を示す"
+
+#: cgmahjong/cgmahjong.c:1502
+msgid "Pause"
+msgstr "一時停止"
+
+#: cgmahjong/cgmahjong.c:1503
+msgid "Pause the game"
+msgstr "ゲームを一時停止する"
+
+#: cgmahjong/cgmahjong.c:1585
+msgid "Time:"
+msgstr "時間:"
+
+#: cgmahjong/cgmahjong.c:1586
+msgid "Moves Left:"
+msgstr "残りの手:"
+
+#: cgmahjong/cgmahjong.c:1588
+msgid "Tiles Left:"
+msgstr "残りの牌:"
+
+#: cgmahjong/cgmahjong.c:1605
+#, c-format
+msgid "%s: the tile images could not be read\n"
+msgstr "%s: 牌の画像を読み込めませんでした\n"
+
+#: cgmahjong/cgmahjong.c:1622
+msgid "Welcome to Mahjong!"
+msgstr "麻雀ソリティアへようこそ!"
+
+#: cgminesweep/cgminesweep.c:34
+msgid "Minesweep"
+msgstr "マインスイーパ"
+
+#: cgminesweep/cgminesweep.c:61
+msgid "Beginner"
+msgstr "初級"
+
+#: cgminesweep/cgminesweep.c:62
+msgid "Intermediate"
+msgstr "中級"
+
+#: cgminesweep/cgminesweep.c:63
+msgid "Expert"
+msgstr "上級"
+
+#: cgminesweep/cgminesweep.c:64
+msgid "Custom"
+msgstr "カスタム"
+
+#: cgminesweep/cgminesweep.c:358
+msgid "Minesweep Scores"
+msgstr "マインスイーパの記録"
+
+#: cgminesweep/cgminesweep.c:359
+msgid "Game:"
+msgstr "レベル:"
+
+#: cgminesweep/cgminesweep.c:506
+msgid "Classic GUI Minesweep"
+msgstr "Classic GUI マインスイーパ"
+
+#: cgminesweep/cgminesweep.c:592
+msgid "Minesweep Preferences"
+msgstr "マインスイーパの設定"
+
+#: cgminesweep/cgminesweep.c:601
+msgid "Field size"
+msgstr "フィールドの大きさ"
+
+#: cgminesweep/cgminesweep.c:622
+msgid "Custom size"
+msgstr "カスタムの大きさ"
+
+#: cgminesweep/cgminesweep.c:630
+msgid "Horizontal:"
+msgstr "横:"
+
+#: cgminesweep/cgminesweep.c:639
+msgid "Vertical:"
+msgstr "縦:"
+
+#: cgminesweep/cgminesweep.c:648
+msgid "Number of mines:"
+msgstr "地雷の数:"
+
+#: cgminesweep/cgminesweep.c:664
+msgid "Mine size:"
+msgstr "地雷の大きさ:"
+
+#: cgminesweep/cgminesweep.c:738
+msgid "/Settings/_Marks (?)"
+msgstr "/設定(S)/? マーク(_M)"
+
+#: cgminesweep/cgminesweep.c:741
+msgid "/Help/_About Minesweep..."
+msgstr "/ヘルプ(H)/マインスイーパについて(_A)..."
+
+#: cgminesweep/cgminesweep.c:876
+msgid "Press to resume"
+msgstr "押すと再開します"
+
+#: cgsolitaire/cgsolitaire.c:30 cgsolitaire/cgsolitaire.c:1257
+msgid "Solitaire"
+msgstr "ソリティア"
+
+#: cgsolitaire/cgsolitaire.c:812
+#, c-format
+msgid "Score: %s$%d"
+msgstr "得点: %s$%d"
+
+#: cgsolitaire/cgsolitaire.c:815
+#, c-format
+msgid "Score: %d"
+msgstr "得点: %d"
+
+#: cgsolitaire/cgsolitaire.c:950
+#, c-format
+msgid "Bonus: %d"
+msgstr "ボーナス: %d"
+
+#: cgsolitaire/cgsolitaire.c:1257
+msgid "Deal again?"
+msgstr "もう一度配りますか?"
+
+#: cgsolitaire/cgsolitaire.c:1869
+msgid "Standard"
+msgstr "標準"
+
+#: cgsolitaire/cgsolitaire.c:1869
+msgid "Vegas"
+msgstr "ラスベガス"
+
+#: cgsolitaire/cgsolitaire.c:1889
+msgid "Draw"
+msgstr "めくる枚数"
+
+#: cgsolitaire/cgsolitaire.c:1890
+msgid "Draw One"
+msgstr "1 枚ずつ"
+
+#: cgsolitaire/cgsolitaire.c:1892
+msgid "Draw Three"
+msgstr "3 枚ずつ"
+
+#: cgsolitaire/cgsolitaire.c:1899
+msgid "Scoring"
+msgstr "得点の計算"
+
+#: cgsolitaire/cgsolitaire.c:1914
+msgid "Timed game"
+msgstr "時間制限"
+
+#: cgsolitaire/cgsolitaire.c:1915
+msgid "Status bar"
+msgstr "ステータスバー"
+
+#: cgsolitaire/cgsolitaire.c:1918
+msgid "Outline dragging"
+msgstr "輪郭だけをドラッグ"
+
+#: cgsolitaire/cgsolitaire.c:1919
+msgid "Cumulative score"
+msgstr "得点を累積"
+
+#: cgsolitaire/cgsolitaire.c:2095
+msgid "Classic GUI Solitaire"
+msgstr "Classic GUI ソリティア"
+
+#: cgsolitaire/cgsolitaire.c:2133
+msgid "/Game/_Deal"
+msgstr "/ゲーム(G)/配る(_D)"
+
+#: cgsolitaire/cgsolitaire.c:2144
+msgid "/Help/_About Solitaire..."
+msgstr "/ヘルプ(H)/ソリティアについて(_A)..."
+
+#: cgsolitaire/cgsolitaire.c:2244
+msgid "Time: "
+msgstr "時間: "
+
+#: common/games-dialogs.c:272
+#, c-format
+msgid "About %s"
+msgstr "%s について"
+
+#: common/games-scores.c:355
+msgid "Name"
+msgstr "名前"
+
+#: common/games-scores.c:356
+msgid "Time"
+msgstr "時間"
+
+#: common/games-scores.c:357
+msgid "Date"
+msgstr "日付"

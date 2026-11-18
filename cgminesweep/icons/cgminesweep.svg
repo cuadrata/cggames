@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- cgminesweep's icon, drawn for 48 pixels. Every size of it is this drawing, scaled.
+     A square of the field, and the mine on it.
+     Copyright (C) 2026 The CGTK authors. Under the games' licence: see COPYING. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+<rect x="2.5" y="2.5" width="43" height="43" fill="#c0c0c0" stroke="#000000"/>
+<path d="M3 45V3H45L41 7H7V41Z" fill="#ffffff"/>
+<path d="M45 3V45H3L7 41H41V7Z" fill="#808080"/>
+<g stroke="#000000" stroke-width="3" stroke-linecap="square">
+<path d="M11 24H37M24 11V37"/>
+<path d="M16.2219 16.2219L31.7781 31.7781M31.7781 16.2219L16.2219 31.7781"/>
+</g>
+<circle cx="24" cy="24" r="8.5" fill="#000000"/>
+<rect x="19.75" y="19.75" width="3.825" height="3.825" fill="#ffffff"/>
+</svg>

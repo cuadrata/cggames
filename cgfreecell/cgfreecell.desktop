@@ -1,0 +1,23 @@
+[Desktop Entry]
+Type=Application
+Name=FreeCell
+Name[de]=FreeCell
+Name[es]=Carta blanca
+Name[fr]=FreeCell
+Name[ja]=フリーセル
+Name[pt_BR]=FreeCell
+Name[ru]=Свободная ячейка
+Name[zh_CN]=空当接龙
+Comment=Move every card home, using the free cells
+Comment[de]=Alle Karten mit Hilfe der freien Zellen ablegen
+Comment[es]=Llevar todas las cartas a casa con ayuda de las celdas libres
+Comment[fr]=Ranger toutes les cartes à l’aide des cellules libres
+Comment[ja]=フリーセルを使ってすべてのカードを組札に移す
+Comment[pt_BR]=Levar todas as cartas para casa usando as células livres
+Comment[ru]=Разложите все карты по домам с помощью свободных ячеек
+Comment[zh_CN]=借助空当把所有牌移到回收单元
+Exec=cgfreecell
+Icon=cgfreecell
+Terminal=false
+Categories=Game;CardGame;
+StartupWMClass=Cgfreecell
